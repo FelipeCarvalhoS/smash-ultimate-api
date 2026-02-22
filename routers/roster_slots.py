@@ -1,25 +1,21 @@
 from fastapi import APIRouter
-import json
 from fastapi.exceptions import HTTPException
-from models.roster_slots import RosterSlot
-
-
-ROSTER_SLOTS: list[dict] = []
-
-with open('data/roster_slots.json', 'r') as f:
-    ROSTER_SLOTS = json.load(f)
+from schemas.roster_slots import RosterSlot
+from services.roster_slots import RosterSlotService
 
 
 router = APIRouter(
     prefix='/roster-slots',
     tags=['Roster Slots'],
+    responses={404: {"description": "Not Found"}},
 )
 
 
-@router.get('/{id}', responses={404: {"description": "Not Found"}})
+@router.get('/{id}')
 async def get_roster_slot(id: str) -> RosterSlot:
-    for roster_slot in ROSTER_SLOTS:
-        if id in roster_slot['ids']:
-            return RosterSlot(**roster_slot)
-        
+    roster_slot = RosterSlotService.get_by_id(id)
+
+    if roster_slot is not None:
+        return roster_slot
+
     raise HTTPException(status_code=404)
