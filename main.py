@@ -1,14 +1,11 @@
-from typing import Optional
-
 from fastapi import FastAPI
+from routers import roster_slots
+
 
 app = FastAPI()
+app.include_router(roster_slots.router)
 
 
-@app.get("/")
+@app.get('/')
 async def root():
-    return {"message": "Hello World"}
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": q}
+    return {"message": "Welcome to the Super Smash Bros. Ultimate API"}
