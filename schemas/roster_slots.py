@@ -100,3 +100,11 @@ class RosterSlot(BaseModel):
     variants: list[Variant]
     tips: list[Tip]
     fighters: list[Fighter]
+
+
+class RosterSlotQueryParams(BaseModel):
+    ids: list[str] | None = None
+    name: str | None = None
+    series: list[Series] | None = None
+    availability: list[Availability] | None = None
+    also_appears_in: list[SmashGames] | None = None
