@@ -6,6 +6,13 @@ class RosterSlotService:
     def __init__(self):
         self._data = [RosterSlot(**roster_slot) for roster_slot in load_json('roster_slots.json')]
         self._indexes = self._get_indexes()
+        self._filter_strategies = {
+            'ids': lambda attr, value: any(id in value for id in attr),
+            'name': lambda attr, value: value.lower() in attr.lower(),
+            'series': lambda attr, value: attr in value,
+            'availability': lambda attr, value: attr in value,
+            'also_appears_in': lambda attr, value: any(game in value for game in attr),
+        }
 
     def _get_indexes(self):
         indexes = {}
@@ -37,18 +44,9 @@ class RosterSlotService:
                     continue
 
                 attr = getattr(roster_slot, key)
+                filter_strategy = self._filter_strategies[key]
 
-                if isinstance(value, str):
-                    if value.lower() not in attr.lower():
-                        matches = False
-                        break
-
-                elif isinstance(attr, list):
-                    if not any(item in value for item in attr):
-                        matches = False
-                        break
-
-                elif attr not in value:
+                if not filter_strategy(attr, value):
                     matches = False
                     break
 
