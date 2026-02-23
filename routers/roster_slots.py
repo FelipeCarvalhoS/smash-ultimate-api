@@ -5,6 +5,7 @@ from services.roster_slots import roster_slot_service
 from schemas.roster_slots import Availability
 from typing import Annotated
 from fastapi import Query
+from random import choice
 
 
 router = APIRouter(
@@ -30,6 +31,11 @@ async def filter_roster_slots(
         also_appears_in=also_appears_in,
     )
         
+
+@router.get('/random')
+async def get_random_roster_slot() -> RosterSlot:
+    return choice(roster_slot_service.get_all())
+
 
 @router.get('/{id}')
 async def get_roster_slot(id: str) -> RosterSlot:
