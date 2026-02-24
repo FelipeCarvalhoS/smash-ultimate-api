@@ -973,6 +973,7 @@
         "series": "Mario",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
             "Brawl",
             "Smash 4"
         ],
@@ -1029,6 +1030,7 @@
                 "name": "Peach",
                 "slug": "peach",
                 "also_appears_in": [
+                    "Melee",
                     "Brawl",
                     "Smash 4"
                 ]
@@ -1109,6 +1111,7 @@
         "series": "Mario",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
             "Brawl",
             "Smash 4"
         ],
@@ -1165,6 +1168,7 @@
                 "name": "Bowser",
                 "slug": "bowser",
                 "also_appears_in": [
+                    "Melee",
                     "Brawl",
                     "Smash 4"
                 ]
@@ -1180,6 +1184,7 @@
         "series": "Ice Climber",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
             "Brawl",
             "Smash 4"
         ],
@@ -1236,6 +1241,7 @@
                 "name": "Ice Climbers",
                 "slug": "ice-climbers",
                 "also_appears_in": [
+                    "Melee",
                     "Brawl",
                     "Smash 4"
                 ]
@@ -1251,7 +1257,6 @@
         "series": "The Legend of Zelda",
         "availability": "Unlockable",
         "also_appears_in": [
-            "Brawl",
             "Smash 4"
         ],
         "alts": [
@@ -1322,6 +1327,7 @@
         "series": "The Legend of Zelda",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
             "Brawl",
             "Smash 4"
         ],
@@ -1378,6 +1384,7 @@
                 "name": "Zelda",
                 "slug": "zelda",
                 "also_appears_in": [
+                    "Melee",
                     "Brawl",
                     "Smash 4"
                 ]
@@ -1393,6 +1400,7 @@
         "series": "Mario",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
             "Smash 4"
         ],
         "alts": [
@@ -1448,6 +1456,7 @@
                 "name": "Dr. Mario",
                 "slug": "dr-mario",
                 "also_appears_in": [
+                    "Melee",
                     "Smash 4"
                 ]
             }
@@ -2379,7 +2388,6 @@
         "series": "Metroid",
         "availability": "Unlockable",
         "also_appears_in": [
-            "Brawl",
             "Smash 4"
         ],
         "alts": [
@@ -2435,7 +2443,6 @@
                 "name": "Zero Suit Samus",
                 "slug": "zero-suit-samus",
                 "also_appears_in": [
-                    "Brawl",
                     "Smash 4"
                 ]
             }
@@ -4820,7 +4827,7 @@
     },
     {
         "ids": [
-            "66"
+            "64"
         ],
         "name": "Inkling",
         "slug": "inkling",
@@ -4881,7 +4888,7 @@
         ],
         "fighters": [
             {
-                "id": "66",
+                "id": "64",
                 "name": "Inkling",
                 "slug": "inkling",
                 "also_appears_in": []
