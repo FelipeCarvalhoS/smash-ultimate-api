@@ -32,6 +32,7 @@ async def get_random_roster_slot() -> RosterSlot:
 
 
 @router.get('/{id}', responses={404: {'description': 'Roster slot not found'}})
+@router.get('/{id}', responses={404: {'description': 'Roster slot not found'}})
 async def get_roster_slot(id: str) -> RosterSlot:
     roster_slot = roster_slot_service.get_by_id(id)
 
@@ -39,6 +40,35 @@ async def get_roster_slot(id: str) -> RosterSlot:
         return roster_slot
 
     raise HTTPException(status_code=404)
+
+
+@router.get('/{id}/fighters', responses={404: {'description': 'Roster slot not found'}})
+async def get_roster_slot_fighters(id: str) -> list[Fighter]:
+    roster_slot = await get_roster_slot(id)
+    return roster_slot.fighters
+
+
+@router.get('/{id}/fighters/{fighter_id}', responses={404: {'description': 'Roster slot or fighter from roster slot not found'}})
+async def get_roster_slot_fighter(id: str, fighter_id: str) -> Fighter:
+    roster_slot = await get_roster_slot(id)
+
+    for fighter in roster_slot.fighters:
+        if fighter.id == fighter_id:
+            return fighter
+        
+    raise HTTPException(status_code=404)
+
+
+@router.get('/{id}/variants', responses={404: {'description': 'Roster slot not found'}})
+async def get_roster_slot_variants(id: str) -> list[Variant]:
+    roster_slot = await get_roster_slot(id)
+    return roster_slot.variants
+
+
+@router.get('/{id}/alts', responses={404: {'description': 'Roster slot not found'}})
+async def get_roster_slot_alts(id: str) -> list[Alt]:
+    roster_slot = await get_roster_slot(id)
+    return roster_slot.alts
 
 
 @router.get('/{id}/fighters', responses={404: {'description': 'Roster slot not found'}})
