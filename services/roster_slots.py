@@ -7,11 +7,11 @@ class RosterSlotService:
         self._data = [RosterSlot(**roster_slot) for roster_slot in load_json('roster_slots.json')]
         self._indexes = self._get_indexes()
         self._filter_strategies = {
-            'ids': lambda attr, value: any(id in value for id in attr),
-            'name': lambda attr, value: value.lower() in attr.lower(),
-            'series': lambda attr, value: attr in value,
-            'availability': lambda attr, value: attr in value,
-            'also_appears_in': lambda attr, value: any(game in value for game in attr),
+            'ids': lambda attr, query: any(id in query for id in attr),
+            'name': lambda attr, query: any(name.lower() in attr.lower() for name in query),
+            'series': lambda attr, query: attr in query,
+            'availability': lambda attr, query: attr in query,
+            'also_appears_in': lambda attr, query: any(game in query for game in attr),
         }
 
     def _get_indexes(self):

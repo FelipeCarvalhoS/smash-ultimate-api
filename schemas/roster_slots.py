@@ -104,7 +104,7 @@ class RosterSlot(BaseModel):
 
 class RosterSlotQueryParams(BaseModel):
     ids: list[str] | None = None
-    name: str | None = None
+    names: list[str] | None = None
     series: list[Series] | None = None
     availability: list[Availability] | None = None
     also_appears_in: list[SmashGames] | None = None

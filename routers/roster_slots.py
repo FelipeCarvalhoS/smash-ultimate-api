@@ -19,7 +19,7 @@ async def filter_roster_slots(
 ) -> list[RosterSlot]:
     return roster_slot_service.filter(
         ids=filter_query.ids,
-        name=filter_query.name,
+        name=filter_query.names,
         series=filter_query.series,
         availability=filter_query.availability,
         also_appears_in=filter_query.also_appears_in,
