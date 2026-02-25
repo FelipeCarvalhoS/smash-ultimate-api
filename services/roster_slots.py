@@ -4,7 +4,7 @@ from schemas.roster_slots import RosterSlot
 
 class RosterSlotService:
     def __init__(self):
-        self._data = [RosterSlot(**roster_slot) for roster_slot in load_json('roster_slots.json')]
+        self._data = [RosterSlot.model_validate(roster_slot) for roster_slot in load_json('roster_slots.json')]
         self._indexes = self._get_indexes()
         self._filter_strategies = {
             'ids': lambda attr, query: any(id in query for id in attr),

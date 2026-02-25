@@ -45,7 +45,6 @@ class Series(StrEnum):
     YOSHI = 'Yoshi'
 
 
-
 class SmashGames(StrEnum):
     SSB = '64'
     MELEE = 'Melee'
@@ -64,10 +63,14 @@ class Tip(BaseModel):
     title: str
     content: str
 
+    model_config = {'extra': 'forbid'}
+
 
 class Alt(BaseModel):
     slot: int
     variant: str
+
+    model_config = {'extra': 'forbid'}
 
 
 class VariantType(StrEnum):
@@ -81,12 +84,16 @@ class Variant(BaseModel):
     boxing_ring_title: str
     type: VariantType
 
+    model_config = {'extra': 'forbid'}
+
 
 class Fighter(BaseModel):
     id: str
     name: str
     slug: str
     also_appears_in: list[SmashGames]
+
+    model_config = {'extra': 'forbid'}
 
 
 class RosterSlot(BaseModel):
@@ -100,6 +107,8 @@ class RosterSlot(BaseModel):
     variants: list[Variant]
     tips: list[Tip]
     fighters: list[Fighter]
+
+    model_config = {'extra': 'forbid'}
 
 
 class RosterSlotQueryParams(BaseModel):

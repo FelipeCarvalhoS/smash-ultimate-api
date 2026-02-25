@@ -1257,6 +1257,8 @@
         "series": "The Legend of Zelda",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Melee",
+            "Brawl",
             "Smash 4"
         ],
         "alts": [
@@ -1312,6 +1314,7 @@
                 "name": "Sheik",
                 "slug": "sheik",
                 "also_appears_in": [
+                    "Melee",
                     "Brawl",
                     "Smash 4"
                 ]
@@ -2388,6 +2391,7 @@
         "series": "Metroid",
         "availability": "Unlockable",
         "also_appears_in": [
+            "Brawl",
             "Smash 4"
         ],
         "alts": [
@@ -2443,6 +2447,7 @@
                 "name": "Zero Suit Samus",
                 "slug": "zero-suit-samus",
                 "also_appears_in": [
+                    "Brawl",
                     "Smash 4"
                 ]
             }

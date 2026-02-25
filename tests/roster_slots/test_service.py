@@ -27,8 +27,8 @@ FILTER_TEST_CASES = [
     ({'availability': ['Starter', 'Custom']}, ['Mario', 'Donkey Kong', 'Link', 'Fox', 'Kirby', 'Pikachu', 'Samus', 'Yoshi', 'Mii Gunner', 'Mii Brawler', 'Mii Swordfighter']),
     ({'availability': ['invalid']}, []),
     ({'also_appears_in': ['64']}, ['Mario', 'Donkey Kong', 'Link', 'Fox', 'Kirby', 'Pikachu', 'Samus', 'Yoshi', 'Luigi', 'Ness', 'Captain Falcon', 'Jigglypuff']),
-    ({'also_appears_in': ['Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
-    ({'also_appears_in': ['64', 'Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
+    ({'also_appears_in': ['Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Sheik', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
+    ({'also_appears_in': ['64', 'Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Sheik', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
     ({'also_appears_in': ['invalid']}, []),
     ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o']}, ['Dr. Mario', 'Mario', 'Donkey Kong']),
     ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o'], 'also_appears_in': ['64']}, ['Mario', 'Donkey Kong']),
@@ -53,13 +53,13 @@ class TestRosterSlotService:
         ('80', 'Pyra / Mythra'),
         ('81', 'Kazuya'),
         ('82', 'Sora'),
-    ])
+    ], ids=lambda x: x[0]) 
     def test_get_by_id(self, id, name):
         roster_slot = roster_slot_service.get_by_id(id)
         assert id in roster_slot.ids
         assert roster_slot.name == name
 
-    @pytest.mark.parametrize('id', ['invalid-id', '0', '83', '-1'])
+    @pytest.mark.parametrize('id', ['invalid-id', '0', '83', '-1'], ids=lambda x: x)
     def test_get_by_id_not_found(self, id):
         roster_slot = roster_slot_service.get_by_id(id)
         assert roster_slot is None
@@ -79,7 +79,7 @@ class TestRosterSlotService:
         roster_slots = roster_slot_service.filter(**filters)
         assert Counter([slot.name for slot in roster_slots]) == Counter(expected_names)
 
-    @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'])
+    @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'], ids=lambda x: x)
     def test_filter_name_case_insensitivity(self, name):
         roster_slots = roster_slot_service.filter(name=[name])
         assert Counter([slot.name for slot in roster_slots]) == Counter(['Dr. Mario', 'Mario'])
