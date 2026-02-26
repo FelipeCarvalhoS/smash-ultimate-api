@@ -14,3 +14,6 @@ dependencies = [
 addopts = ["--import-mode=importlib"]
 pythonpath = "."
 testpaths = ["tests"]
+
+[project.scripts]
+app = "main:app"
