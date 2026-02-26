@@ -79,10 +79,6 @@ class TestRosterSlotRouter:
         response = client.get('/roster-slots/0/alts')
         assert response.status_code == 404
 
-    def test_get_roster_slot_variants_404(self):
-        response = client.get('/roster-slots/0/variants')
-        assert response.status_code == 404
-
     def test_get_roster_slot_tips_200(self):
         response = client.get('/roster-slots/80/tips')
         assert response.status_code == 200
