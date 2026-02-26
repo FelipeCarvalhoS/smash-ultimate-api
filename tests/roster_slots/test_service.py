@@ -83,3 +83,7 @@ class TestRosterSlotService:
     def test_filter_name_case_insensitivity(self, name):
         roster_slots = roster_slot_service.filter(name=[name])
         assert Counter([slot.name for slot in roster_slots]) == Counter(['Dr. Mario', 'Mario'])
+
+    def test_filter_does_not_return_duplicates(self):
+        roster_slots = roster_slot_service.filter(ids=['33', '34', '35', '79', '80'] * 2)
+        assert len(roster_slots) == len(set(roster_slot.name for roster_slot in roster_slots))
