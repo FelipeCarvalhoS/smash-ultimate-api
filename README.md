@@ -30,3 +30,5 @@ You can check out the API documentation at:
 ## State of the Project
 
 This project is in **development** and not yet released. Though it is already usable and can be played with, you would not want to rely on it for serious projects for now.
+
+**Note**: Vercel's free tier does not allow editing the name of the deployment environment, which is why you see it as "Production" in the "Deployments" section. Do not be mistaken though, as this project is not yet finished.
