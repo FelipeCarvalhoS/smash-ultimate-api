@@ -32,7 +32,6 @@ async def get_random_roster_slot() -> RosterSlot:
 
 
 @router.get('/{id}', responses={404: {'description': 'Roster slot not found'}})
-@router.get('/{id}', responses={404: {'description': 'Roster slot not found'}})
 async def get_roster_slot(id: str) -> RosterSlot:
     roster_slot = roster_slot_service.get_by_id(id)
 
