@@ -46,7 +46,10 @@ async def get_roster_slot_alts(id: str) -> list[Alt]:
     return roster_slot.alts
 
 
+@router.get('/{id}/tips', responses={404: {'description': 'Roster slot not found'}})
+async def get_roster_slot_tips(id: str) -> list[Tip]:
     roster_slot = await get_roster_slot(id)
+    return roster_slot.tips
 
 
 @router.get('/{id}/fighters/{fighter_id}', responses={404: {'description': 'Roster slot or fighter from roster slot not found'}})
