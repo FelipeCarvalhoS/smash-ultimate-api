@@ -107,5 +107,4 @@ class TestRosterSlotRouter:
         data = response.json()
         assert isinstance(data, list)
         assert all(RosterSlot.model_validate(roster_slot) for roster_slot in data)
-        assert all('Bowser' in roster_slot['name'] for roster_slot in data)
         assert ['Bowser', 'Bowser Jr.'] == [roster_slot['name'] for roster_slot in data]

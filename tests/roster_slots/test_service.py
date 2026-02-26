@@ -53,13 +53,13 @@ class TestRosterSlotService:
         ('80', 'Pyra / Mythra'),
         ('81', 'Kazuya'),
         ('82', 'Sora'),
-    ], ids=lambda x: x[0]) 
+    ]) 
     def test_get_by_id(self, id, name):
         roster_slot = roster_slot_service.get_by_id(id)
         assert id in roster_slot.ids
         assert roster_slot.name == name
 
-    @pytest.mark.parametrize('id', ['invalid-id', '0', '83', '-1'], ids=lambda x: x)
+    @pytest.mark.parametrize('id', ['invalid-id', '0', '83', '-1'])
     def test_get_by_id_not_found(self, id):
         roster_slot = roster_slot_service.get_by_id(id)
         assert roster_slot is None
@@ -79,7 +79,7 @@ class TestRosterSlotService:
         roster_slots = roster_slot_service.filter(**filters)
         assert Counter([slot.name for slot in roster_slots]) == Counter(expected_names)
 
-    @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'], ids=lambda x: x)
+    @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'])
     def test_filter_name_case_insensitivity(self, name):
         roster_slots = roster_slot_service.filter(name=[name])
         assert Counter([slot.name for slot in roster_slots]) == Counter(['Dr. Mario', 'Mario'])
