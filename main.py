@@ -8,4 +8,4 @@ app.include_router(roster_slots.router)
 
 @app.get('/')
 async def root():
-    return {"message": "Welcome to the Super Smash Bros. Ultimate API"}
+    return {"message": "Welcome to the Unofficial Super Smash Bros. Ultimate API! You can check out the documentation at /docs or /redoc."}
