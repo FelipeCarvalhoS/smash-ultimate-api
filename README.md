@@ -6,12 +6,34 @@
 
 <p align="center">
     Unofficial Super Smash Bros. Ultimate RESTful API built with FastAPI<br>
-    ⚠️ Still in development! ⚠️
+    ⚠️ <b>Still in development!</b> ⚠️
 </p>
 
 ## About
 
-This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed using FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items.
+This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed using FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items. Keep reading to learn more about the data provided by this API.
+
+### Roster Slots (Fighters)
+
+#### Description
+
+Simply put, a *roster slot* is a playable fighter. However, there are some reasons as to why I decided to name it that way which might help you understand this choice.
+
+The main reason for that decision is the fact that some fighters in Ultimate are not just one single *fighter*, but multiple condensed into one *roster slot*. I refer to Pokémon Trainer and Pyra/Mythra.
+
+In Pokémon Trainer's case, Squirtle, Ivysaur, and Charizard are three *fighters* condensed into one *roster slot*, which is Pokémon Trainer. Similarly, Pyra and Mythra are two *fighters* condensed into the Pyra/Mythra *roster slot*.
+
+I wanted to find a way to represent all playable characters – including the aforementioned special cases – while keeping the schema consistent, hence why I chose to treat them as *roster slots*.
+
+Therefore, think of *roster slots* as the selectable squares that you see on the character selection screen. Each *roster slot* can contain one or more *fighters*. The Pokémon Trainer and Pyra/Mythra *roster slots* contain multiple, while the others contain only one.
+
+### Stages
+
+Not yet implemented.
+
+### Items
+
+Not yet implemented.
 
 ## Documentation
 
