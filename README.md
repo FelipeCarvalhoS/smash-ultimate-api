@@ -11,7 +11,7 @@
 
 ## About
 
-This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed using FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items. Keep reading to learn more about the data provided by this API.
+This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed with FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items. Keep reading to learn more about the data provided by this API.
 
 ### Roster Slots (Fighters)
 
