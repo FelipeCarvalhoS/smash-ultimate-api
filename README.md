@@ -27,6 +27,27 @@ I wanted to find a way to represent all playable characters – including the af
 
 Therefore, think of *roster slots* as the selectable squares that you see on the character selection screen. Each *roster slot* can contain one or more *fighters*. The Pokémon Trainer and Pyra/Mythra *roster slots* contain multiple, while the others contain only one.
 
+#### Schema
+`ids`: IDs of the fighters contained in the roster slot.
+
+`name`: Name of the roster slot.
+
+`slug`: Slugified version of the name.
+
+`series`: Franchise or universe the roster slot comes from.
+
+`availability`: Starter, unlockable, DLC, or custom (Miis).
+
+`also_appears_in`: Other Smash games where the roster slot is playable.
+
+`alts`: Alternative colors or costumes of the roster slot.
+
+`variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
+
+`tips`: In-game tips for the roster slot (found in the "Tips" section).
+
+`fighters`: Fighters contained in the roster slot.
+
 ### Stages
 
 Not yet implemented.
@@ -52,5 +73,3 @@ You can check out the API documentation at:
 ## State of the Project
 
 This project is in **development** and not yet released. Though it is already usable and can be played with, you would not want to rely on it for serious projects for now.
-
-**Note**: Vercel's free tier does not allow editing the name of the deployment environment, which is why you see it as "Production" in the "Deployments" section. Do not be mistaken though, as this project is not yet finished.
