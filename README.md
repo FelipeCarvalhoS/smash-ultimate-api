@@ -45,6 +45,7 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 `variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
 
 `tips`: In-game tips for the roster slot (found in the "Tips" section).
+> **Note**: `tips` are already in the JSON, but their content is empty as the actual data was not yet imported.
 
 `fighters`: Fighters contained in the roster slot.
 
