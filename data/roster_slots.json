@@ -9516,42 +9516,47 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Cloud"
+                "variant": "Final Fantasy VII"
             },
             {
                 "slot": 2,
-                "variant": "Cloud"
+                "variant": "Advent Children"
             },
             {
                 "slot": 3,
-                "variant": "Cloud"
+                "variant": "Final Fantasy VII"
             },
             {
                 "slot": 4,
-                "variant": "Cloud"
+                "variant": "Advent Children"
             },
             {
                 "slot": 5,
-                "variant": "Cloud"
+                "variant": "Final Fantasy VII"
             },
             {
                 "slot": 6,
-                "variant": "Cloud"
+                "variant": "Advent Children"
             },
             {
                 "slot": 7,
-                "variant": "Cloud"
+                "variant": "Final Fantasy VII"
             },
             {
                 "slot": 8,
-                "variant": "Cloud"
+                "variant": "Advent Children"
             }
         ],
         "variants": [
             {
-                "name": "Cloud",
+                "name": "Final Fantasy VII",
                 "boxing_ring_title": "SOLDIER 1st Class",
-                "type": "Default"
+                "type": "Same character"
+            },
+            {
+                "name": "Advent Children",
+                "boxing_ring_title": "SOLDIER 1st Class",
+                "type": "Same character"
             }
         ],
         "tips": [
@@ -9851,42 +9856,47 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 1"
             },
             {
                 "slot": 2,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 2"
             },
             {
                 "slot": 3,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 1"
             },
             {
                 "slot": 4,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 2"
             },
             {
                 "slot": 5,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 1"
             },
             {
                 "slot": 6,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 2"
             },
             {
                 "slot": 7,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 1"
             },
             {
                 "slot": 8,
-                "variant": "Bayonetta"
+                "variant": "Bayonetta 2"
             }
         ],
         "variants": [
             {
-                "name": "Bayonetta",
+                "name": "Bayonetta 1",
                 "boxing_ring_title": "Umbra Witch",
-                "type": "Default"
+                "type": "Same character"
+            },
+            {
+                "name": "Bayonetta 2",
+                "boxing_ring_title": "Umbra Witch",
+                "type": "Same character"
             }
         ],
         "tips": [
@@ -11007,42 +11017,47 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 2,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 3,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 4,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 5,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 6,
-                "variant": "Joker"
+                "variant": "Phantom Thief"
             },
             {
                 "slot": 7,
-                "variant": "Joker"
+                "variant": "Student"
             },
             {
                 "slot": 8,
-                "variant": "Joker"
+                "variant": "Student"
             }
         ],
         "variants": [
             {
-                "name": "Joker",
+                "name": "Phantom Thief",
                 "boxing_ring_title": "The Great Phantom Thief",
-                "type": "Default"
+                "type": "Same character"
+            },
+            {
+                "name": "Student",
+                "boxing_ring_title": "The Great Phantom Thief",
+                "type": "Same character"
             }
         ],
         "tips": [
@@ -12977,7 +12992,7 @@
             },
             {
                 "slot": 2,
-                "variant": "Kazuya"
+                "variant": "Suit"
             },
             {
                 "slot": 3,
@@ -12985,7 +13000,7 @@
             },
             {
                 "slot": 4,
-                "variant": "Kazuya"
+                "variant": "Suit"
             },
             {
                 "slot": 5,
@@ -12993,7 +13008,7 @@
             },
             {
                 "slot": 6,
-                "variant": "Kazuya"
+                "variant": "Suit"
             },
             {
                 "slot": 7,
@@ -13001,7 +13016,7 @@
             },
             {
                 "slot": 8,
-                "variant": "Kazuya"
+                "variant": "Suit"
             }
         ],
         "variants": [
@@ -13009,6 +13024,11 @@
                 "name": "Kazuya",
                 "boxing_ring_title": "The Iron Fist of Darkness",
                 "type": "Default"
+            },
+            {
+                "name": "Suit",
+                "boxing_ring_title": "The Iron Fist of Darkness",
+                "type": "Same character"
             }
         ],
         "tips": [
