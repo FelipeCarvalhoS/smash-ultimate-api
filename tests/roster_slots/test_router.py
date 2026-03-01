@@ -85,7 +85,7 @@ class TestRosterSlotRouter:
         data = response.json()
         assert isinstance(data, list)
         assert all(Tip.model_validate(tip) for tip in data)
-        # assert data[6]['variant'] == 'Zombie' # TODO: add some verification when tips are added to the data
+        assert data[0]['title'] == "Pyra/Mythra's Origins"
 
     def test_get_roster_slot_tips_404(self):
         response = client.get('/roster-slots/0/tips')

@@ -59,9 +59,16 @@ class Availability(StrEnum):
     CUSTOM = 'Custom'
 
 
+class TipLevel(StrEnum):
+    BEGINNER = 'Beginner'
+    INTERMEDIATE = 'Intermediate'
+    ADVANCED = 'Advanced'
+
+
 class Tip(BaseModel):
     title: str
     content: str
+    level: TipLevel
 
     model_config = {'extra': 'forbid'}
 

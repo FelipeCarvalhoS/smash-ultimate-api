@@ -6,8 +6,6 @@ from schemas.roster_slots import RosterSlot, SmashGames
 from constants import ROSTER_SLOT_ALT_AMOUNT, TOTAL_ROSTER_SLOTS
 
 
-data = None
-
 with open('data/roster_slots.json', 'r') as f:
     data = json.load(f)
 
@@ -132,6 +130,7 @@ class TestRosterSlotDataIntegrity:
                 else:
                     assert games_ordered.index(previous_game) < games_ordered.index(game)
 
-    def test_tips_are_not_empty(self):
-        pytest.skip("This test will be skipped until tips are added to the JSON data.")
+    @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
+    def test_tips_are_not_empty(self, entry):
+        assert all(tip['content'].strip() != '' for tip in entry['tips'])
 
