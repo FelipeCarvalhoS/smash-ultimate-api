@@ -10,6 +10,7 @@ class Availability(StrEnum):
 
 
 class Stage(BaseModel):
+    id: int
     name: str
     slug: str
     series: Series

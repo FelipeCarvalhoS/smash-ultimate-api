@@ -1,6 +1,6 @@
 [
     {
-        "order": 1,
+        "id": 1,
         "name": "Battlefield",
         "slug": "battlefield",
         "series": "Super Smash Bros.",
@@ -15,7 +15,7 @@
         "is_original_or_new_version": true
     },
     {
-        "order": 2,
+        "id": 2,
         "name": "Small Battlefield",
         "slug": "small-battlefield",
         "series": "Super Smash Bros.",
@@ -24,7 +24,7 @@
         "is_original_or_new_version": true
     },
     {
-        "order": 3,
+        "id": 3,
         "name": "Big Battlefield",
         "slug": "big-battlefield",
         "series": "Super Smash Bros.",
@@ -35,7 +35,7 @@
         "is_original_or_new_version": true
     },
     {
-        "order": 4,
+        "id": 4,
         "name": "Final Destination",
         "slug": "final-destination",
         "series": "Super Smash Bros.",
@@ -50,7 +50,7 @@
         "is_original_or_new_version": true
     },
     {
-        "order": 5,
+        "id": 5,
         "name": "Peach's Castle",
         "slug": "peach-s-castle",
         "series": "Mario",
@@ -63,7 +63,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 6,
+        "id": 6,
         "name": "Kongo Jungle",
         "slug": "kongo-jungle",
         "series": "Donkey Kong",
@@ -76,7 +76,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 7,
+        "id": 7,
         "name": "Hyrule Castle",
         "slug": "hyrule-castle",
         "series": "The Legend of Zelda",
@@ -89,7 +89,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 8,
+        "id": 8,
         "name": "Super Happy Tree",
         "slug": "super-happy-tree",
         "series": "Yoshi",
@@ -101,7 +101,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 9,
+        "id": 9,
         "name": "Dream Land",
         "slug": "dream-land",
         "series": "Kirby",
@@ -115,7 +115,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 10,
+        "id": 10,
         "name": "Saffron City",
         "slug": "saffron-city",
         "series": "Pokémon",
@@ -126,7 +126,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 11,
+        "id": 11,
         "name": "Mushroom Kingdom",
         "slug": "mushroom-kingdom",
         "series": "Mario",
@@ -137,7 +137,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 12,
+        "id": 12,
         "name": "Princess Peach's Castle",
         "slug": "princess-peach-s-castle",
         "series": "Mario",
@@ -148,7 +148,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 13,
+        "id": 13,
         "name": "Rainbow Cruise",
         "slug": "rainbow-cruise",
         "series": "Mario",
@@ -160,7 +160,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 14,
+        "id": 14,
         "name": "Kongo Falls",
         "slug": "kongo-falls",
         "series": "Donkey Kong",
@@ -171,7 +171,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 15,
+        "id": 15,
         "name": "Jungle Japes",
         "slug": "jungle-japes",
         "series": "Donkey Kong",
@@ -184,7 +184,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 16,
+        "id": 16,
         "name": "Great Bay",
         "slug": "great-bay",
         "series": "The Legend of Zelda",
@@ -195,7 +195,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 17,
+        "id": 17,
         "name": "Temple",
         "slug": "temple",
         "series": "The Legend of Zelda",
@@ -208,7 +208,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 18,
+        "id": 18,
         "name": "Brinstar",
         "slug": "brinstar",
         "series": "Metroid",
@@ -221,7 +221,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 19,
+        "id": 19,
         "name": "Yoshi's Island (Melee)",
         "slug": "yoshi-s-island-melee",
         "series": "Yoshi",
@@ -234,7 +234,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 19,
+        "id": 19,
         "name": "Yoshi's Island",
         "slug": "yoshi-s-island",
         "series": "Yoshi",
@@ -246,7 +246,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 20,
+        "id": 20,
         "name": "Yoshi's Story",
         "slug": "yoshi-s-story",
         "series": "Yoshi",
@@ -257,7 +257,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 21,
+        "id": 21,
         "name": "Fountain of Dreams",
         "slug": "fountain-of-dreams",
         "series": "Kirby",
@@ -268,7 +268,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 22,
+        "id": 22,
         "name": "Green Greens",
         "slug": "green-greens",
         "series": "Kirby",
@@ -280,7 +280,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 23,
+        "id": 23,
         "name": "Corneria",
         "slug": "corneria",
         "series": "Star Fox",
@@ -293,7 +293,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 24,
+        "id": 24,
         "name": "Venom",
         "slug": "venom",
         "series": "Star Fox",
@@ -304,7 +304,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 25,
+        "id": 25,
         "name": "Pokémon Stadium",
         "slug": "pokemon-stadium",
         "series": "Pokémon",
@@ -316,7 +316,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 26,
+        "id": 26,
         "name": "Onett",
         "slug": "onett",
         "series": "EarthBound",
@@ -329,7 +329,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 27,
+        "id": 27,
         "name": "Mushroom Kingdom II",
         "slug": "mushroom-kingdom-ii",
         "series": "Mario",
@@ -340,7 +340,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 28,
+        "id": 28,
         "name": "Brinstar Depths",
         "slug": "brinstar-depths",
         "series": "Metroid",
@@ -351,7 +351,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 29,
+        "id": 29,
         "name": "Big Blue",
         "slug": "big-blue",
         "series": "F-Zero",
@@ -363,7 +363,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 30,
+        "id": 30,
         "name": "Fourside",
         "slug": "fourside",
         "series": "EarthBound",
@@ -374,7 +374,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 31,
+        "id": 31,
         "name": "Delfino Plaza",
         "slug": "delfino-plaza",
         "series": "Mario",
@@ -386,7 +386,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 32,
+        "id": 32,
         "name": "Mushroomy Kingdom",
         "slug": "mushroomy-kingdom",
         "series": "Mario",
@@ -398,7 +398,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 33,
+        "id": 33,
         "name": "Figure-8 Circuit",
         "slug": "figure-8-circuit",
         "series": "Mario",
@@ -410,7 +410,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 34,
+        "id": 34,
         "name": "WarioWare, Inc.",
         "slug": "warioware-inc",
         "series": "Wario",
@@ -422,7 +422,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 35,
+        "id": 35,
         "name": "Bridge of Eldin",
         "slug": "bridge-of-eldin",
         "series": "The Legend of Zelda",
@@ -434,7 +434,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 36,
+        "id": 36,
         "name": "Norfair",
         "slug": "norfair",
         "series": "Metroid",
@@ -446,7 +446,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 37,
+        "id": 37,
         "name": "Frigate Orpheon",
         "slug": "frigate-orpheon",
         "series": "Metroid",
@@ -457,7 +457,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 39,
+        "id": 39,
         "name": "Halberd",
         "slug": "halberd",
         "series": "Kirby",
@@ -469,7 +469,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 40,
+        "id": 40,
         "name": "Lylat Cruise",
         "slug": "lylat-cruise",
         "series": "Star Fox",
@@ -481,7 +481,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 41,
+        "id": 41,
         "name": "Pokémon Stadium 2",
         "slug": "pokemon-stadium-2",
         "series": "Pokémon",
@@ -493,7 +493,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 42,
+        "id": 42,
         "name": "Port Town Aero Dive",
         "slug": "port-town-aero-dive",
         "series": "F-Zero",
@@ -505,7 +505,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 43,
+        "id": 43,
         "name": "Castle Siege",
         "slug": "castle-siege",
         "series": "Fire Emblem",
@@ -517,7 +517,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 44,
+        "id": 44,
         "name": "Distant Planet",
         "slug": "distant-planet",
         "series": "Pikmin",
@@ -529,7 +529,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 45,
+        "id": 45,
         "name": "Smashville",
         "slug": "smashville",
         "series": "Animal Crossing",
@@ -541,7 +541,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 46,
+        "id": 46,
         "name": "New Pork City",
         "slug": "new-pork-city",
         "series": "EarthBound",
@@ -552,7 +552,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 47,
+        "id": 47,
         "name": "Summit",
         "slug": "summit",
         "series": "Ice Climber",
@@ -563,7 +563,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 48,
+        "id": 48,
         "name": "Skyworld",
         "slug": "skyworld",
         "series": "Kid Icarus",
@@ -575,7 +575,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 49,
+        "id": 49,
         "name": "Shadow Moses Island",
         "slug": "shadow-moses-island",
         "series": "Metal Gear",
@@ -586,7 +586,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 50,
+        "id": 50,
         "name": "Luigi's Mansion",
         "slug": "luigi-s-mansion",
         "series": "Mario",
@@ -598,7 +598,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 51,
+        "id": 51,
         "name": "Pirate Ship",
         "slug": "pirate-ship",
         "series": "The Legend of Zelda",
@@ -610,7 +610,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 52,
+        "id": 52,
         "name": "Spear Pillar",
         "slug": "spear-pillar",
         "series": "Pokémon",
@@ -621,7 +621,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 53,
+        "id": 53,
         "name": "75m",
         "slug": "75m",
         "series": "Donkey Kong",
@@ -633,7 +633,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 54,
+        "id": 54,
         "name": "Mario Bros.",
         "slug": "mario-bros",
         "series": "Mario",
@@ -644,7 +644,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 55,
+        "id": 55,
         "name": "Hanenbow",
         "slug": "hanenbow",
         "series": "Electroplankton",
@@ -655,7 +655,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 56,
+        "id": 56,
         "name": "Green Hill Zone",
         "slug": "green-hill-zone",
         "series": "Sonic the Hedgehog",
@@ -667,7 +667,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 57,
+        "id": 57,
         "name": "3D Land",
         "slug": "3d-land",
         "series": "Mario",
@@ -678,7 +678,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 58,
+        "id": 58,
         "name": "Golden Plains",
         "slug": "golden-plains",
         "series": "Mario",
@@ -689,7 +689,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 59,
+        "id": 59,
         "name": "Paper Mario",
         "slug": "paper-mario",
         "series": "Mario",
@@ -700,7 +700,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 60,
+        "id": 60,
         "name": "Gerudo Valley",
         "slug": "gerudo-valley",
         "series": "The Legend of Zelda",
@@ -711,7 +711,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 61,
+        "id": 61,
         "name": "Spirit Train",
         "slug": "spirit-train",
         "series": "The Legend of Zelda",
@@ -722,7 +722,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 62,
+        "id": 62,
         "name": "Dream Land GB",
         "slug": "dream-land-gb",
         "series": "Kirby",
@@ -733,7 +733,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 63,
+        "id": 63,
         "name": "Unova Pokémon League",
         "slug": "unova-pokemon-league",
         "series": "Pokémon",
@@ -744,7 +744,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 64,
+        "id": 64,
         "name": "Prism Tower",
         "slug": "prism-tower",
         "series": "Pokémon",
@@ -755,7 +755,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 65,
+        "id": 65,
         "name": "Mute City SNES",
         "slug": "mute-city-snes",
         "series": "F-Zero",
@@ -766,7 +766,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 66,
+        "id": 66,
         "name": "Magicant",
         "slug": "magicant",
         "series": "EarthBound",
@@ -777,7 +777,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 67,
+        "id": 67,
         "name": "Arena Ferox",
         "slug": "arena-ferox",
         "series": "Fire Emblem",
@@ -788,7 +788,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 68,
+        "id": 68,
         "name": "Reset Bomb Forest",
         "slug": "reset-bomb-forest",
         "series": "Kid Icarus",
@@ -799,7 +799,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 69,
+        "id": 69,
         "name": "Tortimer Island",
         "slug": "tortimer-island",
         "series": "Animal Crossing",
@@ -810,7 +810,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 70,
+        "id": 70,
         "name": "Balloon Fight",
         "slug": "balloon-fight",
         "series": "Balloon Fight",
@@ -821,7 +821,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 71,
+        "id": 71,
         "name": "Living Room",
         "slug": "living-room",
         "series": "Nintendogs",
@@ -832,7 +832,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 72,
+        "id": 72,
         "name": "Find Mii",
         "slug": "find-mii",
         "series": "StreetPass Mii Plaza",
@@ -843,7 +843,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 73,
+        "id": 73,
         "name": "Tomodachi Life",
         "slug": "tomodachi-life",
         "series": "Tomodachi",
@@ -854,7 +854,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 74,
+        "id": 74,
         "name": "PictoChat 2",
         "slug": "pictochat-2",
         "series": "Nintendo DS",
@@ -865,7 +865,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 75,
+        "id": 75,
         "name": "Mushroom Kingdom U",
         "slug": "mushroom-kingdom-u",
         "series": "Mario",
@@ -876,7 +876,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 76,
+        "id": 76,
         "name": "Mario Galaxy",
         "slug": "mario-galaxy",
         "series": "Mario",
@@ -887,7 +887,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 77,
+        "id": 77,
         "name": "Mario Circuit",
         "slug": "mario-circuit",
         "series": "Mario",
@@ -898,7 +898,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 78,
+        "id": 78,
         "name": "Skyloft",
         "slug": "skyloft",
         "series": "The Legend of Zelda",
@@ -909,7 +909,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 79,
+        "id": 79,
         "name": "The Great Cave Offensive",
         "slug": "the-great-cave-offensive",
         "series": "Kirby",
@@ -920,7 +920,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 80,
+        "id": 80,
         "name": "Kalos Pokémon League",
         "slug": "kalos-pokemon-league",
         "series": "Pokémon",
@@ -931,7 +931,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 81,
+        "id": 81,
         "name": "Coliseum",
         "slug": "coliseum",
         "series": "Fire Emblem",
@@ -942,7 +942,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 82,
+        "id": 82,
         "name": "Flat Zone X",
         "slug": "flat-zone-x",
         "series": "Game & Watch",
@@ -953,7 +953,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 83,
+        "id": 83,
         "name": "Palutena's Temple",
         "slug": "palutena-s-temple",
         "series": "Kid Icarus",
@@ -964,7 +964,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 84,
+        "id": 84,
         "name": "Gamer",
         "slug": "gamer",
         "series": "Wario",
@@ -975,7 +975,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 85,
+        "id": 85,
         "name": "Garden of Hope",
         "slug": "garden-of-hope",
         "series": "Pikmin",
@@ -986,7 +986,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 86,
+        "id": 86,
         "name": "Town and City",
         "slug": "town-and-city",
         "series": "Animal Crossing",
@@ -997,7 +997,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 87,
+        "id": 87,
         "name": "Wii Fit Studio",
         "slug": "wii-fit-studio",
         "series": "Wii Fit",
@@ -1008,7 +1008,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 88,
+        "id": 88,
         "name": "Boxing Ring",
         "slug": "boxing-ring",
         "series": "Punch-Out!!",
@@ -1020,7 +1020,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 89,
+        "id": 89,
         "name": "Gaur Plain",
         "slug": "gaur-plain",
         "series": "Xenoblade Chronicles",
@@ -1032,7 +1032,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 90,
+        "id": 90,
         "name": "Duck Hunt",
         "slug": "duck-hunt",
         "series": "Duck Hunt",
@@ -1044,7 +1044,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 91,
+        "id": 91,
         "name": "Wrecking Crew",
         "slug": "wrecking-crew",
         "series": "Wrecking Crew",
@@ -1055,7 +1055,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 92,
+        "id": 92,
         "name": "Pilotwings",
         "slug": "pilotwings",
         "series": "Pilotwings",
@@ -1066,7 +1066,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 93,
+        "id": 93,
         "name": "Wuhu Island",
         "slug": "wuhu-island",
         "series": "Wii Sports",
@@ -1077,7 +1077,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 94,
+        "id": 94,
         "name": "Windy Hill Zone",
         "slug": "windy-hill-zone",
         "series": "Sonic the Hedgehog",
@@ -1088,7 +1088,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 95,
+        "id": 95,
         "name": "Wily Castle",
         "slug": "wily-castle",
         "series": "Mega Man",
@@ -1100,7 +1100,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 96,
+        "id": 96,
         "name": "PAC-LAND",
         "slug": "pac-land",
         "series": "Pac-Man",
@@ -1111,7 +1111,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 97,
+        "id": 97,
         "name": "Super Mario Maker",
         "slug": "super-mario-maker",
         "series": "Mario",
@@ -1123,7 +1123,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 98,
+        "id": 98,
         "name": "Suzaku Castle",
         "slug": "suzaku-castle",
         "series": "Street Fighter",
@@ -1135,7 +1135,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 99,
+        "id": 99,
         "name": "Midgar",
         "slug": "midgar",
         "series": "Final Fantasy",
@@ -1147,7 +1147,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 100,
+        "id": 100,
         "name": "Umbra Clock Tower",
         "slug": "umbra-clock-tower",
         "series": "Bayonetta",
@@ -1159,7 +1159,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 101,
+        "id": 101,
         "name": "New Donk City Hall",
         "slug": "new-donk-city-hall",
         "series": "Mario",
@@ -1168,7 +1168,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 102,
+        "id": 102,
         "name": "Great Plateau Tower",
         "slug": "great-plateau-tower",
         "series": "The Legend of Zelda",
@@ -1177,7 +1177,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 103,
+        "id": 103,
         "name": "Moray Towers",
         "slug": "moray-towers",
         "series": "Splatoon",
@@ -1186,7 +1186,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 104,
+        "id": 104,
         "name": "Dracula's Castle",
         "slug": "dracula-s-castle",
         "series": "Castlevania",
@@ -1195,7 +1195,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 105,
+        "id": 105,
         "name": "Mementos",
         "slug": "mementos",
         "series": "Persona",
@@ -1204,7 +1204,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 106,
+        "id": 106,
         "name": "Yggdrasil's Altar",
         "slug": "yggdrasil-s-altar",
         "series": "Dragon Quest",
@@ -1213,7 +1213,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 107,
+        "id": 107,
         "name": "Spiral Mountain",
         "slug": "spiral-mountain",
         "series": "Banjo-Kazooie",
@@ -1222,7 +1222,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 108,
+        "id": 108,
         "name": "King of Fighters Stadium",
         "slug": "king-of-fighters-stadium",
         "series": "Fatal Fury",
@@ -1231,7 +1231,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 109,
+        "id": 109,
         "name": "Garreg Mach Monastery",
         "slug": "garreg-mach-monastery",
         "series": "Fire Emblem",
@@ -1240,7 +1240,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 110,
+        "id": 110,
         "name": "Spring Stadium",
         "slug": "spring-stadium",
         "series": "ARMS",
@@ -1249,7 +1249,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 111,
+        "id": 111,
         "name": "Minecraft World",
         "slug": "minecraft-world",
         "series": "Minecraft",
@@ -1258,7 +1258,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 112,
+        "id": 112,
         "name": "Northern Cave",
         "slug": "northern-cave",
         "series": "Final Fantasy",
@@ -1267,7 +1267,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 113,
+        "id": 113,
         "name": "Cloud Sea of Alrest",
         "slug": "cloud-sea-of-alrest",
         "series": "Xenoblade Chronicles",
@@ -1276,7 +1276,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 114,
+        "id": 114,
         "name": "Mishima Dojo",
         "slug": "mishima-dojo",
         "series": "Tekken",
@@ -1285,7 +1285,7 @@
         "is_original_or_new_version": false
     },
     {
-        "order": 115,
+        "id": 115,
         "name": "Hollow Bastion",
         "slug": "hollow-bastion",
         "series": "Kingdom Hearts",

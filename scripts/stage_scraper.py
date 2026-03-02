@@ -9,7 +9,7 @@ from schemas.stages import Availability
 URL = "https://www.ssbwiki.com/Stage"
 
 
-def get_order(name):
+def get_id(name):
     with open("scripts/stage_order.txt", "r") as f:
         lines = f.readlines()
         for i, line in enumerate(lines):
@@ -93,14 +93,14 @@ def parse():
 
         name = get_name(cells[0])
         slug = slugify(name)
-        order = get_order(name)
+        id = get_id(name)
         series = get_series(cells[1])
         availability = get_availability(cells[-1])
         also_appears_in = get_also_appears_in(cells)
         is_original_or_new_version = get_is_original_or_new_version(cells[-1])
 
         stage = {
-            "order": order,
+            "id": id,
             "name": name,
             "slug": slug,
             "series": series,
@@ -116,7 +116,7 @@ def parse():
 
 if __name__ == "__main__":
     data = parse()
-    data = sorted(data, key=lambda x: x['order'])
+    data = sorted(data, key=lambda x: x['id'])
 
     with open("data/stages.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
