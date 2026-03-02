@@ -32,8 +32,8 @@ FILTER_TEST_CASES = [
     ({'also_appears_in': ['invalid']}, []),
     ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o']}, ['Dr. Mario', 'Mario', 'Donkey Kong']),
     ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o'], 'also_appears_in': ['64']}, ['Mario', 'Donkey Kong']),
-    ({'also_appears_in': ['Smash 4'], 'series': ['Metroid']}, ['Samus', 'Zero Suit Samus']),
-    ({'also_appears_in': ['Smash 4'], 'series': ['Metroid'], 'availability': ['Unlockable']}, ['Zero Suit Samus']),
+    ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid']}, ['Samus', 'Zero Suit Samus']),
+    ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid'], 'availability': ['Unlockable']}, ['Zero Suit Samus']),
 ]
 
 

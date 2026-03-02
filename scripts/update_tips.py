@@ -7,7 +7,7 @@ STAR_MAP = {
     "★★★": "Advanced"
 }
 
-with open("data/roster_slots_tipless.json", "r", encoding="utf-8") as f:
+with open("data/roster_slots.json", "r", encoding="utf-8") as f:
     fighters = json.load(f)
 
 with open("scripts/tips.txt", "r", encoding="utf-8") as f:

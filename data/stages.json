@@ -1,0 +1,1296 @@
+[
+    {
+        "order": 1,
+        "name": "Battlefield",
+        "slug": "battlefield",
+        "series": "Super Smash Bros.",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": true
+    },
+    {
+        "order": 2,
+        "name": "Small Battlefield",
+        "slug": "small-battlefield",
+        "series": "Super Smash Bros.",
+        "availability": "Free DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": true
+    },
+    {
+        "order": 3,
+        "name": "Big Battlefield",
+        "slug": "big-battlefield",
+        "series": "Super Smash Bros.",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": true
+    },
+    {
+        "order": 4,
+        "name": "Final Destination",
+        "slug": "final-destination",
+        "series": "Super Smash Bros.",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": true
+    },
+    {
+        "order": 5,
+        "name": "Peach's Castle",
+        "slug": "peach-s-castle",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 6,
+        "name": "Kongo Jungle",
+        "slug": "kongo-jungle",
+        "series": "Donkey Kong",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 7,
+        "name": "Hyrule Castle",
+        "slug": "hyrule-castle",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 8,
+        "name": "Super Happy Tree",
+        "slug": "super-happy-tree",
+        "series": "Yoshi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 9,
+        "name": "Dream Land",
+        "slug": "dream-land",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 10,
+        "name": "Saffron City",
+        "slug": "saffron-city",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 11,
+        "name": "Mushroom Kingdom",
+        "slug": "mushroom-kingdom",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "64"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 12,
+        "name": "Princess Peach's Castle",
+        "slug": "princess-peach-s-castle",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 13,
+        "name": "Rainbow Cruise",
+        "slug": "rainbow-cruise",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 14,
+        "name": "Kongo Falls",
+        "slug": "kongo-falls",
+        "series": "Donkey Kong",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 15,
+        "name": "Jungle Japes",
+        "slug": "jungle-japes",
+        "series": "Donkey Kong",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 16,
+        "name": "Great Bay",
+        "slug": "great-bay",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 17,
+        "name": "Temple",
+        "slug": "temple",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 18,
+        "name": "Brinstar",
+        "slug": "brinstar",
+        "series": "Metroid",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 19,
+        "name": "Yoshi's Island (Melee)",
+        "slug": "yoshi-s-island-melee",
+        "series": "Yoshi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 19,
+        "name": "Yoshi's Island",
+        "slug": "yoshi-s-island",
+        "series": "Yoshi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 20,
+        "name": "Yoshi's Story",
+        "slug": "yoshi-s-story",
+        "series": "Yoshi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 21,
+        "name": "Fountain of Dreams",
+        "slug": "fountain-of-dreams",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 22,
+        "name": "Green Greens",
+        "slug": "green-greens",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 23,
+        "name": "Corneria",
+        "slug": "corneria",
+        "series": "Star Fox",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 24,
+        "name": "Venom",
+        "slug": "venom",
+        "series": "Star Fox",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 25,
+        "name": "Pokémon Stadium",
+        "slug": "pokemon-stadium",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 26,
+        "name": "Onett",
+        "slug": "onett",
+        "series": "EarthBound",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 27,
+        "name": "Mushroom Kingdom II",
+        "slug": "mushroom-kingdom-ii",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 28,
+        "name": "Brinstar Depths",
+        "slug": "brinstar-depths",
+        "series": "Metroid",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 29,
+        "name": "Big Blue",
+        "slug": "big-blue",
+        "series": "F-Zero",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee",
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 30,
+        "name": "Fourside",
+        "slug": "fourside",
+        "series": "EarthBound",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Melee"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 31,
+        "name": "Delfino Plaza",
+        "slug": "delfino-plaza",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 32,
+        "name": "Mushroomy Kingdom",
+        "slug": "mushroomy-kingdom",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 33,
+        "name": "Figure-8 Circuit",
+        "slug": "figure-8-circuit",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 34,
+        "name": "WarioWare, Inc.",
+        "slug": "warioware-inc",
+        "series": "Wario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 35,
+        "name": "Bridge of Eldin",
+        "slug": "bridge-of-eldin",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 36,
+        "name": "Norfair",
+        "slug": "norfair",
+        "series": "Metroid",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 37,
+        "name": "Frigate Orpheon",
+        "slug": "frigate-orpheon",
+        "series": "Metroid",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 39,
+        "name": "Halberd",
+        "slug": "halberd",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 40,
+        "name": "Lylat Cruise",
+        "slug": "lylat-cruise",
+        "series": "Star Fox",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 41,
+        "name": "Pokémon Stadium 2",
+        "slug": "pokemon-stadium-2",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 42,
+        "name": "Port Town Aero Dive",
+        "slug": "port-town-aero-dive",
+        "series": "F-Zero",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 43,
+        "name": "Castle Siege",
+        "slug": "castle-siege",
+        "series": "Fire Emblem",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 44,
+        "name": "Distant Planet",
+        "slug": "distant-planet",
+        "series": "Pikmin",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 45,
+        "name": "Smashville",
+        "slug": "smashville",
+        "series": "Animal Crossing",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 46,
+        "name": "New Pork City",
+        "slug": "new-pork-city",
+        "series": "EarthBound",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 47,
+        "name": "Summit",
+        "slug": "summit",
+        "series": "Ice Climber",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 48,
+        "name": "Skyworld",
+        "slug": "skyworld",
+        "series": "Kid Icarus",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 49,
+        "name": "Shadow Moses Island",
+        "slug": "shadow-moses-island",
+        "series": "Metal Gear",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 50,
+        "name": "Luigi's Mansion",
+        "slug": "luigi-s-mansion",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 51,
+        "name": "Pirate Ship",
+        "slug": "pirate-ship",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 52,
+        "name": "Spear Pillar",
+        "slug": "spear-pillar",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 53,
+        "name": "75m",
+        "slug": "75m",
+        "series": "Donkey Kong",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 54,
+        "name": "Mario Bros.",
+        "slug": "mario-bros",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 55,
+        "name": "Hanenbow",
+        "slug": "hanenbow",
+        "series": "Electroplankton",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 56,
+        "name": "Green Hill Zone",
+        "slug": "green-hill-zone",
+        "series": "Sonic the Hedgehog",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 57,
+        "name": "3D Land",
+        "slug": "3d-land",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 58,
+        "name": "Golden Plains",
+        "slug": "golden-plains",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 59,
+        "name": "Paper Mario",
+        "slug": "paper-mario",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 60,
+        "name": "Gerudo Valley",
+        "slug": "gerudo-valley",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 61,
+        "name": "Spirit Train",
+        "slug": "spirit-train",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 62,
+        "name": "Dream Land GB",
+        "slug": "dream-land-gb",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 63,
+        "name": "Unova Pokémon League",
+        "slug": "unova-pokemon-league",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 64,
+        "name": "Prism Tower",
+        "slug": "prism-tower",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 65,
+        "name": "Mute City SNES",
+        "slug": "mute-city-snes",
+        "series": "F-Zero",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 66,
+        "name": "Magicant",
+        "slug": "magicant",
+        "series": "EarthBound",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 67,
+        "name": "Arena Ferox",
+        "slug": "arena-ferox",
+        "series": "Fire Emblem",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 68,
+        "name": "Reset Bomb Forest",
+        "slug": "reset-bomb-forest",
+        "series": "Kid Icarus",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 69,
+        "name": "Tortimer Island",
+        "slug": "tortimer-island",
+        "series": "Animal Crossing",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 70,
+        "name": "Balloon Fight",
+        "slug": "balloon-fight",
+        "series": "Balloon Fight",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 71,
+        "name": "Living Room",
+        "slug": "living-room",
+        "series": "Nintendogs",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 72,
+        "name": "Find Mii",
+        "slug": "find-mii",
+        "series": "StreetPass Mii Plaza",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 73,
+        "name": "Tomodachi Life",
+        "slug": "tomodachi-life",
+        "series": "Tomodachi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 74,
+        "name": "PictoChat 2",
+        "slug": "pictochat-2",
+        "series": "Nintendo DS",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 75,
+        "name": "Mushroom Kingdom U",
+        "slug": "mushroom-kingdom-u",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 76,
+        "name": "Mario Galaxy",
+        "slug": "mario-galaxy",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 77,
+        "name": "Mario Circuit",
+        "slug": "mario-circuit",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 78,
+        "name": "Skyloft",
+        "slug": "skyloft",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 79,
+        "name": "The Great Cave Offensive",
+        "slug": "the-great-cave-offensive",
+        "series": "Kirby",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 80,
+        "name": "Kalos Pokémon League",
+        "slug": "kalos-pokemon-league",
+        "series": "Pokémon",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 81,
+        "name": "Coliseum",
+        "slug": "coliseum",
+        "series": "Fire Emblem",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 82,
+        "name": "Flat Zone X",
+        "slug": "flat-zone-x",
+        "series": "Game & Watch",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 83,
+        "name": "Palutena's Temple",
+        "slug": "palutena-s-temple",
+        "series": "Kid Icarus",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 84,
+        "name": "Gamer",
+        "slug": "gamer",
+        "series": "Wario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 85,
+        "name": "Garden of Hope",
+        "slug": "garden-of-hope",
+        "series": "Pikmin",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 86,
+        "name": "Town and City",
+        "slug": "town-and-city",
+        "series": "Animal Crossing",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 87,
+        "name": "Wii Fit Studio",
+        "slug": "wii-fit-studio",
+        "series": "Wii Fit",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 88,
+        "name": "Boxing Ring",
+        "slug": "boxing-ring",
+        "series": "Punch-Out!!",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 89,
+        "name": "Gaur Plain",
+        "slug": "gaur-plain",
+        "series": "Xenoblade Chronicles",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 90,
+        "name": "Duck Hunt",
+        "slug": "duck-hunt",
+        "series": "Duck Hunt",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 91,
+        "name": "Wrecking Crew",
+        "slug": "wrecking-crew",
+        "series": "Wrecking Crew",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 92,
+        "name": "Pilotwings",
+        "slug": "pilotwings",
+        "series": "Pilotwings",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 93,
+        "name": "Wuhu Island",
+        "slug": "wuhu-island",
+        "series": "Wii Sports",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 94,
+        "name": "Windy Hill Zone",
+        "slug": "windy-hill-zone",
+        "series": "Sonic the Hedgehog",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 95,
+        "name": "Wily Castle",
+        "slug": "wily-castle",
+        "series": "Mega Man",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 96,
+        "name": "PAC-LAND",
+        "slug": "pac-land",
+        "series": "Pac-Man",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 97,
+        "name": "Super Mario Maker",
+        "slug": "super-mario-maker",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 98,
+        "name": "Suzaku Castle",
+        "slug": "suzaku-castle",
+        "series": "Street Fighter",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 99,
+        "name": "Midgar",
+        "slug": "midgar",
+        "series": "Final Fantasy",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 100,
+        "name": "Umbra Clock Tower",
+        "slug": "umbra-clock-tower",
+        "series": "Bayonetta",
+        "availability": "Starter",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 101,
+        "name": "New Donk City Hall",
+        "slug": "new-donk-city-hall",
+        "series": "Mario",
+        "availability": "Starter",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 102,
+        "name": "Great Plateau Tower",
+        "slug": "great-plateau-tower",
+        "series": "The Legend of Zelda",
+        "availability": "Starter",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 103,
+        "name": "Moray Towers",
+        "slug": "moray-towers",
+        "series": "Splatoon",
+        "availability": "Starter",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 104,
+        "name": "Dracula's Castle",
+        "slug": "dracula-s-castle",
+        "series": "Castlevania",
+        "availability": "Starter",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 105,
+        "name": "Mementos",
+        "slug": "mementos",
+        "series": "Persona",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 106,
+        "name": "Yggdrasil's Altar",
+        "slug": "yggdrasil-s-altar",
+        "series": "Dragon Quest",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 107,
+        "name": "Spiral Mountain",
+        "slug": "spiral-mountain",
+        "series": "Banjo-Kazooie",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 108,
+        "name": "King of Fighters Stadium",
+        "slug": "king-of-fighters-stadium",
+        "series": "Fatal Fury",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 109,
+        "name": "Garreg Mach Monastery",
+        "slug": "garreg-mach-monastery",
+        "series": "Fire Emblem",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 110,
+        "name": "Spring Stadium",
+        "slug": "spring-stadium",
+        "series": "ARMS",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 111,
+        "name": "Minecraft World",
+        "slug": "minecraft-world",
+        "series": "Minecraft",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 112,
+        "name": "Northern Cave",
+        "slug": "northern-cave",
+        "series": "Final Fantasy",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 113,
+        "name": "Cloud Sea of Alrest",
+        "slug": "cloud-sea-of-alrest",
+        "series": "Xenoblade Chronicles",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 114,
+        "name": "Mishima Dojo",
+        "slug": "mishima-dojo",
+        "series": "Tekken",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    },
+    {
+        "order": 115,
+        "name": "Hollow Bastion",
+        "slug": "hollow-bastion",
+        "series": "Kingdom Hearts",
+        "availability": "Paid DLC",
+        "also_appears_in": [],
+        "is_original_or_new_version": false
+    }
+]
