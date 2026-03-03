@@ -95,6 +95,10 @@ class TestRosterSlotDataIntegrity:
     def test_slugs(self, entry):
         assert entry['slug'] == slugify(entry['name'])
 
+    def test_slugs_unique(self):
+        all_slugs = [entry['slug'] for entry in data]
+        assert len(all_slugs) == len(set(all_slugs))
+
     @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
     def test_roster_slot_and_fighters_appear_in_same_games(self, entry):
         roster_slot_games = entry['also_appears_in']
