@@ -62,6 +62,7 @@ class RosterSlot(BaseModel):
     series: Series
     availability: Availability
     also_appears_in: list[SmashGames]
+    order: int
     alts: list[Alt]
     variants: list[Variant]
     tips: list[Tip]

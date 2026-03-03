@@ -14,6 +14,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 1,
         "alts": [
             {
                 "slot": 1,
@@ -197,6 +198,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 2,
         "alts": [
             {
                 "slot": 1,
@@ -340,6 +342,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 3,
         "alts": [
             {
                 "slot": 1,
@@ -488,6 +491,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 4,
         "alts": [
             {
                 "slot": 1,
@@ -615,6 +619,7 @@
         "series": "Metroid",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 5,
         "alts": [
             {
                 "slot": 1,
@@ -717,6 +722,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 6,
         "alts": [
             {
                 "slot": 1,
@@ -885,6 +891,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 7,
         "alts": [
             {
                 "slot": 1,
@@ -1078,6 +1085,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 8,
         "alts": [
             {
                 "slot": 1,
@@ -1206,6 +1214,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 9,
         "alts": [
             {
                 "slot": 1,
@@ -1354,6 +1363,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 10,
         "alts": [
             {
                 "slot": 1,
@@ -1502,6 +1512,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 11,
         "alts": [
             {
                 "slot": 1,
@@ -1680,6 +1691,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 12,
         "alts": [
             {
                 "slot": 1,
@@ -1823,6 +1835,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 13,
         "alts": [
             {
                 "slot": 1,
@@ -1975,6 +1988,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 14,
         "alts": [
             {
                 "slot": 1,
@@ -2116,6 +2130,7 @@
         "series": "Mario",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 15,
         "alts": [
             {
                 "slot": 1,
@@ -2217,6 +2232,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 16,
         "alts": [
             {
                 "slot": 1,
@@ -2373,6 +2389,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 17,
         "alts": [
             {
                 "slot": 1,
@@ -2519,6 +2536,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 18,
         "alts": [
             {
                 "slot": 1,
@@ -2650,6 +2668,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 19,
         "alts": [
             {
                 "slot": 1,
@@ -2800,6 +2819,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 20,
         "alts": [
             {
                 "slot": 1,
@@ -2932,6 +2952,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "order": 21,
         "alts": [
             {
                 "slot": 1,
@@ -3045,6 +3066,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 22,
         "alts": [
             {
                 "slot": 1,
@@ -3181,6 +3203,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 23,
         "alts": [
             {
                 "slot": 1,
@@ -3340,6 +3363,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 24,
         "alts": [
             {
                 "slot": 1,
@@ -3431,6 +3455,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "order": 25,
         "alts": [
             {
                 "slot": 1,
@@ -3554,6 +3579,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 26,
         "alts": [
             {
                 "slot": 1,
@@ -3689,6 +3715,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 27,
         "alts": [
             {
                 "slot": 1,
@@ -3873,6 +3900,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 28,
         "alts": [
             {
                 "slot": 1,
@@ -4043,6 +4071,7 @@
         "series": "Fire Emblem",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 29,
         "alts": [
             {
                 "slot": 1,
@@ -4144,6 +4173,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 30,
         "alts": [
             {
                 "slot": 1,
@@ -4309,6 +4339,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 31,
         "alts": [
             {
                 "slot": 1,
@@ -4473,6 +4504,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 32,
         "alts": [
             {
                 "slot": 1,
@@ -4626,6 +4658,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 33,
         "alts": [
             {
                 "slot": 1,
@@ -4729,6 +4762,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 34,
         "alts": [
             {
                 "slot": 1,
@@ -4868,6 +4902,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 35,
         "alts": [
             {
                 "slot": 1,
@@ -5010,6 +5045,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "order": 36,
         "alts": [
             {
                 "slot": 1,
@@ -5147,6 +5183,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 37,
         "alts": [
             {
                 "slot": 1,
@@ -5296,6 +5333,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "order": 38,
         "alts": [
             {
                 "slot": 1,
@@ -5546,6 +5584,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 39,
         "alts": [
             {
                 "slot": 1,
@@ -5720,6 +5759,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 40,
         "alts": [
             {
                 "slot": 1,
@@ -5874,6 +5914,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 41,
         "alts": [
             {
                 "slot": 1,
@@ -6003,6 +6044,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 42,
         "alts": [
             {
                 "slot": 1,
@@ -6157,6 +6199,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 43,
         "alts": [
             {
                 "slot": 1,
@@ -6361,6 +6404,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 44,
         "alts": [
             {
                 "slot": 1,
@@ -6485,6 +6529,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 45,
         "alts": [
             {
                 "slot": 1,
@@ -6639,6 +6684,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 46,
         "alts": [
             {
                 "slot": 1,
@@ -6771,6 +6817,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "order": 47,
         "alts": [
             {
                 "slot": 1,
@@ -6872,6 +6919,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 48,
         "alts": [
             {
                 "slot": 1,
@@ -7024,6 +7072,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 49,
         "alts": [
             {
                 "slot": 1,
@@ -7246,6 +7295,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 50,
         "alts": [
             {
                 "slot": 1,
@@ -7388,6 +7438,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 51,
         "alts": [
             {
                 "slot": 1,
@@ -7540,6 +7591,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 52,
         "alts": [
             {
                 "slot": 1,
@@ -7687,6 +7739,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 53,
         "alts": [
             {
                 "slot": 1,
@@ -7804,6 +7857,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 54,
         "alts": [
             {
                 "slot": 1,
@@ -7951,6 +8005,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 55,
         "alts": [
             {
                 "slot": 1,
@@ -8118,6 +8173,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 56,
         "alts": [
             {
                 "slot": 1,
@@ -8255,6 +8311,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 57,
         "alts": [
             {
                 "slot": 1,
@@ -8367,6 +8424,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 58,
         "alts": [
             {
                 "slot": 1,
@@ -8549,6 +8607,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 59,
         "alts": [
             {
                 "slot": 1,
@@ -8751,6 +8810,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 60,
         "alts": [
             {
                 "slot": 1,
@@ -8933,6 +8993,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 61,
         "alts": [
             {
                 "slot": 1,
@@ -9130,6 +9191,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 62,
         "alts": [
             {
                 "slot": 1,
@@ -9292,6 +9354,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 63,
         "alts": [
             {
                 "slot": 1,
@@ -9496,6 +9559,7 @@
         "series": "Street Fighter",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 64,
         "alts": [
             {
                 "slot": 1,
@@ -9625,6 +9689,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 65,
         "alts": [
             {
                 "slot": 1,
@@ -9792,6 +9857,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 66,
         "alts": [
             {
                 "slot": 1,
@@ -9969,6 +10035,7 @@
             "3DS",
             "Wii U"
         ],
+        "order": 67,
         "alts": [
             {
                 "slot": 1,
@@ -10163,6 +10230,7 @@
         "series": "Splatoon",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 68,
         "alts": [
             {
                 "slot": 1,
@@ -10294,6 +10362,7 @@
         "series": "Metroid",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 69,
         "alts": [
             {
                 "slot": 1,
@@ -10400,6 +10469,7 @@
         "series": "Castlevania",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 70,
         "alts": [
             {
                 "slot": 1,
@@ -10506,6 +10576,7 @@
         "series": "Castlevania",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 71,
         "alts": [
             {
                 "slot": 1,
@@ -10602,6 +10673,7 @@
         "series": "Donkey Kong",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 72,
         "alts": [
             {
                 "slot": 1,
@@ -10733,6 +10805,7 @@
         "series": "Animal Crossing",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 73,
         "alts": [
             {
                 "slot": 1,
@@ -10834,6 +10907,7 @@
         "series": "Pokémon",
         "availability": "Unlockable",
         "also_appears_in": [],
+        "order": 74,
         "alts": [
             {
                 "slot": 1,
@@ -10945,6 +11019,7 @@
         "series": "Mario",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 75,
         "alts": [
             {
                 "slot": 1,
@@ -11131,6 +11206,7 @@
         "series": "Persona",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 76,
         "alts": [
             {
                 "slot": 1,
@@ -11317,6 +11393,7 @@
         "series": "Dragon Quest",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 77,
         "alts": [
             {
                 "slot": 1,
@@ -11558,6 +11635,7 @@
         "series": "Banjo-Kazooie",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 78,
         "alts": [
             {
                 "slot": 1,
@@ -11734,6 +11812,7 @@
         "series": "Fatal Fury",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 79,
         "alts": [
             {
                 "slot": 1,
@@ -11955,6 +12034,7 @@
         "series": "Fire Emblem",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 80,
         "alts": [
             {
                 "slot": 1,
@@ -12141,6 +12221,7 @@
         "series": "ARMS",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 81,
         "alts": [
             {
                 "slot": 1,
@@ -12312,6 +12393,7 @@
         "series": "Minecraft",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 82,
         "alts": [
             {
                 "slot": 1,
@@ -12688,6 +12770,7 @@
         "series": "Final Fantasy",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 83,
         "alts": [
             {
                 "slot": 1,
@@ -12880,6 +12963,7 @@
         "series": "Xenoblade Chronicles",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 84,
         "alts": [
             {
                 "slot": 1,
@@ -13102,6 +13186,7 @@
         "series": "Tekken",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 85,
         "alts": [
             {
                 "slot": 1,
@@ -13428,6 +13513,7 @@
         "series": "Kingdom Hearts",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "order": 86,
         "alts": [
             {
                 "slot": 1,
