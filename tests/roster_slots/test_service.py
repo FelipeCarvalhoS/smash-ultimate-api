@@ -11,7 +11,7 @@ FILTER_TEST_CASES = [
     ({'ids': ['1', '2', '4e']}, ['Mario', 'Donkey Kong', 'Dark Samus']),
     ({'ids': ['33', '34', '35', '79', '80']}, ['Pyra/Mythra', 'Pokémon Trainer']),
     ({'ids': ['0', '81']}, ['Kazuya']),
-    ({'ids': ['invalid', '0', '83', '-1']}, []),
+    ({'ids': ['invalid', '0', str(TOTAL_ROSTER_SLOTS + 1), '-1']}, []),
     ({'name': ['Mario']}, ['Dr. Mario', 'Mario']),
     ({'name': ['pOkÉmon TraineR']}, ['Pokémon Trainer']),
     ({'name': ['KING']}, ['King K. Rool', 'King Dedede']),
@@ -59,7 +59,7 @@ class TestRosterSlotService:
         assert id in roster_slot.ids
         assert roster_slot.name == name
 
-    @pytest.mark.parametrize('id', ['invalid-id', '0', '83', '-1'])
+    @pytest.mark.parametrize('id', ['invalid-id', '0', str(TOTAL_ROSTER_SLOTS + 1), '-1'])
     def test_get_by_id_not_found(self, id):
         roster_slot = roster_slot_service.get_by_id(id)
         assert roster_slot is None

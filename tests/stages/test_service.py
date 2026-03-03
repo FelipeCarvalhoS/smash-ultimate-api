@@ -39,7 +39,7 @@ class TestStageService:
     def test_get_by_id(self, id, name):
         assert stage_service.get_by_id(id).name == name
 
-    @pytest.mark.parametrize('id', [0, 116, -1])
+    @pytest.mark.parametrize('id', [0, TOTAL_STAGES + 1, -1])
     def test_get_by_id_not_found(self, id):
         stage = stage_service.get_by_id(id)
         assert stage is None
@@ -63,5 +63,5 @@ class TestStageService:
         assert Counter([stage.name for stage in stages]) == Counter(['Battlefield', 'Big Battlefield', 'Small Battlefield'])
 
     def test_filter_does_not_return_duplicates(self):
-        stages = stage_service.filter(id=[33, 0, 115, 1, 116] * 2)
+        stages = stage_service.filter(id=[33, 0, TOTAL_STAGES, 1, TOTAL_STAGES + 1] * 2)
         assert len(stages) == len(set(stage.name for stage in stages))
