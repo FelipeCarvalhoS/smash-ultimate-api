@@ -1,0 +1,1383 @@
+[
+    {
+        "id": 1,
+        "name": "Smash Ball",
+        "slug": "smash-ball",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "Flies around the stage. Characters must break in order to obtain. Once broken, player presses their neutral special button to use their Final Smash. Will fly off-stage after a short period if not obtained and used."
+    },
+    {
+        "id": 2,
+        "name": "Assist Trophy",
+        "slug": "assist-trophy",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Summoning"
+        ],
+        "heavy": false,
+        "notes": "When picked up, after the character lands on the ground, they will perform a short animation and summon a random character to aid them in the fight."
+    },
+    {
+        "id": 3,
+        "name": "Poké Ball",
+        "slug": "poke-ball",
+        "series": "Pokémon",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing",
+            "Summoning"
+        ],
+        "heavy": false,
+        "notes": "Once thrown and lands on the ground, unleashes a Pokémon to aid the user."
+    },
+    {
+        "id": 4,
+        "name": "Master Ball",
+        "slug": "master-ball",
+        "series": "Pokémon",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing",
+            "Summoning"
+        ],
+        "heavy": false,
+        "notes": "Just like the Poké Ball, but it is guaranteed to release a rare or Legendary Pokémon."
+    },
+    {
+        "id": 5,
+        "name": "Dragoon",
+        "slug": "dragoon",
+        "series": "Kirby",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "Appears in three pieces that must be collected all at once; characters can lose pieces from their possession when hit or KO'd. Once one character has all the pieces the Dragoon is assembled and flown into the stage for a one-hit KO ram attack."
+    },
+    {
+        "id": 6,
+        "name": "Daybreak",
+        "slug": "daybreak",
+        "series": "Kid Icarus",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special",
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Appears in three pieces that must be collected all at once; characters can lose pieces from their possession when hit or KO'd. Once one character has all the pieces the weapon assembles in their hands, which they can then use at their discretion to fire a giant laser across the stage, almost guaranteed to KO anyone it hits."
+    },
+    {
+        "id": 7,
+        "name": "Bomber",
+        "slug": "bomber",
+        "series": "Kirby",
+        "also_appears_in": [],
+        "types": [
+            "Explosive"
+        ],
+        "heavy": false,
+        "notes": "Explodes in the player's hand when used. Only affects enemies."
+    },
+    {
+        "id": 8,
+        "name": "Blast Box",
+        "slug": "blast-box",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive"
+        ],
+        "heavy": true,
+        "notes": "Very poor throwing distance. Explodes upon taking 30% damage or a flame attack."
+    },
+    {
+        "id": 9,
+        "name": "Fake Smash Ball",
+        "slug": "fake-smash-ball",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Explosive"
+        ],
+        "heavy": false,
+        "notes": "Flies around the stage, similar to the Smash Ball. Characters can break it in order to activate. Once broken, it will explode."
+    },
+    {
+        "id": 10,
+        "name": "Sandbag",
+        "slug": "sandbag",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special",
+            "Container"
+        ],
+        "heavy": false,
+        "notes": "When attacked, produces items."
+    },
+    {
+        "id": 11,
+        "name": "Food",
+        "slug": "food",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "Each type of food recovers a different amount of damage. Can be produced in large numbers by Peach Blossom."
+    },
+    {
+        "id": 12,
+        "name": "Maxim Tomato",
+        "slug": "maxim-tomato",
+        "series": "Kirby",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "The third most powerful recovery item, healing up to 50% damage (in the original Super Smash Bros., it can heal up to 100% damage)."
+    },
+    {
+        "id": 13,
+        "name": "Heart Container",
+        "slug": "heart-container",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "Strongest recovery item, recovering up to 100% damage (in the original Super Smash Bros., it can reset player health to 0%)."
+    },
+    {
+        "id": 14,
+        "name": "Fairy Bottle",
+        "slug": "fairy-bottle",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing",
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "Recovers an excess of 100% damage, but only if the user's damage is 100% or more. Otherwise, can be thrown, but will heal anyone hit who meets the prior requirement."
+    },
+    {
+        "id": 15,
+        "name": "Healing Sprout",
+        "slug": "healing-sprout",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Throwing",
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "Sticks to fighters and gradually heals them. Can be transferred on contact like the Gooey Bomb."
+    },
+    {
+        "id": 16,
+        "name": "Healing Field",
+        "slug": "healing-field",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Throwing",
+            "Recovery"
+        ],
+        "heavy": false,
+        "notes": "Can be thrown on the ground. Once thrown, it will open up and will heal anyone standing on it."
+    },
+    {
+        "id": 17,
+        "name": "Super Mushroom",
+        "slug": "super-mushroom",
+        "series": "Mario",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Slides across the stage. When touched, enlarges the character."
+    },
+    {
+        "id": 18,
+        "name": "Poison Mushroom",
+        "slug": "poison-mushroom",
+        "series": "Mario",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Slides across the stage. When touched, shrinks the character."
+    },
+    {
+        "id": 19,
+        "name": "Super Star",
+        "slug": "super-star",
+        "series": "Mario",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Bounces across the stage, and makes whoever it touches invulnerable to all damage and knockback for a short time. Users can still be KO'd if they fall off the stage with it."
+    },
+    {
+        "id": 20,
+        "name": "Warp Star",
+        "slug": "warp-star",
+        "series": "Kirby",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special",
+            "Explosive"
+        ],
+        "heavy": false,
+        "notes": "Once picked up, the user flies into the sky and then crashes down with an explosion. Can be steered slightly, and if there are platforms above, will land there instead of the starting point."
+    },
+    {
+        "id": 21,
+        "name": "Metal Box",
+        "slug": "metal-box",
+        "series": "Mario",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Turns the user metallic, increasing their weight and falling speed, while also reducing the chances of flinching. Can be activated by pickup or by direct attack; indirect attacks will either destroy it (in Melee) or do nothing (other games)."
+    },
+    {
+        "id": 22,
+        "name": "Bunny Hood",
+        "slug": "bunny-hood",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Increases the user's movement speed, jump height, and falling speed."
+    },
+    {
+        "id": 23,
+        "name": "Superspicy Curry",
+        "slug": "superspicy-curry",
+        "series": "Kirby",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status",
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Causes the user to constantly shoot short-range fireballs and be incapable of walking slowly."
+    },
+    {
+        "id": 24,
+        "name": "Timer",
+        "slug": "timer",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Slows down all opponents. Can backfire and slow down the user, or slow down the entire game."
+    },
+    {
+        "id": 25,
+        "name": "Lightning Bolt",
+        "slug": "lightning-bolt",
+        "series": "Mario",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "When touched, shrinks all opponents. Can backfire and shrink the user or enlarge all opponents."
+    },
+    {
+        "id": 26,
+        "name": "Bullet Bill",
+        "slug": "bullet-bill",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Transformation"
+        ],
+        "heavy": false,
+        "notes": "Transforms the user into a Bullet Bill and launches them in a specified direction, dealing big damage to anyone they hit along the way. After a set distance, the user returns to normal. Can be reflected."
+    },
+    {
+        "id": 27,
+        "name": "Beam Sword",
+        "slug": "beam-sword",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "Starting in Melee, gets longer when swung depending on character. Prior to Super Smash Bros. 4, Peach had a rare chance of plucking one when using Vegetable."
+    },
+    {
+        "id": 28,
+        "name": "Star Rod",
+        "slug": "star-rod",
+        "series": "Kirby",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering",
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Has a limited supply of long-range star shots produced on f-tilt or f-smash."
+    },
+    {
+        "id": 29,
+        "name": "Home-Run Bat",
+        "slug": "home-run-bat",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "An extremely powerful item. Its forward smash is among the most powerful attacks in all games, being a one-hit KO in every one. As a throwing item, it maintains its high knockback and is a semi-spike. From Brawl onwards, its forward smash uses a unique animation, and can reflect projectiles from SSB4 onwards. It becomes stronger when hit on the tip."
+    },
+    {
+        "id": 30,
+        "name": "Hammer",
+        "slug": "hammer",
+        "series": "Donkey Kong",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special",
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "One of the most feared items in the game due to its range, damage, and knockback. However, it limits the user to walking and a single jump; the user cannot even choose to drop the item. May randomly lose its head and become useless."
+    },
+    {
+        "id": 31,
+        "name": "Golden Hammer",
+        "slug": "golden-hammer",
+        "series": "Wrecking Crew",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special",
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "Acts the same as the regular Hammer, though faster, more powerful and with the ability to float. May be a dud Squeaky Hammer that deals no damage at all."
+    },
+    {
+        "id": 32,
+        "name": "Lip's Stick",
+        "slug": "lip-s-stick",
+        "series": "Panel de Pon",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "Flowers opponents. Has a limited supply of short-range spore projectiles produced on f-tilt or f-smash."
+    },
+    {
+        "id": 33,
+        "name": "Fire Bar",
+        "slug": "fire-bar",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "Causes fire damage. Grows shorter with each successful attack."
+    },
+    {
+        "id": 34,
+        "name": "Ore Club",
+        "slug": "ore-club",
+        "series": "Kid Icarus",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "An extremely powerful club made of stone that produces tornadoes when swung. Grants super armor when used as a forward smash."
+    },
+    {
+        "id": 35,
+        "name": "Killing Edge",
+        "slug": "killing-edge",
+        "series": "Fire Emblem",
+        "also_appears_in": [],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "A sword that deals x2 more damage and knockback when glowing."
+    },
+    {
+        "id": 36,
+        "name": "Death's Scythe",
+        "slug": "death-s-scythe",
+        "series": "Castlevania",
+        "also_appears_in": [],
+        "types": [
+            "Battering"
+        ],
+        "heavy": false,
+        "notes": "Instantly KOs opponents at high percentages."
+    },
+    {
+        "id": 37,
+        "name": "Ray Gun",
+        "slug": "ray-gun",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Fires blasts of energy that have infinite horizontal range."
+    },
+    {
+        "id": 38,
+        "name": "Fire Flower",
+        "slug": "fire-flower",
+        "series": "Mario",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Produces a continuous stream of short-range fire."
+    },
+    {
+        "id": 39,
+        "name": "Super Scope",
+        "slug": "super-scope",
+        "series": "Nintendo",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Can shoot a total of 48 small rapid-fire pulses of energy or charge 3 large blobs of energy."
+    },
+    {
+        "id": 40,
+        "name": "Gust Bellows",
+        "slug": "gust-bellows",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Blows gusts of wind at other players to push them away."
+    },
+    {
+        "id": 41,
+        "name": "Steel Diver",
+        "slug": "steel-diver",
+        "series": "Steel Diver",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "A smaller gun-like version of the Steel Diver from the self-titled game for the Nintendo 3DS. Fires a torpedo which travels slowly at first. Deals no shield damage whatsoever."
+    },
+    {
+        "id": 42,
+        "name": "Drill",
+        "slug": "drill",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Allows the wearer to fire a large drill."
+    },
+    {
+        "id": 43,
+        "name": "Banana Gun",
+        "slug": "banana-gun",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Ejects the banana out of the peel and the player is left with the banana peel after using it."
+    },
+    {
+        "id": 44,
+        "name": "Rage Blaster",
+        "slug": "rage-blaster",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Fires a blast of energy. The higher the percent a user has, the faster the blast travels and the more damage it does."
+    },
+    {
+        "id": 45,
+        "name": "Ramblin' Evil Mushroom",
+        "slug": "ramblin-evil-mushroom",
+        "series": "EarthBound",
+        "also_appears_in": [],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Fires a continuous stream of spores that causes a mushroom to grow on the opponent's head, reversing their left and right controls."
+    },
+    {
+        "id": 46,
+        "name": "Staff",
+        "slug": "staff",
+        "series": "Kid Icarus",
+        "also_appears_in": [],
+        "types": [
+            "Shooting"
+        ],
+        "heavy": false,
+        "notes": "Shoots a beam. The farther the opponent is, the more damage it deals."
+    },
+    {
+        "id": 47,
+        "name": "Bob-omb",
+        "slug": "bob-omb",
+        "series": "Mario",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Very powerful explosive. If not grabbed within a few seconds of its appearance, it lights its own fuse and begins walking around, exploding on any character it meets. If it doesn't meet a character it will blow itself up after a while. Peach has a rare chance of plucking one when using Vegetable."
+    },
+    {
+        "id": 48,
+        "name": "Motion-Sensor Bomb",
+        "slug": "motion-sensor-bomb",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Attaches to the stage once thrown; characters that approach it after a short time cause it to explode."
+    },
+    {
+        "id": 49,
+        "name": "Green Shell",
+        "slug": "green-shell",
+        "series": "Mario",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "When thrown, attacked, or landed on, slides across the stage and damages everything it hits. Can be stopped by jumping on it."
+    },
+    {
+        "id": 50,
+        "name": "Bumper",
+        "slug": "bumper",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be placed on the stage or (starting in Brawl) set in midair, where it will knock away characters that touch it. If two or more are present, they can be used to momentarily trap characters by bouncing them back and forth."
+    },
+    {
+        "id": 51,
+        "name": "Freezie",
+        "slug": "freezie",
+        "series": "Mario",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Slides across the stage, freezing characters when struck by it. Can be destroyed before being picked up."
+    },
+    {
+        "id": 52,
+        "name": "Mr. Saturn",
+        "slug": "mr-saturn",
+        "series": "EarthBound",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Walks around the stage and can be knocked about by attacks. Deals massive damage to shields when thrown, but only minor damage otherwise."
+    },
+    {
+        "id": 53,
+        "name": "Gooey Bomb",
+        "slug": "gooey-bomb",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "When thrown, attaches to characters and can transfer to other characters that pass by. Explodes after a certain time or if attacked when not on a character."
+    },
+    {
+        "id": 54,
+        "name": "Smart Bomb",
+        "slug": "smart-bomb",
+        "series": "Star Fox",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Produces a large explosion when thrown or attacked. Has a chance to be a dud, though it can still explode if hit or thrown again."
+    },
+    {
+        "id": 55,
+        "name": "Deku Nut",
+        "slug": "deku-nut",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "When thrown, damaged, or after a short time (even if held), nearby characters are stunned (if grounded) or launched (if aerial). Used in the Rathalos battle."
+    },
+    {
+        "id": 56,
+        "name": "Smoke Ball",
+        "slug": "smoke-ball",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Once thrown, spews smoke around its immediate area. May stick to opponents."
+    },
+    {
+        "id": 57,
+        "name": "Pitfall",
+        "slug": "pitfall",
+        "series": "Animal Crossing",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Embeds itself into the ground once thrown; characters that approach it after a short time will be buried or Meteor Smashed. Can also be thrown at an opponent directly for the same effect."
+    },
+    {
+        "id": 58,
+        "name": "Hothead",
+        "slug": "hothead",
+        "series": "Mario",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Follows the contours of the stage once thrown. Grows in size and damage but lasts for a shorter time when hit by flame or electric attacks."
+    },
+    {
+        "id": 59,
+        "name": "Banana Peel",
+        "slug": "banana-peel",
+        "series": "Mario",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Once thrown, trips opponents that touch it. Diddy Kong can summon these by using his down special, Banana Peel, leading into deadly mindgames and combo/KO setups. Players also spawn one after using Banana Gun"
+    },
+    {
+        "id": 60,
+        "name": "Unira",
+        "slug": "unira",
+        "series": "Clu Clu Land",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Attaches to the stage once thrown or attacked and pokes opponents that come near. Can be set or reset with a direct attack; indirect ones do nothing."
+    },
+    {
+        "id": 61,
+        "name": "Soccer Ball",
+        "slug": "soccer-ball",
+        "series": "Mario",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "Cannot be picked up. When attacked, it careens in the knockback direction with high damage and knockback."
+    },
+    {
+        "id": 62,
+        "name": "Bombchu",
+        "slug": "bombchu",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can move up walls and across floors and ceilings. Explodes on contact with opponent."
+    },
+    {
+        "id": 63,
+        "name": "X Bomb",
+        "slug": "x-bomb",
+        "series": "Kid Icarus",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Creates a cross-shaped explosion that spans most of the screen."
+    },
+    {
+        "id": 64,
+        "name": "Hocotate Bomb",
+        "slug": "hocotate-bomb",
+        "series": "Pikmin",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "A bomb shaped like the Hocotate Ship that will fly off, and then crash down after a set time."
+    },
+    {
+        "id": 65,
+        "name": "POW Block",
+        "slug": "pow-block",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "When thrown, it causes an earthquake, launching all characters (including the player) straight up if on the ground. Can be used three times."
+    },
+    {
+        "id": 66,
+        "name": "Spiny Shell",
+        "slug": "spiny-shell",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Explosive",
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Commonly known as the 'Blue Shell'. Hovers above a player before dropping onto them and exploding. Can be dodged, or it can hit someone other than its intended target on descent."
+    },
+    {
+        "id": 67,
+        "name": "Boomerang",
+        "slug": "boomerang",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be thrown at and grabbed by opponents. Returns to the thrower unless intercepted. Gains power when caught."
+    },
+    {
+        "id": 68,
+        "name": "Beetle",
+        "slug": "beetle",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be thrown towards an opponent, and the item will grab the opponent and fly off into the air with them. Can be reversed by hitting it."
+    },
+    {
+        "id": 69,
+        "name": "Cucco",
+        "slug": "cucco",
+        "series": "The Legend of Zelda",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be thrown at opponents. If attacked or thrown at a player, it summons various Cuccos that attack the player that attacked it or was hit by it."
+    },
+    {
+        "id": 70,
+        "name": "Beehive",
+        "slug": "beehive",
+        "series": "Animal Crossing",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be thrown at opponents. If attacked or thrown at a player, it summons bees that attack the player that attacked it or was hit by it."
+    },
+    {
+        "id": 71,
+        "name": "Killer Eye",
+        "slug": "killer-eye",
+        "series": "Kid Icarus",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "When placed, can fire energy beams in the direction it faces. Hitting it flips it around."
+    },
+    {
+        "id": 72,
+        "name": "Boss Galaga",
+        "slug": "boss-galaga",
+        "series": "Galaxian",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "Carries foes upward to the top of the screen. Can be destroyed by attacking it."
+    },
+    {
+        "id": 73,
+        "name": "Beastball",
+        "slug": "beastball",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Reappears near an opponent after being thrown and targets them, covered in flames."
+    },
+    {
+        "id": 74,
+        "name": "Black Hole",
+        "slug": "black-hole",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Creates a massive black hole, dragging all items and players nearby in. Throws the opposite side of user's orientation."
+    },
+    {
+        "id": 75,
+        "name": "Franklin Badge",
+        "slug": "franklin-badge",
+        "series": "EarthBound",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Temporarily makes the wearer immune to projectiles by automatically reflecting them. Can be knocked off."
+    },
+    {
+        "id": 76,
+        "name": "Screw Attack",
+        "slug": "screw-attack",
+        "series": "Metroid",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Throwing",
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Turns the holder's jumps into Screw Attacks. In Melee, applies for as long as the holder keeps the item, and a forced Screw Attack will be applied to those the item is thrown at. In Brawl, applies until the item wears off and does not need to be held in-hand once picked up."
+    },
+    {
+        "id": 77,
+        "name": "Back Shield",
+        "slug": "back-shield",
+        "series": "Kid Icarus",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Defends the wearer from attacks towards their back."
+    },
+    {
+        "id": 78,
+        "name": "Super Leaf",
+        "slug": "super-leaf",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Gives the user raccoon ears and tail. Allows the user to float in mid-air using the jump button."
+    },
+    {
+        "id": 79,
+        "name": "Rocket Belt",
+        "slug": "rocket-belt",
+        "series": "Pilotwings",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Status"
+        ],
+        "heavy": false,
+        "notes": "Can be equipped and used to increase upward momentum at will, similar to R.O.B.'s up-special."
+    },
+    {
+        "id": 80,
+        "name": "Super Launch Star",
+        "slug": "super-launch-star",
+        "series": "Mario",
+        "also_appears_in": [],
+        "types": [
+            "Throwing"
+        ],
+        "heavy": false,
+        "notes": "Can be set in midair, where it will attract and launch any characters that get too close to it. The launch has the potential to KO fighters."
+    },
+    {
+        "id": 81,
+        "name": "Special Flag",
+        "slug": "special-flag",
+        "series": "Rally-X",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "Can be held above the user's head for a long period to gain either a KO point in a timed match or a stock in a stock match. Unlike other items, this one will always be dropped if the user is hit while holding it."
+    },
+    {
+        "id": 82,
+        "name": "Crate",
+        "slug": "crate",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Container"
+        ],
+        "heavy": true,
+        "notes": "Contains many items. Has a one-in-eight chance of exploding when thrown, or hit with enough force to break."
+    },
+    {
+        "id": 83,
+        "name": "Rolling Crate",
+        "slug": "rolling-crate",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Container"
+        ],
+        "heavy": true,
+        "notes": "When thrown, struck, or landing on a hill, it will roll across the stage and damage what it hits without breaking, though it will break with enough force. Can be stood on."
+    },
+    {
+        "id": 84,
+        "name": "Barrel",
+        "slug": "barrel",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Container"
+        ],
+        "heavy": true,
+        "notes": "Once thrown, struck, or landed on a slope, may roll across the stage and damage what it hits before breaking. Has a one-in-eight chance of exploding."
+    },
+    {
+        "id": 85,
+        "name": "Capsule",
+        "slug": "capsule",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "64",
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Container"
+        ],
+        "heavy": false,
+        "notes": "Contains a single item. Has a one-in-eight chance of exploding."
+    },
+    {
+        "id": 86,
+        "name": "Party Ball",
+        "slug": "party-ball",
+        "series": "Super Smash Bros.",
+        "also_appears_in": [
+            "Melee",
+            "Brawl",
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Container"
+        ],
+        "heavy": true,
+        "notes": "Once activated by being thrown or damaged, it floats into the air and opens, dropping its items."
+    },
+    {
+        "id": 87,
+        "name": "Grass",
+        "slug": "grass",
+        "series": "Mario",
+        "also_appears_in": [
+            "3DS",
+            "Wii U"
+        ],
+        "types": [
+            "Special"
+        ],
+        "heavy": false,
+        "notes": "When picked up, another item appears in its place."
+    }
+]
