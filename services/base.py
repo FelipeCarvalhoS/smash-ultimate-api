@@ -11,12 +11,7 @@ class Service(ABC, Generic[T]):
     def __init__(self, schema: Type[T], data_filename: str):
         self._schema = schema
         self._data = [self._schema.model_validate(stage) for stage in load_json(data_filename)]
-        self._indexes = self._get_indexes()
         self._filter_strategies = self._get_filter_strategies()
-
-    @abstractmethod
-    def _get_indexes(self):
-        raise NotImplementedError("Subclasses must implement _get_indexes method")
     
     @abstractmethod
     def _get_filter_strategies(self):

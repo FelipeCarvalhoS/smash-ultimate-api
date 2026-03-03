@@ -22,6 +22,7 @@ class Stage(BaseModel):
 
 
 class StageQueryParams(BaseModel):
+    ids: list[int] | None = None
     names: list[str] | None = None
     series: list[Series] | None = None
     availability: list[Availability] | None = None

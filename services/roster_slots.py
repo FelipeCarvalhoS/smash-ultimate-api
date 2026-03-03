@@ -5,6 +5,7 @@ from schemas.roster_slots import RosterSlot
 class RosterSlotService(Service[RosterSlot]):
     def __init__(self):
         super().__init__(RosterSlot, 'roster_slots.json')
+        self._indexes = self._get_indexes()
 
     def _get_indexes(self):
         indexes = {}
