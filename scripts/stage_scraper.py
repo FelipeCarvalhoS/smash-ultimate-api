@@ -13,7 +13,7 @@ def get_id(name):
     with open("scripts/stage_order.txt", "r") as f:
         lines = f.readlines()
         for i, line in enumerate(lines):
-            if name in line:
+            if name == line.strip():
                 return i + 1
     exit(f"Stage '{name}' not found in stage_order.txt")
 

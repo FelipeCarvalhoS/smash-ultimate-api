@@ -68,11 +68,10 @@ class TestRosterSlotService:
         roster_slots = roster_slot_service.get_all()
         assert len(roster_slots) == TOTAL_ROSTER_SLOTS
 
-    def test_all_ids_return_correct_slots(self):
-        all_slots = roster_slot_service.get_all()
-        for slot in all_slots:
-            for fighter_id in slot.ids:
-                assert roster_slot_service.get_by_id(fighter_id) == slot
+    @pytest.mark.parametrize('roster_slot', roster_slot_service.get_all())
+    def test_ids_return_correct_roster_slot(self, roster_slot):
+        for fighter_id in roster_slot.ids:
+            assert roster_slot_service.get_by_id(fighter_id) == roster_slot
 
     @pytest.mark.parametrize('filters, expected_names', FILTER_TEST_CASES)
     def test_filter(self, filters, expected_names):

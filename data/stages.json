@@ -234,18 +234,6 @@
         "is_original_or_new_version": false
     },
     {
-        "id": 19,
-        "name": "Yoshi's Island",
-        "slug": "yoshi-s-island",
-        "series": "Yoshi",
-        "availability": "Starter",
-        "also_appears_in": [
-            "Brawl",
-            "3DS"
-        ],
-        "is_original_or_new_version": false
-    },
-    {
         "id": 20,
         "name": "Yoshi's Story",
         "slug": "yoshi-s-story",
@@ -453,6 +441,18 @@
         "availability": "Starter",
         "also_appears_in": [
             "Brawl"
+        ],
+        "is_original_or_new_version": false
+    },
+    {
+        "id": 38,
+        "name": "Yoshi's Island",
+        "slug": "yoshi-s-island",
+        "series": "Yoshi",
+        "availability": "Starter",
+        "also_appears_in": [
+            "Brawl",
+            "3DS"
         ],
         "is_original_or_new_version": false
     },
