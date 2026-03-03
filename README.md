@@ -50,7 +50,22 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 
 ### Stages
 
-Not yet implemented.
+#### Description
+
+Arenas where fights occur.
+
+#### Schema
+`id`: Stage ID (follows the stage selection screen order).
+
+`name`: Stage name.
+
+`slug`: Slugified version of the name.
+
+`series`: Franchise or universe the stage comes from.
+
+`availability`: Starter, free DLC, or paid DLC.
+
+`also_appears_in`: Other Smash games where the stage appears in.
 
 ### Items
 
