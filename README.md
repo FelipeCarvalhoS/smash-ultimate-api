@@ -30,7 +30,7 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 #### Schema
 `ids`: IDs of the fighters contained in the roster slot.
 
-`name`: Name of the roster slot.
+`name`: Roster slot name.
 
 `slug`: Slugified version of the name.
 
