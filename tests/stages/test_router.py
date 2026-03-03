@@ -1,4 +1,5 @@
 from fastapi.testclient import TestClient
+from constants import TOTAL_STAGES
 from main import app
 from schemas.stages import Stage
 
@@ -15,7 +16,7 @@ class TestStageRouter:
         assert data['name'] == 'Great Plateau Tower'
 
     def test_get_stage_404(self):
-        response = client.get('/stages/116')
+        response = client.get(f'/stages/{str(TOTAL_STAGES + 1)}')
         assert response.status_code == 404
 
     def test_get_random_stage(self):
