@@ -7,7 +7,7 @@ from .shared import SmashGames, Series
 class Availability(StrEnum):
     STARTER = 'Starter'
     UNLOCKABLE = 'Unlockable'
-    DLC = 'DLC'
+    PAID_DLC = 'Paid DLC'
     CUSTOM = 'Custom'
 
 

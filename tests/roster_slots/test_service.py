@@ -23,7 +23,7 @@ FILTER_TEST_CASES = [
     ({'series': ['Kingdom Hearts']}, ['Sora']),
     ({'series': ['Xenoblade Chronicles']}, ['Pyra/Mythra', 'Shulk']),
     ({'series': ['invalid']}, []),
-    ({'availability': ['DLC']}, ['Piranha Plant', 'Joker', 'Hero', 'Banjo & Kazooie', 'Terry', 'Byleth', 'Min Min', 'Steve', 'Sephiroth', 'Pyra/Mythra', 'Kazuya', 'Sora']),
+    ({'availability': ['Paid DLC']}, ['Piranha Plant', 'Joker', 'Hero', 'Banjo & Kazooie', 'Terry', 'Byleth', 'Min Min', 'Steve', 'Sephiroth', 'Pyra/Mythra', 'Kazuya', 'Sora']),
     ({'availability': ['Starter', 'Custom']}, ['Mario', 'Donkey Kong', 'Link', 'Fox', 'Kirby', 'Pikachu', 'Samus', 'Yoshi', 'Mii Gunner', 'Mii Brawler', 'Mii Swordfighter']),
     ({'availability': ['invalid']}, []),
     ({'also_appears_in': ['64']}, ['Mario', 'Donkey Kong', 'Link', 'Fox', 'Kirby', 'Pikachu', 'Samus', 'Yoshi', 'Luigi', 'Ness', 'Captain Falcon', 'Jigglypuff']),

@@ -5867,7 +5867,7 @@
         ],
         "name": "Sonic",
         "slug": "sonic",
-        "series": "Sonic",
+        "series": "Sonic the Hedgehog",
         "availability": "Unlockable",
         "also_appears_in": [
             "Brawl",
@@ -10943,7 +10943,7 @@
         "name": "Piranha Plant",
         "slug": "piranha-plant",
         "series": "Mario",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -11129,7 +11129,7 @@
         "name": "Joker",
         "slug": "joker",
         "series": "Persona",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -11315,7 +11315,7 @@
         "name": "Hero",
         "slug": "hero",
         "series": "Dragon Quest",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -11556,7 +11556,7 @@
         "name": "Banjo & Kazooie",
         "slug": "banjo-kazooie",
         "series": "Banjo-Kazooie",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -11732,7 +11732,7 @@
         "name": "Terry",
         "slug": "terry",
         "series": "Fatal Fury",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -11953,7 +11953,7 @@
         "name": "Byleth",
         "slug": "byleth",
         "series": "Fire Emblem",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -12139,7 +12139,7 @@
         "name": "Min Min",
         "slug": "min-min",
         "series": "ARMS",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -12310,7 +12310,7 @@
         "name": "Steve",
         "slug": "steve",
         "series": "Minecraft",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -12686,7 +12686,7 @@
         "name": "Sephiroth",
         "slug": "sephiroth",
         "series": "Final Fantasy",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -12878,7 +12878,7 @@
         "name": "Pyra/Mythra",
         "slug": "pyra-mythra",
         "series": "Xenoblade Chronicles",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -13100,7 +13100,7 @@
         "name": "Kazuya",
         "slug": "kazuya",
         "series": "Tekken",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {
@@ -13426,7 +13426,7 @@
         "name": "Sora",
         "slug": "sora",
         "series": "Kingdom Hearts",
-        "availability": "DLC",
+        "availability": "Paid DLC",
         "also_appears_in": [],
         "alts": [
             {

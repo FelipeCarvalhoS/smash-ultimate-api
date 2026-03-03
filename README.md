@@ -36,7 +36,7 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 
 `series`: Franchise or universe the roster slot comes from.
 
-`availability`: Starter, unlockable, DLC, or custom (Miis).
+`availability`: Starter, unlockable, paid DLC, or custom (Miis).
 
 `also_appears_in`: Other Smash games where the roster slot is playable.
 
