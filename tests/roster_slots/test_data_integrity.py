@@ -138,3 +138,6 @@ class TestRosterSlotDataIntegrity:
     def test_tips_are_not_empty(self, entry):
         assert all(tip['content'].strip() != '' for tip in entry['tips'])
 
+    @pytest.mark.parametrize('i, entry', enumerate(data), ids=[d['slug'] for d in data])
+    def test_order(self, i, entry):
+        assert entry['order'] == i + 1
