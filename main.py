@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from routers import roster_slots
-from routers import stages
+from routers import roster_slots, stages, items
 
 app = FastAPI()
 app.include_router(roster_slots.router)
 app.include_router(stages.router)
+app.include_router(items.router)
 
 
 @app.get('/')
