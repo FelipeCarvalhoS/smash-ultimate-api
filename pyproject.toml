@@ -35,3 +35,6 @@ omit = [
 exclude_also = [
     "raise NotImplementedError",
 ]
+
+[tool.uv]
+package = false
