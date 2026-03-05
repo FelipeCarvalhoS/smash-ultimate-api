@@ -1,18 +1,10 @@
 from fastapi import FastAPI
-from middleware import RateLimiterMiddleware
-from pyrate_limiter import Duration, Limiter, Rate
 from routers import roster_slots, stages, items
-
 
 app = FastAPI()
 app.include_router(roster_slots.router)
 app.include_router(stages.router)
 app.include_router(items.router)
-
-app.add_middleware(
-    RateLimiterMiddleware,
-    limiter=Limiter(Rate(60, Duration.MINUTE * 1)),
-)
 
 
 @app.get('/')
