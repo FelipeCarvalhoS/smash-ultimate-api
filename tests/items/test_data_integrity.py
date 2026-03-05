@@ -62,3 +62,7 @@ class TestItemDataIntegrity:
                 previous_game = game
             else:
                 assert games_ordered.index(previous_game) < games_ordered.index(game)
+
+    @pytest.mark.parametrize('i, entry', enumerate(data), ids=[d['slug'] for d in data])
+    def test_ids_ordered(self, i, entry):
+        assert entry['id'] == i + 1
