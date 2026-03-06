@@ -10,6 +10,14 @@ with open('data/roster_slots.json', 'r') as f:
     data = json.load(f)
 
 
+SPECIAL_SLUGS = {
+    'R.O.B.': 'rob',
+    'Mr. Game & Watch': 'mr-game-and-watch',
+    'Rosalina & Luma': 'rosalina-and-luma',
+    'Banjo & Kazooie': 'banjo-and-kazooie',
+}
+    
+
 class TestRosterSlotDataIntegrity:
     def test_roster_slots_are_list(self):
         assert isinstance(data, list)
@@ -93,7 +101,10 @@ class TestRosterSlotDataIntegrity:
 
     @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
     def test_slugs(self, entry):
-        assert entry['slug'] == slugify(entry['name'])
+        if entry['name'] in SPECIAL_SLUGS.keys():
+            assert entry['slug'] == SPECIAL_SLUGS[entry['name']]
+        else:
+            assert entry['slug'] == slugify(entry['name'])
 
     def test_slugs_unique(self):
         all_slugs = [entry['slug'] for entry in data]

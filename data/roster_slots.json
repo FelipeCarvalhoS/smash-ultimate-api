@@ -4164,7 +4164,7 @@
             "26"
         ],
         "name": "Mr. Game & Watch",
-        "slug": "mr-game-watch",
+        "slug": "mr-game-and-watch",
         "series": "Game & Watch",
         "availability": "Unlockable",
         "also_appears_in": [
@@ -6521,7 +6521,7 @@
             "42"
         ],
         "name": "R.O.B.",
-        "slug": "r-o-b",
+        "slug": "rob",
         "series": "R.O.B.",
         "availability": "Unlockable",
         "also_appears_in": [
@@ -7431,7 +7431,7 @@
             "48"
         ],
         "name": "Rosalina & Luma",
-        "slug": "rosalina-luma",
+        "slug": "rosalina-and-luma",
         "series": "Mario",
         "availability": "Unlockable",
         "also_appears_in": [
@@ -11631,7 +11631,7 @@
             "73"
         ],
         "name": "Banjo & Kazooie",
-        "slug": "banjo-kazooie",
+        "slug": "banjo-and-kazooie",
         "series": "Banjo-Kazooie",
         "availability": "Paid DLC",
         "also_appears_in": [],
