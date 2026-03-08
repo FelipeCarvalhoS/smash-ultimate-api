@@ -2,6 +2,7 @@ import json
 from pydantic_core import ValidationError
 from slugify import slugify
 import pytest
+from config import R2_URL
 from schemas.stages import Stage, SmashGames
 from constants import TOTAL_STAGES
 
@@ -66,3 +67,7 @@ class TestStageDataIntegrity:
     @pytest.mark.parametrize('i, entry', enumerate(data), ids=[d['slug'] for d in data])
     def test_ids_ordered(self, i, entry):
         assert entry['id'] == i + 1
+
+    @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
+    def test_images(self, entry):
+        assert entry['image'] == R2_URL + f"stages/{entry['slug']}.png"

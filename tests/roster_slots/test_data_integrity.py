@@ -2,6 +2,7 @@ import json
 from pydantic_core import ValidationError
 from slugify import slugify
 import pytest
+from config import R2_URL
 from schemas.roster_slots import RosterSlot, SmashGames
 from constants import ROSTER_SLOT_ALT_AMOUNT, TOTAL_ROSTER_SLOTS
 
@@ -97,7 +98,16 @@ class TestRosterSlotDataIntegrity:
 
     @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
     def test_alt_amounts(self, entry):
-        assert len(entry['alts']) == ROSTER_SLOT_ALT_AMOUNT
+        if entry['name'] in ['Mii Brawler', 'Mii Swordfighter', 'Mii Gunner']: # Mii fighters only have 1 alt each, which is the default alt
+            assert len(entry['alts']) == 1
+        else:
+            assert len(entry['alts']) == ROSTER_SLOT_ALT_AMOUNT
+
+    @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
+    def test_alt_images(self, entry):
+        for alt in entry['alts']:
+            suffix = str(alt['slot']) if alt['slot'] > 1 else ''
+            assert alt['image'] == R2_URL + f"roster-slots/{entry['slug']}/main{suffix}.png"
 
     @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
     def test_slugs(self, entry):
