@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from enum import StrEnum
 from .shared import SmashGames, Series
-
+from .fighters import Fighter
 
 
 class Availability(StrEnum):
@@ -43,15 +43,6 @@ class Variant(BaseModel):
     name: str
     boxing_ring_title: str
     type: VariantType
-
-    model_config = {'extra': 'forbid'}
-
-
-class Fighter(BaseModel):
-    id: str
-    name: str
-    slug: str
-    also_appears_in: list[SmashGames]
 
     model_config = {'extra': 'forbid'}
 

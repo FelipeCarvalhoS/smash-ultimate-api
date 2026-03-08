@@ -31,30 +31,6 @@ class TestRosterSlotRouter:
         response = client.get('/roster-slots/0/fighters')
         assert response.status_code == 404
 
-    @pytest.mark.parametrize('id, fighter_id, fighter_name', [
-        ('25e', '25e', 'Chrom'),
-        ('35', '33', 'Squirtle'),
-        ('33', '34', 'Ivysaur'),
-        ('34', '35', 'Charizard'),
-        ('79', '80', 'Mythra'),
-        ('80', '79', 'Pyra'),
-    ])
-    def test_get_roster_slot_fighter_200(self, id, fighter_id, fighter_name):
-        response = client.get(f'/roster-slots/{id}/fighters/{fighter_id}')
-        assert response.status_code == 200
-        data = response.json()
-        assert Fighter.model_validate(data)
-        assert data['name'] == fighter_name
-
-    @pytest.mark.parametrize('id, fighter_id', [
-        ('33', '32'),
-        ('0', '0'),
-        ('0', '1'),
-    ])
-    def test_get_roster_slot_fighter_404(self, id, fighter_id):
-        response = client.get(f'/roster-slots/{id}/fighters/{fighter_id}')
-        assert response.status_code == 404
-
     def test_get_roster_slot_variants_200(self):
         response = client.get('/roster-slots/58/variants')
         assert response.status_code == 200

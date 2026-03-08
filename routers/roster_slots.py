@@ -52,17 +52,6 @@ async def get_roster_slot_tips(id: str) -> list[Tip]:
     return roster_slot.tips
 
 
-@router.get('/{id}/fighters/{fighter_id}', responses={404: {'description': 'Roster slot or fighter from roster slot not found'}})
-async def get_roster_slot_fighter(id: str, fighter_id: str) -> Fighter:
-    roster_slot = await get_roster_slot(id)
-
-    for fighter in roster_slot.fighters:
-        if fighter.id == fighter_id:
-            return fighter
-        
-    raise HTTPException(status_code=404)
-
-
 @router.get('')
 async def filter_roster_slots(
     filter_query: Annotated[RosterSlotQueryParams, Query()]
