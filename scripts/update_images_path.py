@@ -66,11 +66,12 @@ def update_roster_slots():
         data = json.load(f)
     
     for slot_item in data:
+        slug = slot_item.get("slug")
         alts = slot_item.get("alts", [])
         for alt in alts:
             slot = alt.get("slot")
             suffix = "" if slot == 1 else slot
-            alt["image"] = f"{R2_URL}roster-slots/main{suffix}.png"
+            alt["image"] = f"{R2_URL}roster-slots/{slug}/main{suffix}.png"
             
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
