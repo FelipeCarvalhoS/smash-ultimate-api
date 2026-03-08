@@ -22,6 +22,7 @@ class Item(BaseModel):
     slug: str
     series: Series
     also_appears_in: list[SmashGames]
+    image: str
     types: list[ItemType]
     heavy: bool
     notes: str

@@ -11,8 +11,9 @@ permissions:
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
+    env:
+      R2_URL: ${{ vars.R2_URL }}
 
     steps:
     - uses: actions/checkout@v4

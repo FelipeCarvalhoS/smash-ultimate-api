@@ -18,35 +18,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Mario"
+                "variant": "Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -202,35 +210,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Donkey Kong"
+                "variant": "Donkey Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -346,35 +362,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Link"
+                "variant": "Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -495,35 +519,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Samus"
+                "variant": "Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -623,35 +655,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Dark Samus"
+                "variant": "Dark Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -726,35 +766,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Yoshi"
+                "variant": "Yoshi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -895,35 +943,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Kirby"
+                "variant": "Kirby",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1089,35 +1145,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Fox"
+                "variant": "Fox",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1218,35 +1282,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Pikachu"
+                "variant": "Pikachu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1367,35 +1439,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Luigi"
+                "variant": "Luigi",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1516,35 +1596,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ness"
+                "variant": "Ness",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1695,35 +1783,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Captain Falcon"
+                "variant": "Captain Falcon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1839,35 +1935,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Jigglypuff"
+                "variant": "Jigglypuff",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -1992,35 +2096,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Peach"
+                "variant": "Peach",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2134,35 +2246,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Daisy"
+                "variant": "Daisy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2236,35 +2356,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Bowser"
+                "variant": "Bowser",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2393,35 +2521,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ice Climbers"
+                "variant": "Ice Climbers",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2540,35 +2676,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Sheik"
+                "variant": "Sheik",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2672,35 +2816,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Zelda"
+                "variant": "Zelda",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2823,35 +2975,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Dr. Mario"
+                "variant": "Dr. Mario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -2956,35 +3116,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Pichu"
+                "variant": "Pichu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3070,35 +3238,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Falco"
+                "variant": "Falco",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3207,35 +3383,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Marth"
+                "variant": "Marth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3367,35 +3551,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Lucina"
+                "variant": "Lucina",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3459,35 +3651,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Young Link"
+                "variant": "Young Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3583,35 +3783,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ganondorf"
+                "variant": "Ganondorf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3719,35 +3927,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Mewtwo"
+                "variant": "Mewtwo",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -3904,35 +4120,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4075,35 +4299,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Chrom"
+                "variant": "Chrom",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4177,35 +4409,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Mr. Game & Watch"
+                "variant": "Mr. Game & Watch",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4343,35 +4583,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Meta Knight"
+                "variant": "Meta Knight",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4508,35 +4756,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Pit"
+                "variant": "Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4662,35 +4918,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Dark Pit"
+                "variant": "Dark Pit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4766,35 +5030,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Zero Suit Samus"
+                "variant": "Zero Suit Samus",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -4906,35 +5178,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Wario"
+                "variant": "Wario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5049,35 +5329,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Snake"
+                "variant": "Snake",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5187,35 +5475,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ike"
+                "variant": "Ike",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5337,35 +5633,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5588,35 +5892,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Diddy Kong"
+                "variant": "Diddy Kong",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5763,35 +6075,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Lucas"
+                "variant": "Lucas",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -5918,35 +6238,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Sonic"
+                "variant": "Sonic",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6048,35 +6376,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "King Dedede"
+                "variant": "King Dedede",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6203,35 +6539,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Olimar"
+                "variant": "Olimar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Olimar"
+                "variant": "Olimar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Olimar"
+                "variant": "Olimar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Olimar"
+                "variant": "Olimar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Alph"
+                "variant": "Alph",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Alph"
+                "variant": "Alph",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Alph"
+                "variant": "Alph",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Alph"
+                "variant": "Alph",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6408,35 +6752,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Lucario"
+                "variant": "Lucario",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6533,35 +6885,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "R.O.B."
+                "variant": "R.O.B.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6688,35 +7048,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Toon Link"
+                "variant": "Toon Link",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6821,35 +7189,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Wolf"
+                "variant": "Wolf",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -6923,35 +7299,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7076,35 +7460,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Mega Man"
+                "variant": "Mega Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7299,35 +7691,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7442,35 +7842,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Rosalina & Luma"
+                "variant": "Rosalina & Luma",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7595,35 +8003,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Little Mac"
+                "variant": "Little Mac",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7743,35 +8159,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Greninja"
+                "variant": "Greninja",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -7861,35 +8285,8 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 2,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 3,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 4,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 5,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 6,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 7,
-                "variant": "Mii Brawler"
-            },
-            {
-                "slot": 8,
-                "variant": "Mii Brawler"
+                "variant": "Mii Brawler",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             }
         ],
         "variants": [
@@ -8009,35 +8406,8 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 2,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 3,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 4,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 5,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 6,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 7,
-                "variant": "Mii Swordfighter"
-            },
-            {
-                "slot": 8,
-                "variant": "Mii Swordfighter"
+                "variant": "Mii Swordfighter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             }
         ],
         "variants": [
@@ -8177,35 +8547,8 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 2,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 3,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 4,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 5,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 6,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 7,
-                "variant": "Mii Gunner"
-            },
-            {
-                "slot": 8,
-                "variant": "Mii Gunner"
+                "variant": "Mii Gunner",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             }
         ],
         "variants": [
@@ -8315,35 +8658,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Palutena"
+                "variant": "Palutena",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -8428,35 +8779,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Pac-Man"
+                "variant": "Pac-Man",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -8611,35 +8970,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -8814,35 +9181,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Shulk"
+                "variant": "Shulk",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -8997,35 +9372,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Bowser Jr."
+                "variant": "Bowser Jr.",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Larry"
+                "variant": "Larry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Lemmy"
+                "variant": "Lemmy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Iggy"
+                "variant": "Iggy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Wendy"
+                "variant": "Wendy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Roy"
+                "variant": "Roy",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Morton"
+                "variant": "Morton",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ludwig"
+                "variant": "Ludwig",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -9195,35 +9578,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Duck Hunt"
+                "variant": "Duck Hunt",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -9358,35 +9749,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ryu"
+                "variant": "Ryu",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -9563,35 +9962,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ken"
+                "variant": "Ken",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -9693,35 +10100,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Final Fantasy VII"
+                "variant": "Final Fantasy VII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Advent Children"
+                "variant": "Advent Children",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Final Fantasy VII"
+                "variant": "Final Fantasy VII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Advent Children"
+                "variant": "Advent Children",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Final Fantasy VII"
+                "variant": "Final Fantasy VII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Advent Children"
+                "variant": "Advent Children",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Final Fantasy VII"
+                "variant": "Final Fantasy VII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Advent Children"
+                "variant": "Advent Children",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -9861,35 +10276,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10039,35 +10462,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Bayonetta 1"
+                "variant": "Bayonetta 1",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Bayonetta 2"
+                "variant": "Bayonetta 2",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Bayonetta 1"
+                "variant": "Bayonetta 1",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Bayonetta 2"
+                "variant": "Bayonetta 2",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Bayonetta 1"
+                "variant": "Bayonetta 1",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Bayonetta 2"
+                "variant": "Bayonetta 2",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Bayonetta 1"
+                "variant": "Bayonetta 1",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Bayonetta 2"
+                "variant": "Bayonetta 2",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10234,35 +10665,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10366,35 +10805,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Ridley"
+                "variant": "Ridley",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10473,35 +10920,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Simon"
+                "variant": "Simon",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10580,35 +11035,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Richter"
+                "variant": "Richter",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10677,35 +11140,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "King K. Rool"
+                "variant": "King K. Rool",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10809,35 +11280,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Isabelle"
+                "variant": "Isabelle",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -10911,35 +11390,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Incineroar"
+                "variant": "Incineroar",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -11023,35 +11510,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Piranha Plant"
+                "variant": "Piranha Plant",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -11210,35 +11705,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Phantom Thief"
+                "variant": "Phantom Thief",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Student"
+                "variant": "Student",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Student"
+                "variant": "Student",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -11397,35 +11900,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Dragon Quest XI"
+                "variant": "Dragon Quest XI",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Dragon Quest XI"
+                "variant": "Dragon Quest XI",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Dragon Quest III"
+                "variant": "Dragon Quest III",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Dragon Quest III"
+                "variant": "Dragon Quest III",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Dragon Quest IV"
+                "variant": "Dragon Quest IV",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Dragon Quest IV"
+                "variant": "Dragon Quest IV",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Dragon Quest VIII"
+                "variant": "Dragon Quest VIII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Dragon Quest VIII"
+                "variant": "Dragon Quest VIII",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -11639,35 +12150,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Banjo & Kazooie"
+                "variant": "Banjo & Kazooie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -11816,35 +12335,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Terry"
+                "variant": "Terry",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -12038,35 +12565,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Male"
+                "variant": "Male",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Female"
+                "variant": "Female",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -12225,35 +12760,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Min Min"
+                "variant": "Min Min",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -12397,35 +12940,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Steve"
+                "variant": "Steve",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Alex"
+                "variant": "Alex",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Steve"
+                "variant": "Steve",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Alex"
+                "variant": "Alex",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Steve"
+                "variant": "Steve",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Alex"
+                "variant": "Alex",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Zombie"
+                "variant": "Zombie",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Enderman"
+                "variant": "Enderman",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -12774,35 +13325,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Sephiroth"
+                "variant": "Sephiroth",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -12967,35 +13526,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Pyra/Mythra"
+                "variant": "Pyra/Mythra",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -13190,35 +13757,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Kazuya"
+                "variant": "Kazuya",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Suit"
+                "variant": "Suit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Kazuya"
+                "variant": "Kazuya",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Suit"
+                "variant": "Suit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Kazuya"
+                "variant": "Kazuya",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Suit"
+                "variant": "Suit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Kazuya"
+                "variant": "Kazuya",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Suit"
+                "variant": "Suit",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [
@@ -13517,35 +14092,43 @@
         "alts": [
             {
                 "slot": 1,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main.png"
             },
             {
                 "slot": 2,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main2.png"
             },
             {
                 "slot": 3,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main3.png"
             },
             {
                 "slot": 4,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main4.png"
             },
             {
                 "slot": 5,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main5.png"
             },
             {
                 "slot": 6,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main6.png"
             },
             {
                 "slot": 7,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main7.png"
             },
             {
                 "slot": 8,
-                "variant": "Sora"
+                "variant": "Sora",
+                "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/roster-slots/main8.png"
             }
         ],
         "variants": [

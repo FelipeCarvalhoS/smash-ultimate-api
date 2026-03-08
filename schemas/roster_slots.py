@@ -28,6 +28,7 @@ class Tip(BaseModel):
 class Alt(BaseModel):
     slot: int
     variant: str
+    image: str
 
     model_config = {'extra': 'forbid'}
 

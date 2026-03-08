@@ -16,6 +16,7 @@ class Stage(BaseModel):
     series: Series
     availability: Availability
     also_appears_in: list[SmashGames]
+    image: str
     is_original_or_new_version: bool
 
     model_config = {'extra': 'forbid'}

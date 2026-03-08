@@ -12,6 +12,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/battlefield.png",
         "is_original_or_new_version": true
     },
     {
@@ -21,6 +22,7 @@
         "series": "Super Smash Bros.",
         "availability": "Free DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/small-battlefield.png",
         "is_original_or_new_version": true
     },
     {
@@ -32,6 +34,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/big-battlefield.png",
         "is_original_or_new_version": true
     },
     {
@@ -47,6 +50,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/final-destination.png",
         "is_original_or_new_version": true
     },
     {
@@ -60,6 +64,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/peach-s-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -73,6 +78,7 @@
             "Melee",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/kongo-jungle.png",
         "is_original_or_new_version": false
     },
     {
@@ -86,6 +92,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/hyrule-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -98,6 +105,7 @@
             "64",
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/super-happy-tree.png",
         "is_original_or_new_version": false
     },
     {
@@ -112,6 +120,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/dream-land.png",
         "is_original_or_new_version": false
     },
     {
@@ -123,6 +132,7 @@
         "also_appears_in": [
             "64"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/saffron-city.png",
         "is_original_or_new_version": false
     },
     {
@@ -134,6 +144,7 @@
         "also_appears_in": [
             "64"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mushroom-kingdom.png",
         "is_original_or_new_version": false
     },
     {
@@ -145,6 +156,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/princess-peach-s-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -157,6 +169,7 @@
             "Melee",
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/rainbow-cruise.png",
         "is_original_or_new_version": false
     },
     {
@@ -168,6 +181,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/kongo-falls.png",
         "is_original_or_new_version": false
     },
     {
@@ -181,6 +195,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/jungle-japes.png",
         "is_original_or_new_version": false
     },
     {
@@ -192,6 +207,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/great-bay.png",
         "is_original_or_new_version": false
     },
     {
@@ -205,6 +221,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/temple.png",
         "is_original_or_new_version": false
     },
     {
@@ -218,6 +235,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/brinstar.png",
         "is_original_or_new_version": false
     },
     {
@@ -231,6 +249,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/yoshi-s-island-melee.png",
         "is_original_or_new_version": false
     },
     {
@@ -242,6 +261,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/yoshi-s-story.png",
         "is_original_or_new_version": false
     },
     {
@@ -253,6 +273,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/fountain-of-dreams.png",
         "is_original_or_new_version": false
     },
     {
@@ -265,6 +286,7 @@
             "Melee",
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/green-greens.png",
         "is_original_or_new_version": false
     },
     {
@@ -278,6 +300,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/corneria.png",
         "is_original_or_new_version": false
     },
     {
@@ -289,6 +312,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/venom.png",
         "is_original_or_new_version": false
     },
     {
@@ -301,6 +325,7 @@
             "Melee",
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pokemon-stadium.png",
         "is_original_or_new_version": false
     },
     {
@@ -314,6 +339,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/onett.png",
         "is_original_or_new_version": false
     },
     {
@@ -325,6 +351,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mushroom-kingdom-ii.png",
         "is_original_or_new_version": false
     },
     {
@@ -336,6 +363,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/brinstar-depths.png",
         "is_original_or_new_version": false
     },
     {
@@ -348,6 +376,7 @@
             "Melee",
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/big-blue.png",
         "is_original_or_new_version": false
     },
     {
@@ -359,6 +388,7 @@
         "also_appears_in": [
             "Melee"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/fourside.png",
         "is_original_or_new_version": false
     },
     {
@@ -371,6 +401,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/delfino-plaza.png",
         "is_original_or_new_version": false
     },
     {
@@ -383,6 +414,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mushroomy-kingdom.png",
         "is_original_or_new_version": false
     },
     {
@@ -395,6 +427,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/figure-8-circuit.png",
         "is_original_or_new_version": false
     },
     {
@@ -407,6 +440,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/warioware-inc.png",
         "is_original_or_new_version": false
     },
     {
@@ -419,6 +453,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/bridge-of-eldin.png",
         "is_original_or_new_version": false
     },
     {
@@ -431,6 +466,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/norfair.png",
         "is_original_or_new_version": false
     },
     {
@@ -442,6 +478,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/frigate-orpheon.png",
         "is_original_or_new_version": false
     },
     {
@@ -454,6 +491,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/yoshi-s-island.png",
         "is_original_or_new_version": false
     },
     {
@@ -466,6 +504,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/halberd.png",
         "is_original_or_new_version": false
     },
     {
@@ -478,6 +517,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/lylat-cruise.png",
         "is_original_or_new_version": false
     },
     {
@@ -490,6 +530,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pokemon-stadium-2.png",
         "is_original_or_new_version": false
     },
     {
@@ -502,6 +543,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/port-town-aero-dive.png",
         "is_original_or_new_version": false
     },
     {
@@ -514,6 +556,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/castle-siege.png",
         "is_original_or_new_version": false
     },
     {
@@ -526,6 +569,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/distant-planet.png",
         "is_original_or_new_version": false
     },
     {
@@ -538,6 +582,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/smashville.png",
         "is_original_or_new_version": false
     },
     {
@@ -549,6 +594,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/new-pork-city.png",
         "is_original_or_new_version": false
     },
     {
@@ -560,6 +606,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/summit.png",
         "is_original_or_new_version": false
     },
     {
@@ -572,6 +619,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/skyworld.png",
         "is_original_or_new_version": false
     },
     {
@@ -583,6 +631,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/shadow-moses-island.png",
         "is_original_or_new_version": false
     },
     {
@@ -595,6 +644,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/luigi-s-mansion.png",
         "is_original_or_new_version": false
     },
     {
@@ -607,6 +657,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pirate-ship.png",
         "is_original_or_new_version": false
     },
     {
@@ -618,6 +669,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/spear-pillar.png",
         "is_original_or_new_version": false
     },
     {
@@ -630,6 +682,7 @@
             "Brawl",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/75m.png",
         "is_original_or_new_version": false
     },
     {
@@ -641,6 +694,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mario-bros.png",
         "is_original_or_new_version": false
     },
     {
@@ -652,6 +706,7 @@
         "also_appears_in": [
             "Brawl"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/hanenbow.png",
         "is_original_or_new_version": false
     },
     {
@@ -664,6 +719,7 @@
             "Brawl",
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/green-hill-zone.png",
         "is_original_or_new_version": false
     },
     {
@@ -675,6 +731,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/3d-land.png",
         "is_original_or_new_version": false
     },
     {
@@ -686,6 +743,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/golden-plains.png",
         "is_original_or_new_version": false
     },
     {
@@ -697,6 +755,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/paper-mario.png",
         "is_original_or_new_version": false
     },
     {
@@ -708,6 +767,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/gerudo-valley.png",
         "is_original_or_new_version": false
     },
     {
@@ -719,6 +779,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/spirit-train.png",
         "is_original_or_new_version": false
     },
     {
@@ -730,6 +791,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/dream-land-gb.png",
         "is_original_or_new_version": false
     },
     {
@@ -741,6 +803,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/unova-pokemon-league.png",
         "is_original_or_new_version": false
     },
     {
@@ -752,6 +815,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/prism-tower.png",
         "is_original_or_new_version": false
     },
     {
@@ -763,6 +827,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mute-city-snes.png",
         "is_original_or_new_version": false
     },
     {
@@ -774,6 +839,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/magicant.png",
         "is_original_or_new_version": false
     },
     {
@@ -785,6 +851,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/arena-ferox.png",
         "is_original_or_new_version": false
     },
     {
@@ -796,6 +863,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/reset-bomb-forest.png",
         "is_original_or_new_version": false
     },
     {
@@ -807,6 +875,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/tortimer-island.png",
         "is_original_or_new_version": false
     },
     {
@@ -818,6 +887,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/balloon-fight.png",
         "is_original_or_new_version": false
     },
     {
@@ -829,6 +899,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/living-room.png",
         "is_original_or_new_version": false
     },
     {
@@ -840,6 +911,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/find-mii.png",
         "is_original_or_new_version": false
     },
     {
@@ -851,6 +923,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/tomodachi-life.png",
         "is_original_or_new_version": false
     },
     {
@@ -862,6 +935,7 @@
         "also_appears_in": [
             "3DS"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pictochat-2.png",
         "is_original_or_new_version": false
     },
     {
@@ -873,6 +947,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mushroom-kingdom-u.png",
         "is_original_or_new_version": false
     },
     {
@@ -884,6 +959,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mario-galaxy.png",
         "is_original_or_new_version": false
     },
     {
@@ -895,6 +971,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mario-circuit.png",
         "is_original_or_new_version": false
     },
     {
@@ -906,6 +983,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/skyloft.png",
         "is_original_or_new_version": false
     },
     {
@@ -917,6 +995,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/the-great-cave-offensive.png",
         "is_original_or_new_version": false
     },
     {
@@ -928,6 +1007,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/kalos-pokemon-league.png",
         "is_original_or_new_version": false
     },
     {
@@ -939,6 +1019,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/coliseum.png",
         "is_original_or_new_version": false
     },
     {
@@ -950,6 +1031,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/flat-zone-x.png",
         "is_original_or_new_version": false
     },
     {
@@ -961,6 +1043,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/palutena-s-temple.png",
         "is_original_or_new_version": false
     },
     {
@@ -972,6 +1055,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/gamer.png",
         "is_original_or_new_version": false
     },
     {
@@ -983,6 +1067,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/garden-of-hope.png",
         "is_original_or_new_version": false
     },
     {
@@ -994,6 +1079,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/town-and-city.png",
         "is_original_or_new_version": false
     },
     {
@@ -1005,6 +1091,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/wii-fit-studio.png",
         "is_original_or_new_version": false
     },
     {
@@ -1017,6 +1104,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/boxing-ring.png",
         "is_original_or_new_version": false
     },
     {
@@ -1029,6 +1117,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/gaur-plain.png",
         "is_original_or_new_version": false
     },
     {
@@ -1041,6 +1130,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/duck-hunt.png",
         "is_original_or_new_version": false
     },
     {
@@ -1052,6 +1142,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/wrecking-crew.png",
         "is_original_or_new_version": false
     },
     {
@@ -1063,6 +1154,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pilotwings.png",
         "is_original_or_new_version": false
     },
     {
@@ -1074,6 +1166,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/wuhu-island.png",
         "is_original_or_new_version": false
     },
     {
@@ -1085,6 +1178,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/windy-hill-zone.png",
         "is_original_or_new_version": false
     },
     {
@@ -1097,6 +1191,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/wily-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -1108,6 +1203,7 @@
         "also_appears_in": [
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/pac-land.png",
         "is_original_or_new_version": false
     },
     {
@@ -1120,6 +1216,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/super-mario-maker.png",
         "is_original_or_new_version": false
     },
     {
@@ -1132,6 +1229,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/suzaku-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -1144,6 +1242,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/midgar.png",
         "is_original_or_new_version": false
     },
     {
@@ -1156,6 +1255,7 @@
             "3DS",
             "Wii U"
         ],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/umbra-clock-tower.png",
         "is_original_or_new_version": false
     },
     {
@@ -1165,6 +1265,7 @@
         "series": "Mario",
         "availability": "Starter",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/new-donk-city-hall.png",
         "is_original_or_new_version": false
     },
     {
@@ -1174,6 +1275,7 @@
         "series": "The Legend of Zelda",
         "availability": "Starter",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/great-plateau-tower.png",
         "is_original_or_new_version": false
     },
     {
@@ -1183,6 +1285,7 @@
         "series": "Splatoon",
         "availability": "Starter",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/moray-towers.png",
         "is_original_or_new_version": false
     },
     {
@@ -1192,6 +1295,7 @@
         "series": "Castlevania",
         "availability": "Starter",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/dracula-s-castle.png",
         "is_original_or_new_version": false
     },
     {
@@ -1201,6 +1305,7 @@
         "series": "Persona",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mementos.png",
         "is_original_or_new_version": false
     },
     {
@@ -1210,6 +1315,7 @@
         "series": "Dragon Quest",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/yggdrasil-s-altar.png",
         "is_original_or_new_version": false
     },
     {
@@ -1219,6 +1325,7 @@
         "series": "Banjo-Kazooie",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/spiral-mountain.png",
         "is_original_or_new_version": false
     },
     {
@@ -1228,6 +1335,7 @@
         "series": "Fatal Fury",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/king-of-fighters-stadium.png",
         "is_original_or_new_version": false
     },
     {
@@ -1237,6 +1345,7 @@
         "series": "Fire Emblem",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/garreg-mach-monastery.png",
         "is_original_or_new_version": false
     },
     {
@@ -1246,6 +1355,7 @@
         "series": "ARMS",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/spring-stadium.png",
         "is_original_or_new_version": false
     },
     {
@@ -1255,6 +1365,7 @@
         "series": "Minecraft",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/minecraft-world.png",
         "is_original_or_new_version": false
     },
     {
@@ -1264,6 +1375,7 @@
         "series": "Final Fantasy",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/northern-cave.png",
         "is_original_or_new_version": false
     },
     {
@@ -1273,6 +1385,7 @@
         "series": "Xenoblade Chronicles",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/cloud-sea-of-alrest.png",
         "is_original_or_new_version": false
     },
     {
@@ -1282,6 +1395,7 @@
         "series": "Tekken",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/mishima-dojo.png",
         "is_original_or_new_version": false
     },
     {
@@ -1291,6 +1405,7 @@
         "series": "Kingdom Hearts",
         "availability": "Paid DLC",
         "also_appears_in": [],
+        "image": "https://pub-2e66ebfa40554bb697519d28926cd04c.r2.dev/stages/hollow-bastion.png",
         "is_original_or_new_version": false
     }
 ]
