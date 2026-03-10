@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
+from fastapi_pagination import Page
 from schemas.stages import Stage, StageQueryParams
 from services.stages import stage_service
 from typing import Annotated
@@ -30,13 +31,13 @@ async def get_stage(id: int) -> Stage:
 
 @router.get('')
 async def filter_stages(
-    filter_query: Annotated[StageQueryParams, Query()]
-) -> list[Stage]:
-    return stage_service.filter(
-        id=filter_query.ids,
-        name=filter_query.names,
-        series=filter_query.series,
-        availability=filter_query.availability,
-        also_appears_in=filter_query.also_appears_in,
-        is_original_or_new_version=filter_query.is_original_or_new_version,
+    query: Annotated[StageQueryParams, Query()]
+) -> Page[Stage]:
+    return stage_service.filter_and_paginate(
+        id=query.ids,
+        name=query.names,
+        series=query.series,
+        availability=query.availability,
+        also_appears_in=query.also_appears_in,
+        is_original_or_new_version=query.is_original_or_new_version,
     )

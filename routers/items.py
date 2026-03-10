@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
+from fastapi_pagination import Page
 from schemas.items import Item, ItemQueryParams
 from services.items import item_service
 from typing import Annotated
@@ -30,13 +31,13 @@ async def get_item(id: int) -> Item:
 
 @router.get('')
 async def filter_items(
-    filter_query: Annotated[ItemQueryParams, Query()]
-) -> list[Item]:
-    return item_service.filter(
-        id=filter_query.ids,
-        name=filter_query.names,
-        series=filter_query.series,
-        also_appears_in=filter_query.also_appears_in,
-        types=filter_query.types,
-        heavy=filter_query.heavy,
+    query: Annotated[ItemQueryParams, Query()]
+) -> Page[Item]:
+    return item_service.filter_and_paginate(
+        id=query.ids,
+        name=query.names,
+        series=query.series,
+        also_appears_in=query.also_appears_in,
+        types=query.types,
+        heavy=query.heavy,
     )

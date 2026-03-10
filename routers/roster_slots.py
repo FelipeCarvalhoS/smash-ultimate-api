@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from fastapi.exceptions import HTTPException
+from fastapi_pagination import Page
 from schemas.roster_slots import Alt, RosterSlot, RosterSlotQueryParams, Fighter, Tip, Variant
 from services.roster_slots import roster_slot_service
 from typing import Annotated
@@ -54,12 +55,12 @@ async def get_roster_slot_tips(id: str) -> list[Tip]:
 
 @router.get('')
 async def filter_roster_slots(
-    filter_query: Annotated[RosterSlotQueryParams, Query()]
-) -> list[RosterSlot]:
-    return roster_slot_service.filter(
-        ids=filter_query.ids,
-        name=filter_query.names,
-        series=filter_query.series,
-        availability=filter_query.availability,
-        also_appears_in=filter_query.also_appears_in,
+    query: Annotated[RosterSlotQueryParams, Query()]
+) -> Page[RosterSlot]:
+    return roster_slot_service.filter_and_paginate(
+        ids=query.ids,
+        name=query.names,
+        series=query.series,
+        availability=query.availability,
+        also_appears_in=query.also_appears_in,
     )

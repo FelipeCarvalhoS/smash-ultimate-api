@@ -1,8 +1,10 @@
 from fastapi import FastAPI
 from routers import roster_slots, stages, items, fighters
+from fastapi_pagination import add_pagination
 
 
 app = FastAPI()
+add_pagination(app)
 app.include_router(roster_slots.router)
 app.include_router(stages.router)
 app.include_router(items.router)

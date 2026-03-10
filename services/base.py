@@ -1,3 +1,5 @@
+from fastapi_pagination import Page, paginate, set_page
+from fastapi_pagination.bases import AbstractParams
 from pydantic import BaseModel
 from utils.loader import load_json
 from abc import ABC, abstractmethod
@@ -15,29 +17,32 @@ class Service(ABC, Generic[T]):
     
     @abstractmethod
     def _get_filter_strategies(self):
-        raise NotImplementedError("Subclasses must implement _get_filter_strategies method")
+        raise NotImplementedError("Subclasses must implement the _get_filter_strategies method")
 
     def get_all(self) -> list[T]:
         return self._data
-    
-    def filter(self, **kwargs) -> list[T]:
+
+    def filter_and_paginate(self, **filters) -> Page[T]:
+        return paginate(self._filter(**filters))
+
+    def _filter(self, **filters) -> list[T]:
         filtered = []
 
         for item in self._data:
-            matches = True
-
-            for key, value in kwargs.items():
-                if value is None:
-                    continue
-
-                attr = getattr(item, key)
-                filter_strategy = self._filter_strategies[key]
-
-                if not filter_strategy(attr, value):
-                    matches = False
-                    break
-
-            if matches:
+            if self._item_matches_filters(item, **filters):
                 filtered.append(item)
 
         return filtered
+    
+    def _item_matches_filters(self, item: T, **filters) -> bool:
+        for key, value in filters.items():
+            if value is None:
+                continue
+
+            attr = getattr(item, key)
+            filter_strategy = self._filter_strategies[key]
+
+            if not filter_strategy(attr, value):
+                return False
+
+        return True

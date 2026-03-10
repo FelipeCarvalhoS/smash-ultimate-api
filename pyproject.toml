@@ -5,6 +5,7 @@ version = "0.1.0"
 # readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi-pagination>=0.15.10",
     "fastapi[standard]>=0.129.0",
     "python-dotenv>=1.2.1",
     "python-slugify>=8.0.4",
