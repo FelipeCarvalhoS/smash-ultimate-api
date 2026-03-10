@@ -15,8 +15,6 @@ This project is an unofficial RESTful API for Super Smash Bros. Ultimate, develo
 
 ### Roster Slots (Fighters)
 
-#### Description
-
 Simply put, a *roster slot* is a playable fighter. However, there are some reasons as to why I decided to name it that way which might help you understand this choice.
 
 The main reason for that decision is the fact that some fighters in Ultimate are not just one single *fighter*, but multiple condensed into one *roster slot*. I refer to Pokémon Trainer and Pyra/Mythra.
@@ -28,48 +26,66 @@ I wanted to find a way to represent all playable characters – including the af
 Therefore, think of *roster slots* as the selectable squares that you see on the character selection screen. Each *roster slot* can contain one or more *fighters*. The Pokémon Trainer and Pyra/Mythra *roster slots* contain multiple, while the others contain only one.
 
 #### Schema
-`ids`: IDs of the fighters contained in the roster slot.
+- `ids`: IDs of the fighters contained in the roster slot.
+- `name`: Roster slot name.
+- `slug`: Slugified version of the name.
+- `series`: Franchise or universe the roster slot comes from.
+- `availability`: `Starter`, `Unlockable`, `Paid DLC`, or `Custom` (Miis).
+- `also_appears_in`: Other Smash games where the roster slot is playable.
+- `order`: Integer representing the roster slot's position in the character selection screen.
+- `alts`: Alternative colors or costumes of the roster slot.
+  - `slot`: Alt number.
+  - `variant`: Variant that the alt corresponds to.
+  - `image`: Alt image.
+- `variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
+  - `name`: Variant name.
+  - `boxing_ring_title`: The title that appears in the Boxing Ring stage when the variant is selected.
+  - `type`: `Default` (e.g. Olimar), `Different character` (e.g. Alph), `Same character` (e.g. Female/Male Inkling).
+- `tips`: In-game tips for the roster slot (found in the "Tips" section of the "Extras" menu).
+  - `title`: Tip title.
+  - `content`: Tip content.
+  - `level`: `Beginner`, `Intermediate`, or `Advanced`.
+  
+    > `Beginner`: tip can always appear.
+    > 
+    > `Intermediate`: tip can only appear after seeing 200 tips.
+    > 
+    > `Advanced`: tip can only appear after seeing 650 tips.
 
-`name`: Roster slot name.
-
-`slug`: Slugified version of the name.
-
-`series`: Franchise or universe the roster slot comes from.
-
-`availability`: Starter, unlockable, paid DLC, or custom (Miis).
-
-`also_appears_in`: Other Smash games where the roster slot is playable.
-
-`alts`: Alternative colors or costumes of the roster slot.
-
-`variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
-
-`tips`: In-game tips for the roster slot (found in the "Tips" section of the "Extras" menu).
-
-`fighters`: Fighters contained in the roster slot.
+- `fighters`: Fighters contained in the roster slot.
+  - `id`: Fighter ID.
+  - `name`: Fighter name.
+  - `slug`: Slugified version of the name.
+  - `also_appears_in`: Other Smash games where the fighter appears in.
 
 ### Stages
 
-#### Description
-
-Arenas where fights occur.
+Arenas where players fight against each other.
 
 #### Schema
-`id`: Stage ID (follows the stage selection screen order).
-
-`name`: Stage name.
-
-`slug`: Slugified version of the name.
-
-`series`: Franchise or universe the stage comes from.
-
-`availability`: Starter, free DLC, or paid DLC.
-
-`also_appears_in`: Other Smash games where the stage appears in.
+- `id`: Stage ID (follows the stage selection screen order).
+- `name`: Stage name.
+- `slug`: Slugified version of the name.
+- `series`: Franchise or universe the stage comes from.
+- `availability`: `Starter`, `Free DLC`, or `Paid DLC`.
+- `also_appears_in`: Other Smash games where the stage appears in.
+- `image`: Stage image.
+- `is_original_or_new_version`: True if the stage is an Ultimate-original or is an old stage which received a new version in Ultimate.
 
 ### Items
 
-Not yet implemented.
+Object that appears during a match which can be picked up and used by characters..
+
+#### Schema
+- `id`: Item ID (follows the item selection screen order).
+- `name`: Item name.
+- `slug`: Slugified version of the name.
+- `series`: Franchise or universe the item comes from.
+- `also_appears_in`: Other Smash games where the item appears in.
+- `image`: Item image.
+- `types`: Categories the item belongs to based on its attributes and effects.
+- `heavy`: True if the item limits who picks it up into walking slowly.
+- `notes`: Observations about the item (taken from the Smash Wiki).
 
 ## Documentation
 
