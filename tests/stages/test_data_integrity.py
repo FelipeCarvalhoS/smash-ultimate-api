@@ -4,7 +4,7 @@ from slugify import slugify
 import pytest
 from config import R2_URL
 from schemas.stages import Stage, SmashGames
-from constants import TOTAL_STAGES
+from constants import STAGES_TOTAL
 
 
 with open('data/stages.json', 'r') as f:
@@ -34,7 +34,7 @@ class TestStageDataIntegrity:
             Stage.model_validate(entry)
 
     def test_stages_amount(self):
-        assert len(data) == TOTAL_STAGES
+        assert len(data) == STAGES_TOTAL
 
     def test_ids_unique(self):
         all_ids = [entry['id'] for entry in data]

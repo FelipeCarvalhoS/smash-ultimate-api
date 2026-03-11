@@ -4,7 +4,7 @@ from slugify import slugify
 import pytest
 from config import R2_URL
 from schemas.items import Item, SmashGames
-from constants import TOTAL_ITEMS
+from constants import ITEMS_TOTAL
 
 
 with open('data/items.json', 'r') as f:
@@ -34,7 +34,7 @@ class TestItemDataIntegrity:
             Item.model_validate(entry)
 
     def test_items_amount(self):
-        assert len(data) == TOTAL_ITEMS
+        assert len(data) == ITEMS_TOTAL
 
     def test_ids_unique(self):
         all_ids = [entry['id'] for entry in data]

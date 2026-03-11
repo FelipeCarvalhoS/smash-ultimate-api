@@ -6,11 +6,12 @@ from services.roster_slots import roster_slot_service
 from typing import Annotated
 from fastapi import Query
 from random import choice
+from tags import Tags
 
 
 router = APIRouter(
     prefix='/roster-slots',
-    tags=['Roster Slots'],
+    tags=[Tags.ROSTER_SLOTS],
 )
         
 
@@ -57,6 +58,18 @@ async def get_roster_slot_tips(id: str) -> list[Tip]:
 async def filter_roster_slots(
     query: Annotated[RosterSlotQueryParams, Query()]
 ) -> Page[RosterSlot]:
+    '''
+    Filter roster slots based on the query parameters and returns them ordered by ID.
+    It also does not return duplicate roster slots.
+
+    **How the filter works**
+    - For parameters that are lists, the roster slot needs to match at least one of the values in the list.
+    - The roster slot needs to match all the parameters provided in the query.
+
+    **Example**: If the query is `?series=Mario&name=Luigi&name=Link`, the roster slot series must be Mario
+    <u>and</u> the name must be Luigi <u>or</u> Link. In this example, only the Luigi roster slot
+    would be returned because the Link one does not match the series filter.
+    '''
     return roster_slot_service.filter_and_paginate(
         ids=query.ids,
         name=query.names,

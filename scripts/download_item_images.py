@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from pathlib import Path
-from constants import TOTAL_ITEMS
+from constants import ITEMS_TOTAL
 from services.items import item_service
 
 

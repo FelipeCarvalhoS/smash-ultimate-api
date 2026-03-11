@@ -6,11 +6,12 @@ from services.stages import stage_service
 from typing import Annotated
 from fastapi import Query
 from random import choice
+from tags import Tags
 
 
 router = APIRouter(
     prefix='/stages',
-    tags=['Stages'],
+    tags=[Tags.STAGES],
 )
         
 

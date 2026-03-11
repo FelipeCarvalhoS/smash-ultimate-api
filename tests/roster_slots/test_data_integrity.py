@@ -4,7 +4,7 @@ from slugify import slugify
 import pytest
 from config import R2_URL
 from schemas.roster_slots import RosterSlot, SmashGames
-from constants import ROSTER_SLOT_ALT_AMOUNT, TOTAL_ROSTER_SLOTS
+from constants import ROSTER_SLOTS_ALT_AMOUNT, ROSTER_SLOTS_TOTAL
 
 
 with open('data/roster_slots.json', 'r') as f:
@@ -42,7 +42,7 @@ class TestRosterSlotDataIntegrity:
             RosterSlot.model_validate(entry)
 
     def test_roster_slots_amount(self):
-        assert len(data) == TOTAL_ROSTER_SLOTS
+        assert len(data) == ROSTER_SLOTS_TOTAL
 
     def test_ids_unique_externally(self):
         all_ids = []
@@ -101,7 +101,7 @@ class TestRosterSlotDataIntegrity:
         if entry['name'] in ['Mii Brawler', 'Mii Swordfighter', 'Mii Gunner']: # Mii fighters only have 1 alt each, which is the default alt
             assert len(entry['alts']) == 1
         else:
-            assert len(entry['alts']) == ROSTER_SLOT_ALT_AMOUNT
+            assert len(entry['alts']) == ROSTER_SLOTS_ALT_AMOUNT
 
     @pytest.mark.parametrize('entry', data, ids=lambda x: x['slug'])
     def test_alt_images(self, entry):

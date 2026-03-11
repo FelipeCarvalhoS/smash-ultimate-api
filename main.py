@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from routers import roster_slots, stages, items, fighters
 from fastapi_pagination import add_pagination
+from tags import TAGS_METADATA
 
 
-app = FastAPI()
+app = FastAPI(openapi_tags=TAGS_METADATA)
 add_pagination(app)
 app.include_router(roster_slots.router)
 app.include_router(stages.router)

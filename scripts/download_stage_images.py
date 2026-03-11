@@ -1,6 +1,6 @@
 import requests
 from pathlib import Path
-from constants import TOTAL_STAGES
+from constants import STAGES_TOTAL
 from services.stages import stage_service
 
 
@@ -27,7 +27,7 @@ def download(i):
 
 
 def download_dlc(i):
-    stage_slug = stage_service.get_by_id(TOTAL_STAGES + i - 11).slug
+    stage_slug = stage_service.get_by_id(STAGES_TOTAL + i - 11).slug
 
     url = f"https://www.smashbros.com/assets_v2/img/stage/stage_addition_img{i}.jpg"
     filename = output_dir / f"{stage_slug}.png"
@@ -44,7 +44,7 @@ def download_dlc(i):
 
 
 def main():
-    for i in range(1, TOTAL_STAGES + 1 - 11):
+    for i in range(1, STAGES_TOTAL + 1 - 11):
         download(i)
 
     for i in range(1, 12):

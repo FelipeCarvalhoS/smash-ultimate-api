@@ -2,11 +2,12 @@ from random import choice
 from fastapi import APIRouter
 from routers.roster_slots import get_random_roster_slot, get_roster_slot
 from schemas.roster_slots import Fighter
+from tags import Tags
 
 
 router = APIRouter(
     prefix='/fighters',
-    tags=['Fighters'],
+    tags=[Tags.FIGHTERS],
 )
 
 

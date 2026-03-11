@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 from fastapi_pagination import Page, Params, set_params
-from constants import TOTAL_ITEMS
+from constants import ITEMS_TOTAL
 from main import app
 from schemas.items import Item
 
@@ -17,7 +17,7 @@ class TestItemRouter:
         assert data['name'] == 'Super Launch Star'
 
     def test_get_item_404(self):
-        response = client.get(f'/items/{str(TOTAL_ITEMS + 1)}')
+        response = client.get(f'/items/{str(ITEMS_TOTAL + 1)}')
         assert response.status_code == 404
 
     def test_get_random_item(self):

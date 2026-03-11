@@ -1,7 +1,7 @@
 from collections import Counter
 from fastapi.testclient import TestClient
 from fastapi_pagination import Params, set_params
-from constants import TOTAL_STAGES
+from constants import STAGES_TOTAL
 from main import app
 from services.stages import stage_service
 import pytest
@@ -44,14 +44,14 @@ class TestStageService:
     def test_get_by_id(self, id, name):
         assert stage_service.get_by_id(id).name == name
 
-    @pytest.mark.parametrize('id', [0, TOTAL_STAGES + 1, -1])
+    @pytest.mark.parametrize('id', [0, STAGES_TOTAL + 1, -1])
     def test_get_by_id_not_found(self, id):
         stage = stage_service.get_by_id(id)
         assert stage is None
 
     def test_get_all(self):
         stages = stage_service.get_all()
-        assert len(stages) == TOTAL_STAGES
+        assert len(stages) == STAGES_TOTAL
 
     @pytest.mark.parametrize('stage', stage_service.get_all(), ids=lambda x: x.id)
     def test_id_returns_correct_stage(self, stage):
@@ -68,7 +68,7 @@ class TestStageService:
         assert stages[0].name == 'Battlefield'
 
     def test_filter_does_not_return_duplicates(self):
-        stages = stage_service._filter(id=[33, 0, TOTAL_STAGES, 1, TOTAL_STAGES + 1] * 2)
+        stages = stage_service._filter(id=[33, 0, STAGES_TOTAL, 1, STAGES_TOTAL + 1] * 2)
         assert len(stages) == len(set(stage.name for stage in stages))
 
     @pytest.mark.parametrize('filters, page_params, expected_names', FILTER_PAGINATE_TEST_CASES)

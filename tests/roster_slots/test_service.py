@@ -1,7 +1,7 @@
 from collections import Counter
 from fastapi.testclient import TestClient
 from fastapi_pagination import Params, set_params
-from constants import TOTAL_ROSTER_SLOTS
+from constants import ROSTER_SLOTS_TOTAL
 from main import app
 from services.roster_slots import roster_slot_service
 import pytest
@@ -14,7 +14,7 @@ FILTER_TEST_CASES = [
     ({'ids': ['1', '2', '4e']}, ['Mario', 'Donkey Kong', 'Dark Samus']),
     ({'ids': ['33', '34', '35', '79', '80']}, ['Pyra/Mythra', 'Pokémon Trainer']),
     ({'ids': ['0', '81']}, ['Kazuya']),
-    ({'ids': ['invalid', '0', str(TOTAL_ROSTER_SLOTS + 1), '-1']}, []),
+    ({'ids': ['invalid', '0', str(ROSTER_SLOTS_TOTAL + 1), '-1']}, []),
     ({'name': ['Dr. Mario']}, ['Dr. Mario']),
     ({'name': ['Pokémon Trainer', 'Luigi', 'invalid']}, ['Luigi', 'Pokémon Trainer']),
     ({'name': ['invalid']}, []),
@@ -65,14 +65,14 @@ class TestRosterSlotService:
         assert id in roster_slot.ids
         assert roster_slot.name == name
 
-    @pytest.mark.parametrize('id', ['invalid-id', '0', str(TOTAL_ROSTER_SLOTS + 1), '-1'])
+    @pytest.mark.parametrize('id', ['invalid-id', '0', str(ROSTER_SLOTS_TOTAL + 1), '-1'])
     def test_get_by_id_not_found(self, id):
         roster_slot = roster_slot_service.get_by_id(id)
         assert roster_slot is None
 
     def test_get_all(self):
         roster_slots = roster_slot_service.get_all()
-        assert len(roster_slots) == TOTAL_ROSTER_SLOTS
+        assert len(roster_slots) == ROSTER_SLOTS_TOTAL
 
     @pytest.mark.parametrize('roster_slot', roster_slot_service.get_all())
     def test_ids_return_correct_roster_slot(self, roster_slot):
