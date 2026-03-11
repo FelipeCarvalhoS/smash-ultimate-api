@@ -1,9 +1,12 @@
 from collections import Counter
 from fastapi.testclient import TestClient
+from fastapi_pagination import Params, set_params
 from constants import TOTAL_ROSTER_SLOTS
 from main import app
 from services.roster_slots import roster_slot_service
 import pytest
+
+from tests.items.test_service import FILTER_PAGINATE_TEST_CASES
 
 
 FILTER_TEST_CASES = [
@@ -34,6 +37,13 @@ FILTER_TEST_CASES = [
     ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o'], 'also_appears_in': ['64']}, ['Mario', 'Donkey Kong']),
     ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid']}, ['Samus', 'Zero Suit Samus']),
     ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid'], 'availability': ['Unlockable']}, ['Zero Suit Samus']),
+]
+
+
+FILTER_PAGINATE_TEST_CASES = [
+    ({'availability': ['Paid DLC']}, Params(page=2, size=6), ['Min Min', 'Steve', 'Sephiroth', 'Pyra/Mythra', 'Kazuya', 'Sora']),
+    ({'also_appears_in': ['64', 'Melee']}, Params(page=1, size=3), ['Mario', 'Donkey Kong', 'Link']),
+    ({'also_appears_in': ['64']}, Params(), ['Mario', 'Donkey Kong', 'Link', 'Samus', 'Yoshi', 'Kirby', 'Fox', 'Pikachu', 'Luigi', 'Ness', 'Captain Falcon', 'Jigglypuff']),
 ]
 
 
@@ -75,14 +85,21 @@ class TestRosterSlotService:
 
     @pytest.mark.parametrize('filters, expected_names', FILTER_TEST_CASES)
     def test_filter(self, filters, expected_names):
-        roster_slots = roster_slot_service.filter(**filters)
+        roster_slots = roster_slot_service._filter(**filters)
         assert Counter([slot.name for slot in roster_slots]) == Counter(expected_names)
 
     @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'])
     def test_filter_name_case_insensitivity(self, name):
-        roster_slots = roster_slot_service.filter(name=[name])
+        roster_slots = roster_slot_service._filter(name=[name])
         assert Counter([slot.name for slot in roster_slots]) == Counter(['Dr. Mario', 'Mario'])
 
     def test_filter_does_not_return_duplicates(self):
-        roster_slots = roster_slot_service.filter(ids=['33', '34', '35', '79', '80'] * 2)
+        roster_slots = roster_slot_service._filter(ids=['33', '34', '35', '79', '80'] * 2)
         assert len(roster_slots) == len(set(roster_slot.name for roster_slot in roster_slots))
+
+    @pytest.mark.parametrize('filters, page_params, expected_names', FILTER_PAGINATE_TEST_CASES)
+    def test_filter_and_paginate(self, filters, page_params, expected_names):
+        with set_params(page_params):
+            page = roster_slot_service.filter_and_paginate(**filters)
+            
+        assert [roster_slot.name for roster_slot in page.items] == expected_names

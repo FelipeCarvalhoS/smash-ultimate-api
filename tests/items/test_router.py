@@ -1,4 +1,5 @@
 from fastapi.testclient import TestClient
+from fastapi_pagination import Page, Params, set_params
 from constants import TOTAL_ITEMS
 from main import app
 from schemas.items import Item
@@ -26,10 +27,11 @@ class TestItemRouter:
         assert Item.model_validate(data)
 
     def test_filter_items(self):
-        response = client.get('/items?names=Ball&also_appears_in=64')
+        with set_params(Params()):
+            response = client.get('/items?names=Ball&also_appears_in=64')
+
         assert response.status_code == 200
         data = response.json()
-        assert isinstance(data, list)
-        assert all(Item.model_validate(item) for item in data)
-        items = ['Poké Ball']
-        assert items == [item['name'] for item in data]
+        assert Page.model_validate(data)
+        assert all(Item.model_validate(item) for item in data['items'])
+        assert ['Poké Ball'] == [item['name'] for item in data['items']]

@@ -1,4 +1,5 @@
 from fastapi.testclient import TestClient
+from fastapi_pagination import Page, Params, set_params
 from constants import TOTAL_STAGES
 from main import app
 from schemas.stages import Stage
@@ -26,11 +27,13 @@ class TestStageRouter:
         assert Stage.model_validate(data)
 
     def test_filter_stages(self):
-        response = client.get('/stages?names=Yoshi&names=Battlefield')
+        with set_params(Params()):
+            response = client.get('/stages?names=Yoshi&names=Battlefield')
+
         assert response.status_code == 200
         data = response.json()
-        assert isinstance(data, list)
-        assert all(Stage.model_validate(stage) for stage in data)
+        assert Page.model_validate(data)
+        assert all(Stage.model_validate(stage) for stage in data['items'])
         stages = [
             'Battlefield',
             'Small Battlefield',
@@ -39,4 +42,4 @@ class TestStageRouter:
             "Yoshi's Story",
             "Yoshi's Island",
         ]
-        assert stages == [stage['name'] for stage in data]
+        assert stages == [stage['name'] for stage in data['items']]

@@ -1,5 +1,6 @@
 from collections import Counter
 from fastapi.testclient import TestClient
+from fastapi_pagination import Params, set_params
 from constants import TOTAL_STAGES
 from main import app
 from services.stages import stage_service
@@ -18,6 +19,13 @@ FILTER_TEST_CASES = [
     ({'is_original_or_new_version': True}, ['Battlefield', 'Big Battlefield', 'Final Destination', 'Small Battlefield']),
     ({'is_original_or_new_version': True, 'name': ['Battlefield']}, ['Small Battlefield', 'Big Battlefield', 'Battlefield']),
     ({'is_original_or_new_version': True, 'name': ['Battlefield'], 'availability': ['Starter']}, ['Big Battlefield', 'Battlefield']),
+]
+
+FILTER_PAGINATE_TEST_CASES = [
+    ({'id': [1, 2, 3, 114]}, Params(page=2, size=3), ['Mishima Dojo']),
+    ({'name': ['Destination']}, Params(), ['Final Destination']),
+    ({'name': ['Battlefield']}, Params(page=1, size=3), ['Battlefield', 'Small Battlefield', 'Big Battlefield']),
+    ({'availability': ['Free DLC']}, Params(page=2, size=1), []),
 ]
 
 
@@ -54,14 +62,21 @@ class TestStageService:
 
     @pytest.mark.parametrize('filters, expected_names', FILTER_TEST_CASES)
     def test_filter(self, filters, expected_names):
-        stages = stage_service.filter(**filters)
+        stages = stage_service._filter(**filters)
         assert Counter([stage.name for stage in stages]) == Counter(expected_names)
 
     @pytest.mark.parametrize('name', ['battlefield', 'BATTLEFIELD', 'Battlefield', 'bAttLefielD'])
     def test_filter_name_case_insensitivity(self, name):
-        stages = stage_service.filter(name=[name])
+        stages = stage_service._filter(name=[name])
         assert Counter([stage.name for stage in stages]) == Counter(['Battlefield', 'Big Battlefield', 'Small Battlefield'])
 
     def test_filter_does_not_return_duplicates(self):
-        stages = stage_service.filter(id=[33, 0, TOTAL_STAGES, 1, TOTAL_STAGES + 1] * 2)
+        stages = stage_service._filter(id=[33, 0, TOTAL_STAGES, 1, TOTAL_STAGES + 1] * 2)
         assert len(stages) == len(set(stage.name for stage in stages))
+
+    @pytest.mark.parametrize('filters, page_params, expected_names', FILTER_PAGINATE_TEST_CASES)
+    def test_filter_and_paginate(self, filters, page_params, expected_names):
+        with set_params(page_params):
+            page = stage_service.filter_and_paginate(**filters)
+            
+        assert [stage.name for stage in page.items] == expected_names

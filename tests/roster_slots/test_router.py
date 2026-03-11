@@ -1,4 +1,5 @@
 from fastapi.testclient import TestClient
+from fastapi_pagination import Page, Params, set_params
 import pytest
 from main import app
 from schemas.roster_slots import Alt, Fighter, RosterSlot, Tip, Variant
@@ -74,9 +75,11 @@ class TestRosterSlotRouter:
         assert RosterSlot.model_validate(data)
 
     def test_filter_roster_slots(self):
-        response = client.get('/roster-slots?names=Bowser')
+        with set_params(Params()):
+            response = client.get('/roster-slots?names=Bowser')
+
         assert response.status_code == 200
         data = response.json()
-        assert isinstance(data, list)
-        assert all(RosterSlot.model_validate(roster_slot) for roster_slot in data)
-        assert ['Bowser', 'Bowser Jr.'] == [roster_slot['name'] for roster_slot in data]
+        assert Page.model_validate(data)
+        assert all(RosterSlot.model_validate(roster_slot) for roster_slot in data['items'])
+        assert ['Bowser', 'Bowser Jr.'] == [roster_slot['name'] for roster_slot in data['items']]
