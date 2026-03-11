@@ -15,6 +15,7 @@ This project is an unofficial RESTful API for Super Smash Bros. Ultimate, develo
 
 ### Roster Slots (Fighters)
 
+<!-- snippet:roster-slots-tag-description -->
 Simply put, a *roster slot* is a playable fighter. However, there are some reasons as to why I decided to name it that way which might help you understand this choice.
 
 The main reason for that decision is the fact that some fighters in Ultimate are not just one single *fighter*, but multiple condensed into one *roster slot*. I refer to Pokémon Trainer and Pyra/Mythra.
@@ -24,6 +25,7 @@ In Pokémon Trainer's case, Squirtle, Ivysaur, and Charizard are three *fighters
 I wanted to find a way to represent all playable characters – including the aforementioned special cases – while keeping the schema consistent, hence why I chose to treat them as *roster slots*.
 
 Therefore, think of *roster slots* as the selectable squares that you see on the character selection screen. Each *roster slot* can contain one or more *fighters*. The Pokémon Trainer and Pyra/Mythra *roster slots* contain multiple, while the others contain only one.
+<!-- /snippet -->
 
 #### Schema
 `ids`: IDs of the fighters contained in the roster slot.
@@ -79,7 +81,9 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 
 ### Stages
 
+<!-- snippet:stages-tag-description -->
 Arenas where players fight against each other.
+<!-- /snippet -->
 
 #### Schema
 `id`: Stage ID (follows the stage selection screen order).
@@ -100,7 +104,9 @@ Arenas where players fight against each other.
 
 ### Items
 
+<!-- snippet:items-tag-description -->
 Objects that appear during a match which can be picked up and used by players.
+<!-- /snippet -->
 
 #### Schema
 `id`: Item ID (follows the item selection screen order).

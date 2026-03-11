@@ -1,4 +1,5 @@
 from enum import StrEnum
+from utils import get_snippet
 
 
 class Tags(StrEnum):
@@ -11,18 +12,18 @@ class Tags(StrEnum):
 TAGS_METADATA = [
     {
         'name': Tags.ROSTER_SLOTS,
-        'description': '...',
+        'description': get_snippet('roster-slots-tag-description'),
     },
     {
         'name': Tags.FIGHTERS,
-        'description': '...',
+        'description': 'A playable character in a Roster Slot. Read the Roster Slot docs to learn more.',
     },
     {
         'name': Tags.STAGES,
-        'description': '...',
+        'description': get_snippet('stages-tag-description'),
     },
     {
         'name': Tags.ITEMS,
-        'description': '...',
+        'description': get_snippet('items-tag-description'),
     },
 ]

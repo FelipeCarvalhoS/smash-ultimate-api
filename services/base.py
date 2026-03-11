@@ -1,7 +1,7 @@
 from fastapi_pagination import Page, paginate, set_page
 from fastapi_pagination.bases import AbstractParams
 from pydantic import BaseModel
-from utils.loader import load_json
+from utils import load_json
 from abc import ABC, abstractmethod
 from typing import TypeVar, Generic, Type
 
