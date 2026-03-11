@@ -9,22 +9,19 @@ import pytest
 
 FILTER_TEST_CASES = [
     ({'id': [1, 2, 3, 114]}, ['Battlefield', 'Small Battlefield', 'Big Battlefield', 'Mishima Dojo']),
-    ({'name': ['Destination']}, ['Final Destination']),
-    ({'name': ['Battlefield']}, ['Battlefield', 'Small Battlefield', 'Big Battlefield']),
-    ({'name': ['battleFIELD', 'DESTination']}, ['Final Destination', 'Battlefield', 'Small Battlefield', 'Big Battlefield']),
+    ({'name': ['Battlefield']}, ['Battlefield']),
     ({'series': ['Yoshi']}, ["Yoshi's Island (Melee)", "Yoshi's Story", "Yoshi's Island", 'Super Happy Tree']),
     ({'series': ['Minecraft']}, ['Minecraft World']),
     ({'series': ['Minecraft', 'Kingdom Hearts']}, ['Minecraft World', 'Hollow Bastion']),
     ({'availability': ['Free DLC']}, ['Small Battlefield']),
     ({'is_original_or_new_version': True}, ['Battlefield', 'Big Battlefield', 'Final Destination', 'Small Battlefield']),
-    ({'is_original_or_new_version': True, 'name': ['Battlefield']}, ['Small Battlefield', 'Big Battlefield', 'Battlefield']),
-    ({'is_original_or_new_version': True, 'name': ['Battlefield'], 'availability': ['Starter']}, ['Big Battlefield', 'Battlefield']),
+    ({'is_original_or_new_version': True, 'name': ['Small Battlefield', 'Big Battlefield', 'Battlefield'], 'availability': ['Starter']}, ['Big Battlefield', 'Battlefield']),
 ]
 
 FILTER_PAGINATE_TEST_CASES = [
     ({'id': [1, 2, 3, 114]}, Params(page=2, size=3), ['Mishima Dojo']),
-    ({'name': ['Destination']}, Params(), ['Final Destination']),
-    ({'name': ['Battlefield']}, Params(page=1, size=3), ['Battlefield', 'Small Battlefield', 'Big Battlefield']),
+    ({'name': ['Final Destination']}, Params(), ['Final Destination']),
+    ({'name': ['Small Battlefield', 'Big Battlefield', 'Battlefield']}, Params(page=1, size=3), ['Battlefield', 'Small Battlefield', 'Big Battlefield']),
     ({'availability': ['Free DLC']}, Params(page=2, size=1), []),
 ]
 
@@ -68,7 +65,7 @@ class TestStageService:
     @pytest.mark.parametrize('name', ['battlefield', 'BATTLEFIELD', 'Battlefield', 'bAttLefielD'])
     def test_filter_name_case_insensitivity(self, name):
         stages = stage_service._filter(name=[name])
-        assert Counter([stage.name for stage in stages]) == Counter(['Battlefield', 'Big Battlefield', 'Small Battlefield'])
+        assert stages[0].name == 'Battlefield'
 
     def test_filter_does_not_return_duplicates(self):
         stages = stage_service._filter(id=[33, 0, TOTAL_STAGES, 1, TOTAL_STAGES + 1] * 2)

@@ -9,7 +9,7 @@ class StageService(Service[Stage]):
     def _get_filter_strategies(self):
         return {
             'id': lambda attr, query: attr in query,
-            'name': lambda attr, query: any(name.lower() in attr.lower() for name in query),
+            'name': lambda attr, query: attr.lower() in [name.lower() for name in query],
             'series': lambda attr, query: attr in query,
             'availability': lambda attr, query: attr in query,
             'also_appears_in': lambda attr, query: any(game in query for game in attr),

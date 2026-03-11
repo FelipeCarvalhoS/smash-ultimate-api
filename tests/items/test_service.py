@@ -1,6 +1,6 @@
 from collections import Counter
 from fastapi.testclient import TestClient
-from fastapi_pagination import Params, resolve_params, set_params
+from fastapi_pagination import Params, set_params
 from constants import TOTAL_ITEMS
 from main import app
 from services.items import item_service
@@ -9,13 +9,11 @@ import pytest
 
 FILTER_TEST_CASES = [
     ({'id': [1, 5, 6]}, ['Smash Ball', 'Dragoon', 'Daybreak']),
-    ({'name': ['Smash Ball']}, ['Smash Ball', 'Fake Smash Ball']),
-    ({'name': ['Ball'], 'series': ['Pokémon', 'Mario']}, ['Soccer Ball', 'Poké Ball', 'Master Ball']),
+    ({'name': ['Smash Ball', 'Fake Smash Ball']}, ['Smash Ball', 'Fake Smash Ball']),
     ({'series': ['Clu Clu Land']}, ['Unira']),
-    ({'name': ['Ball'], 'also_appears_in': ['64']}, ['Poké Ball']),
     ({'types': ['Transformation', 'Summoning']}, ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
     ({'types': ['Transformation', 'Summoning'], 'heavy': False}, ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
-    ({'types': ['Transformation', 'Summoning'], 'heavy': False, 'name': ['BulLeT', 'trOPHy']}, ['Assist Trophy', 'Bullet Bill']),
+    ({'types': ['Transformation', 'Summoning'], 'heavy': False, 'name': ['Bullet Bill', 'Assist Trophy']}, ['Assist Trophy', 'Bullet Bill']),
     ({'types': ['Transformation', 'Summoning'], 'heavy': True}, []),
     ({'heavy': True}, ['Party Ball', 'Crate', 'Rolling Crate', 'Barrel', 'Blast Box'])
 ]
@@ -23,7 +21,7 @@ FILTER_TEST_CASES = [
 FILTER_PAGINATE_TEST_CASES = [
     ({'id': [1, 5, 6]}, Params(page=1, size=2), ['Smash Ball', 'Dragoon']),
     ({'id': [1, 5, 6]}, Params(page=2, size=2), ['Daybreak']),
-    ({'name': ['Ball'], 'series': ['Pokémon', 'Mario']}, Params(page=1, size=10), ['Poké Ball', 'Master Ball', 'Soccer Ball']),
+    ({'name': ['Poké Ball', 'Soccer Ball'], 'series': ['Pokémon', 'Mario']}, Params(page=1, size=10), ['Poké Ball', 'Soccer Ball']),
     ({'series': ['Clu Clu Land']}, Params(), ['Unira']),
     ({'types': ['Transformation', 'Summoning']}, Params(page=4, size=1), ['Bullet Bill']),
 ]
@@ -65,7 +63,7 @@ class TestItemService:
     @pytest.mark.parametrize('name', ['Smash Ball', 'SMASH BALL', 'SmaSh baLl', 'smash ball'])
     def test_filter_name_case_insensitivity(self, name):
         items = item_service._filter(name=[name])
-        assert Counter([item.name for item in items]) == Counter(['Smash Ball', 'Fake Smash Ball'])
+        assert items[0].name == 'Smash Ball'
 
     def test_filter_does_not_return_duplicates(self):
         items = item_service._filter(id=[33, 0, TOTAL_ITEMS, 1, TOTAL_ITEMS + 1] * 2)

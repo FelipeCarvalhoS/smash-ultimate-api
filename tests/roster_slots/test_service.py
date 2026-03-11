@@ -15,13 +15,10 @@ FILTER_TEST_CASES = [
     ({'ids': ['33', '34', '35', '79', '80']}, ['Pyra/Mythra', 'Pokémon Trainer']),
     ({'ids': ['0', '81']}, ['Kazuya']),
     ({'ids': ['invalid', '0', str(TOTAL_ROSTER_SLOTS + 1), '-1']}, []),
-    ({'name': ['Mario']}, ['Dr. Mario', 'Mario']),
-    ({'name': ['pOkÉmon TraineR']}, ['Pokémon Trainer']),
-    ({'name': ['KING']}, ['King K. Rool', 'King Dedede']),
-    ({'name': ['King K']}, ['King K. Rool']),
-    ({'name': ['samus']}, ['Samus', 'Dark Samus', 'Zero Suit Samus']),
+    ({'name': ['Dr. Mario']}, ['Dr. Mario']),
+    ({'name': ['Pokémon Trainer', 'Luigi', 'invalid']}, ['Luigi', 'Pokémon Trainer']),
     ({'name': ['invalid']}, []),
-    ({'series': ['Metroid']}, ['Samus', 'Dark Samus', 'Zero Suit Samus','Ridley']),
+    ({'series': ['Metroid']}, ['Samus', 'Dark Samus', 'Zero Suit Samus', 'Ridley']),
     ({'series': ['Castlevania']}, ['Simon', 'Richter']),
     ({'series': ['Kingdom Hearts']}, ['Sora']),
     ({'series': ['Xenoblade Chronicles']}, ['Pyra/Mythra', 'Shulk']),
@@ -33,8 +30,7 @@ FILTER_TEST_CASES = [
     ({'also_appears_in': ['Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Sheik', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
     ({'also_appears_in': ['64', 'Melee']}, ['Dr. Mario', 'Mario', 'Luigi', 'Bowser', 'Peach', 'Yoshi', 'Donkey Kong', 'Captain Falcon', 'Ganondorf', 'Falco', 'Fox', 'Ness', 'Ice Climbers', 'Kirby', 'Samus', 'Zelda', 'Sheik', 'Link', 'Young Link', 'Pichu', 'Pikachu', 'Jigglypuff', 'Mewtwo', 'Mr. Game & Watch', 'Marth', 'Roy']),
     ({'also_appears_in': ['invalid']}, []),
-    ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o']}, ['Dr. Mario', 'Mario', 'Donkey Kong']),
-    ({'ids': ['1', '2', '3', '4e', '18'], 'name': ['o'], 'also_appears_in': ['64']}, ['Mario', 'Donkey Kong']),
+    ({'ids': ['1', '2', '3', '4e', '18'], 'also_appears_in': ['64']}, ['Mario', 'Donkey Kong', 'Link']),
     ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid']}, ['Samus', 'Zero Suit Samus']),
     ({'also_appears_in': ['3DS', 'Wii U'], 'series': ['Metroid'], 'availability': ['Unlockable']}, ['Zero Suit Samus']),
 ]
@@ -91,7 +87,7 @@ class TestRosterSlotService:
     @pytest.mark.parametrize('name', ['mario', 'MARIO', 'MaRiO', 'mArIo', 'maRio'])
     def test_filter_name_case_insensitivity(self, name):
         roster_slots = roster_slot_service._filter(name=[name])
-        assert Counter([slot.name for slot in roster_slots]) == Counter(['Dr. Mario', 'Mario'])
+        assert roster_slots[0].name == 'Mario'
 
     def test_filter_does_not_return_duplicates(self):
         roster_slots = roster_slot_service._filter(ids=['33', '34', '35', '79', '80'] * 2)

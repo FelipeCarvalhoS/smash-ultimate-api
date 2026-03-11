@@ -28,7 +28,7 @@ class TestItemRouter:
 
     def test_filter_items(self):
         with set_params(Params()):
-            response = client.get('/items?names=Ball&also_appears_in=64')
+            response = client.get('/items?names=Poké Ball&also_appears_in=64')
 
         assert response.status_code == 200
         data = response.json()

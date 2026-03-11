@@ -76,10 +76,10 @@ class TestRosterSlotRouter:
 
     def test_filter_roster_slots(self):
         with set_params(Params()):
-            response = client.get('/roster-slots?names=Bowser')
+            response = client.get('/roster-slots?names=Bowser Jr.')
 
         assert response.status_code == 200
         data = response.json()
         assert Page.model_validate(data)
         assert all(RosterSlot.model_validate(roster_slot) for roster_slot in data['items'])
-        assert ['Bowser', 'Bowser Jr.'] == [roster_slot['name'] for roster_slot in data['items']]
+        assert ['Bowser Jr.'] == [roster_slot['name'] for roster_slot in data['items']]

@@ -28,18 +28,10 @@ class TestStageRouter:
 
     def test_filter_stages(self):
         with set_params(Params()):
-            response = client.get('/stages?names=Yoshi&names=Battlefield')
+            response = client.get("/stages?names=Yoshi's Island (Melee)")
 
         assert response.status_code == 200
         data = response.json()
         assert Page.model_validate(data)
         assert all(Stage.model_validate(stage) for stage in data['items'])
-        stages = [
-            'Battlefield',
-            'Small Battlefield',
-            'Big Battlefield',
-            "Yoshi's Island (Melee)",
-            "Yoshi's Story",
-            "Yoshi's Island",
-        ]
-        assert stages == [stage['name'] for stage in data['items']]
+        assert ["Yoshi's Island (Melee)"] == [stage['name'] for stage in data['items']]

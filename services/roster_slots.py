@@ -19,7 +19,7 @@ class RosterSlotService(Service[RosterSlot]):
     def _get_filter_strategies(self):
         return {
             'ids': lambda attr, query: any(id in query for id in attr),
-            'name': lambda attr, query: any(name.lower() in attr.lower() for name in query),
+            'name': lambda attr, query: attr.lower() in [name.lower() for name in query],
             'series': lambda attr, query: attr in query,
             'availability': lambda attr, query: attr in query,
             'also_appears_in': lambda attr, query: any(game in query for game in attr),
