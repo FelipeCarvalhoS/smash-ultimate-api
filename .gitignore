@@ -1,5 +1,3 @@
-todo.txt
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -108,3 +106,7 @@ venv.bak/
 
 # Mac OS
 .DS_Store
+
+# Other
+/.vscode
+todo.txt
