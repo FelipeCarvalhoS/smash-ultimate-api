@@ -16,7 +16,7 @@ TAGS_METADATA = [
     },
     {
         'name': Tags.FIGHTERS,
-        'description': 'A playable character in a Roster Slot. Read the Roster Slot docs to learn more.',
+        'description': get_snippet('fighters-tag-description'),
     },
     {
         'name': Tags.STAGES,

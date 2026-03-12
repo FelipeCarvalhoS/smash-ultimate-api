@@ -13,7 +13,7 @@
 
 This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed with FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items. Keep reading to learn more about the data provided by this API.
 
-### Roster Slots (Fighters)
+### Roster Slots
 
 <!-- snippet:roster-slots-tag-description -->
 Simply put, a *roster slot* is a playable fighter. However, there are some reasons as to why I decided to name it that way which might help you understand this choice.
@@ -25,10 +25,9 @@ In Pokémon Trainer's case, Squirtle, Ivysaur, and Charizard are three *fighters
 I wanted to find a way to represent all playable characters – including the aforementioned special cases – while keeping the schema consistent, hence why I chose to treat them as *roster slots*.
 
 Therefore, think of *roster slots* as the selectable squares that you see on the character selection screen. Each *roster slot* can contain one or more *fighters*. The Pokémon Trainer and Pyra/Mythra *roster slots* contain multiple, while the others contain only one.
-<!-- /snippet -->
 
 #### Schema
-`ids`: IDs of the fighters contained in the roster slot.
+`ids`: IDs of the fighters contained in the roster slot. The IDs follow the [fighter number](https://www.ssbwiki.com/Fighter_number) method of identification.
 
 `name`: Roster slot name.
 
@@ -50,7 +49,7 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 `variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
   - `name`: Variant name.
   - `boxing_ring_title`: The title that appears in the Boxing Ring stage when the variant is selected.
-  - `type`: `Default`, `Different character`, `Same character`.
+  - `type`: `Default`, `Different character`, or `Same character`.
 
     > **Meaning of each type**
     >
@@ -74,16 +73,31 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
     > `Advanced`: Tip can only appear after seeing 650 tips.
 
 `fighters`: Fighters contained in the roster slot.
-  - `id`: Fighter ID.
+  - `id`: Fighter ID (follows the [fighter number](https://www.ssbwiki.com/Fighter_number) method of identification).
   - `name`: Fighter name.
   - `slug`: Slugified version of the name.
   - `also_appears_in`: Other Smash games where the fighter appears in.
+<!-- /snippet -->
+
+### Fighters
+
+<!-- snippet:fighters-tag-description -->
+Playable fighters in a Roster Slot. Read the Roster Slot docs to better understand the difference between a Roster Slot and a Fighter.
+
+#### Schema
+`id`: Fighter ID (follows the [fighter number](https://www.ssbwiki.com/Fighter_number) method of identification).
+
+`name`: Fighter name.
+
+`slug`: Slugified version of the name.
+
+`also_appears_in`: Other Smash games where the fighter appears in.
+<!-- /snippet -->
 
 ### Stages
 
 <!-- snippet:stages-tag-description -->
 Arenas where players fight against each other.
-<!-- /snippet -->
 
 #### Schema
 `id`: Stage ID (follows the stage selection screen order).
@@ -100,13 +114,12 @@ Arenas where players fight against each other.
 
 `image`: Stage image.
 
-`is_original_or_new_version`: True if the stage is an Ultimate-original or is an old stage which received a new version in Ultimate.
+`is_original_or_new_version`: True if the stage is an Ultimate-original or is an old stage which received a new version in Ultimate.<!-- /snippet -->
 
 ### Items
 
 <!-- snippet:items-tag-description -->
 Objects that appear during a match which can be picked up and used by players.
-<!-- /snippet -->
 
 #### Schema
 `id`: Item ID (follows the item selection screen order).
@@ -125,19 +138,20 @@ Objects that appear during a match which can be picked up and used by players.
 
 `heavy`: True if the item limits who picks it up into walking slowly.
 
-`notes`: Observations about the item (taken from the Smash Wiki).
+`notes`: Observations about the item (taken from the [Smash Wiki](https://www.ssbwiki.com/Item)).
+<!-- /snippet -->
 
 ## Documentation
 
 You can check out the API documentation at:
 <table>
   <tr>
-    <td>Swagger</td>
-    <td>https://smash-ultimate-api.vercel.app/docs</td>
+    <td>Redocly (recommended)</td>
+    <td>https://smash-ultimate-api.vercel.app/redoc</td>
   </tr>
   <tr>
-    <td>Redocly</td>
-    <td>https://smash-ultimate-api.vercel.app/redoc</td>
+    <td>Swagger</td>
+    <td>https://smash-ultimate-api.vercel.app/docs</td>
   </tr>
 </table>
 

@@ -34,6 +34,18 @@ async def get_item(id: int) -> Item:
 async def filter_items(
     query: Annotated[ItemQueryParams, Query()]
 ) -> Page[Item]:
+    '''
+    Filter items based on the query parameters and returns them ordered by ID.
+    It also does not return duplicate items.
+
+    **How the filter works**
+    - For parameters that are lists, the item needs to match at least one of the values in the list.
+    - The item needs to match all the parameters provided in the query.
+
+    **Example**: If the query is `?types=Explosive&names=Bomber&names=Food`, the item must be of type Explosive
+    <u>and</u> the name must be Bomber <u>or</u> Food. In this example, only the Bomber item
+    would be returned because the Food one does not match the types filter.
+    '''
     return item_service.filter_and_paginate(
         id=query.ids,
         name=query.names,

@@ -34,6 +34,18 @@ async def get_stage(id: int) -> Stage:
 async def filter_stages(
     query: Annotated[StageQueryParams, Query()]
 ) -> Page[Stage]:
+    '''
+    Filter stages based on the query parameters and returns them ordered by ID.
+    It also does not return duplicate stages.
+
+    **How the filter works**
+    - For parameters that are lists, the stage needs to match at least one of the values in the list.
+    - The stage needs to match all the parameters provided in the query.
+
+    **Example**: If the query is `?availability=Starter&names=Battlefield&names=Mementos`, the stage availability must be Starter
+    <u>and</u> the name must be Battlefield <u>or</u> Mementos. In this example, only the Battlefield stage
+    would be returned because the Mementos one does not match the availability filter.
+    '''
     return stage_service.filter_and_paginate(
         id=query.ids,
         name=query.names,

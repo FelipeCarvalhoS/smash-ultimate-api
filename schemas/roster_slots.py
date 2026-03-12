@@ -1,5 +1,7 @@
+from fastapi import Query
 from pydantic import BaseModel
 from enum import StrEnum
+from utils import get_snippet
 from .shared import SmashGames, Series
 from .fighters import Fighter
 

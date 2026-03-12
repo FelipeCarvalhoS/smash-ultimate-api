@@ -1,16 +1,15 @@
-from fastapi_pagination import Page, paginate, set_page
-from fastapi_pagination.bases import AbstractParams
+from fastapi_pagination import Page, paginate
 from pydantic import BaseModel
 from utils import load_json
 from abc import ABC, abstractmethod
 from typing import TypeVar, Generic, Type
 
 
-T = TypeVar('T', bound=BaseModel)
+TBaseModel = TypeVar('TBaseModel', bound=BaseModel)
 
 
-class Service(ABC, Generic[T]):
-    def __init__(self, schema: Type[T], data_filename: str):
+class Service(ABC, Generic[TBaseModel]):
+    def __init__(self, schema: Type[TBaseModel], data_filename: str):
         self._schema = schema
         self._data = [self._schema.model_validate(stage) for stage in load_json(data_filename)]
         self._filter_strategies = self._get_filter_strategies()
@@ -19,13 +18,13 @@ class Service(ABC, Generic[T]):
     def _get_filter_strategies(self):
         raise NotImplementedError("Subclasses must implement the _get_filter_strategies method")
 
-    def get_all(self) -> list[T]:
+    def get_all(self) -> list[TBaseModel]:
         return self._data
 
-    def filter_and_paginate(self, **filters) -> Page[T]:
+    def filter_and_paginate(self, **filters) -> Page[TBaseModel]:
         return paginate(self._filter(**filters))
 
-    def _filter(self, **filters) -> list[T]:
+    def _filter(self, **filters) -> list[TBaseModel]:
         filtered = []
 
         for item in self._data:
@@ -34,7 +33,7 @@ class Service(ABC, Generic[T]):
 
         return filtered
     
-    def _item_matches_filters(self, item: T, **filters) -> bool:
+    def _item_matches_filters(self, item: TBaseModel, **filters) -> bool:
         for key, value in filters.items():
             if value is None:
                 continue
