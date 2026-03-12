@@ -76,7 +76,7 @@ class TestRosterSlotRouter:
 
     def test_filter_roster_slots(self):
         with set_params(Params()):
-            response = client.get('/roster-slots?names=Bowser Jr.')
+            response = client.get('/roster-slots?name=Bowser Jr.')
 
         assert response.status_code == 200
         data = response.json()

@@ -3,27 +3,28 @@ from fastapi.testclient import TestClient
 from fastapi_pagination import Params, set_params
 from constants import ITEMS_TOTAL
 from main import app
+from schemas.items import ItemQueryParams
 from services.items import item_service
 import pytest
 
 
 FILTER_TEST_CASES = [
-    ({'id': [1, 5, 6]}, ['Smash Ball', 'Dragoon', 'Daybreak']),
-    ({'name': ['Smash Ball', 'Fake Smash Ball']}, ['Smash Ball', 'Fake Smash Ball']),
-    ({'series': ['Clu Clu Land']}, ['Unira']),
-    ({'types': ['Transformation', 'Summoning']}, ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
-    ({'types': ['Transformation', 'Summoning'], 'heavy': False}, ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
-    ({'types': ['Transformation', 'Summoning'], 'heavy': False, 'name': ['Bullet Bill', 'Assist Trophy']}, ['Assist Trophy', 'Bullet Bill']),
-    ({'types': ['Transformation', 'Summoning'], 'heavy': True}, []),
-    ({'heavy': True}, ['Party Ball', 'Crate', 'Rolling Crate', 'Barrel', 'Blast Box'])
+    (ItemQueryParams(id=[1, 5, 6]), ['Smash Ball', 'Dragoon', 'Daybreak']),
+    (ItemQueryParams(name=['Smash Ball', 'Fake Smash Ball']), ['Smash Ball', 'Fake Smash Ball']),
+    (ItemQueryParams(series=['Clu Clu Land']), ['Unira']),
+    (ItemQueryParams(types=['Transformation', 'Summoning']), ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
+    (ItemQueryParams(types=['Transformation', 'Summoning'], heavy=False), ['Poké Ball', 'Master Ball', 'Assist Trophy', 'Bullet Bill']),
+    (ItemQueryParams(types=['Transformation', 'Summoning'], heavy=False, name=['Bullet Bill', 'Assist Trophy']), ['Assist Trophy', 'Bullet Bill']),
+    (ItemQueryParams(types=['Transformation', 'Summoning'], heavy=True), []),
+    (ItemQueryParams(heavy=True), ['Party Ball', 'Crate', 'Rolling Crate', 'Barrel', 'Blast Box'])
 ]
 
 FILTER_PAGINATE_TEST_CASES = [
-    ({'id': [1, 5, 6]}, Params(page=1, size=2), ['Smash Ball', 'Dragoon']),
-    ({'id': [1, 5, 6]}, Params(page=2, size=2), ['Daybreak']),
-    ({'name': ['Poké Ball', 'Soccer Ball'], 'series': ['Pokémon', 'Mario']}, Params(page=1, size=10), ['Poké Ball', 'Soccer Ball']),
-    ({'series': ['Clu Clu Land']}, Params(), ['Unira']),
-    ({'types': ['Transformation', 'Summoning']}, Params(page=4, size=1), ['Bullet Bill']),
+    (ItemQueryParams(id=[1, 5, 6]), Params(page=1, size=2), ['Smash Ball', 'Dragoon']),
+    (ItemQueryParams(id=[1, 5, 6]), Params(page=2, size=2), ['Daybreak']),
+    (ItemQueryParams(name=['Poké Ball', 'Soccer Ball'], series=['Pokémon', 'Mario']), Params(page=1, size=10), ['Poké Ball', 'Soccer Ball']),
+    (ItemQueryParams(series=['Clu Clu Land']), Params(), ['Unira']),
+    (ItemQueryParams(types=['Transformation', 'Summoning']), Params(page=4, size=1), ['Bullet Bill']),
 ]
 
 
@@ -55,23 +56,23 @@ class TestItemService:
     def test_id_returns_correct_item(self, item):
         assert item_service.get_by_id(item.id) == item
 
-    @pytest.mark.parametrize('filters, expected_names', FILTER_TEST_CASES)
-    def test_filter(self, filters, expected_names):
-        items = item_service._filter(**filters)
+    @pytest.mark.parametrize('query_params, expected_names', FILTER_TEST_CASES)
+    def test_filter(self, query_params, expected_names):
+        items = item_service._filter(query_params)
         assert Counter([item.name for item in items]) == Counter(expected_names)
 
     @pytest.mark.parametrize('name', ['Smash Ball', 'SMASH BALL', 'SmaSh baLl', 'smash ball'])
     def test_filter_name_case_insensitivity(self, name):
-        items = item_service._filter(name=[name])
+        items = item_service._filter(ItemQueryParams(name=[name]))
         assert items[0].name == 'Smash Ball'
 
     def test_filter_does_not_return_duplicates(self):
-        items = item_service._filter(id=[33, 0, ITEMS_TOTAL, 1, ITEMS_TOTAL + 1] * 2)
+        items = item_service._filter(ItemQueryParams(id=[33, 0, ITEMS_TOTAL, 1, ITEMS_TOTAL + 1] * 2))
         assert len(items) == len(set(item.name for item in items))
 
-    @pytest.mark.parametrize('filters, page_params, expected_names', FILTER_PAGINATE_TEST_CASES)
-    def test_filter_and_paginate(self, filters, page_params, expected_names):
+    @pytest.mark.parametrize('query_params, page_params, expected_names', FILTER_PAGINATE_TEST_CASES)
+    def test_filter_and_paginate(self, query_params, page_params, expected_names):
         with set_params(page_params):
-            page = item_service.filter_and_paginate(**filters)
+            page = item_service.filter_and_paginate(query_params)
             
         assert [item.name for item in page.items] == expected_names

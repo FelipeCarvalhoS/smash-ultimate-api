@@ -28,7 +28,7 @@ class TestStageRouter:
 
     def test_filter_stages(self):
         with set_params(Params()):
-            response = client.get("/stages?names=Yoshi's Island (Melee)")
+            response = client.get("/stages?name=Yoshi's Island (Melee)")
 
         assert response.status_code == 200
         data = response.json()
