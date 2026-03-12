@@ -12,6 +12,7 @@ app = FastAPI(
     summary='**' + get_snippet('summary') + '**',
     description=get_snippet('description'),
     version='Beta',
+    root_path='/beta',
     openapi_tags=TAGS_METADATA,
     openapi_external_docs={'description': 'See project on GitHub', 'url': GITHUB_PROJECT_URL}
 )
