@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from config import GITHUB_PROJECT_URL
 from routers import roster_slots, stages, items, fighters
 from fastapi_pagination import add_pagination
@@ -21,6 +22,6 @@ app.include_router(items.router)
 app.include_router(fighters.router)
 
 
-@app.get('/')
+@app.get('/', include_in_schema=False, response_class=RedirectResponse)
 async def root():
-    return {"message": "Welcome to the Unofficial Super Smash Bros. Ultimate API! You can check out the documentation at /docs or /redoc."}
+    return RedirectResponse('/redoc')
