@@ -66,8 +66,8 @@ class RosterSlot(BaseModel):
 
 
 class RosterSlotQueryParams(BaseModel):
-    ids: list[str] | None = None
-    name: list[str] | None = None
-    series: list[Series] | None = None
-    availability: list[Availability] | None = None
-    also_appears_in: list[SmashGames] | None = None
+    ids: list[str] | None = Query(default=None, description='List of IDs')
+    name: list[str] | None = Query(default=None, description='List of names')
+    series: list[Series] | None = Query(default=None, description='List of series')
+    availability: list[Availability] | None = Query(default=None, description='List of availabilities')
+    also_appears_in: list[SmashGames] | None = Query(default=None, description='List of Smash games it also appears in')

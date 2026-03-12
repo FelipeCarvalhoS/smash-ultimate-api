@@ -32,7 +32,7 @@ async def get_stage(id: int) -> Stage:
 
 @router.get('')
 async def filter_stages(
-    query: Annotated[StageQueryParams, Query()]
+    query: Annotated[StageQueryParams, Query()] = None,
 ) -> Page[Stage]:
     '''
     Filter stages based on the query parameters and returns them ordered by ID.

@@ -1,3 +1,4 @@
+from fastapi import Query
 from pydantic import BaseModel
 from enum import StrEnum
 from .shared import SmashGames, Series
@@ -31,9 +32,9 @@ class Item(BaseModel):
 
 
 class ItemQueryParams(BaseModel):
-    id: list[int] | None = None
-    name: list[str] | None = None
-    series: list[Series] | None = None
-    also_appears_in: list[SmashGames] | None = None
-    types: list[ItemType] | None = None
-    heavy: bool | None = None
+    id: list[int] | None = Query(default=None, description='List of IDs')
+    name: list[str] | None = Query(default=None, description='List of names')
+    series: list[Series] | None = Query(default=None, description='List of series')
+    also_appears_in: list[SmashGames] | None = Query(default=None, description='List of Smash games it also appears in')
+    types: list[ItemType] | None = Query(default=None, description='List of types')
+    heavy: bool | None = Query(default=None, description='Whether the item must be heavy or not')

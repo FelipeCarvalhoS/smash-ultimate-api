@@ -32,7 +32,7 @@ async def get_item(id: int) -> Item:
 
 @router.get('')
 async def filter_items(
-    query: Annotated[ItemQueryParams, Query()]
+    query: Annotated[ItemQueryParams, Query()] = None,
 ) -> Page[Item]:
     '''
     Filter items based on the query parameters and returns them ordered by ID.

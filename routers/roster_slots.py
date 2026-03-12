@@ -56,7 +56,7 @@ async def get_roster_slot_tips(id: str) -> list[Tip]:
 
 @router.get('')
 async def filter_roster_slots(
-    query: Annotated[RosterSlotQueryParams, Query()]
+    query: Annotated[RosterSlotQueryParams, Query()] = None,
 ) -> Page[RosterSlot]:
     '''
     Filter roster slots based on the query parameters and returns them ordered by ID.
