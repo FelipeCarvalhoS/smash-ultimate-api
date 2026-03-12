@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
-from config import GITHUB_PROJECT_URL
+import config
 from routers import roster_slots, stages, items, fighters
 from fastapi_pagination import add_pagination
 from tags import TAGS_METADATA
@@ -14,7 +14,7 @@ app = FastAPI(
     version='Beta',
     root_path='/beta',
     openapi_tags=TAGS_METADATA,
-    openapi_external_docs={'description': 'See project on GitHub', 'url': GITHUB_PROJECT_URL}
+    openapi_external_docs={'description': 'See project on GitHub', 'url': config.GITHUB_PROJECT_URL}
 )
 add_pagination(app)
 app.include_router(roster_slots.router)
