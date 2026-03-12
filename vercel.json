@@ -1,13 +1,19 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
+    "trailingSlash": false,
     
     "routes": [
         {
-            "src": "^/beta/(.*)",
-            "dest": "/$1"
+            "src": "^/$",
+            "status": 307,
+            "headers": { "Location": "/beta" }
         },
         {
-            "src": "^(?!/beta/).*",
+            "src": "^/beta(.*)",
+            "dest": "$1"
+        },
+        {
+            "src": "^(?!/beta).*",
             "status": 404
         }
     ]

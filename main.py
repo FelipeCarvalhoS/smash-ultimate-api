@@ -23,6 +23,6 @@ app.include_router(items.router)
 app.include_router(fighters.router)
 
 
-@app.get('/', include_in_schema=False, response_class=RedirectResponse)
+@app.get('', include_in_schema=False, response_class=RedirectResponse)
 async def root(request: Request):
-    return RedirectResponse(url=request.scope.get('root_path', '') + '/redoc')
+    return RedirectResponse(url=request.scope['root_path'] + '/redoc')
