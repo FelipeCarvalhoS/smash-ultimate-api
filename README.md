@@ -1,17 +1,22 @@
 # Super Smash Bros. Ultimate API
 
 <p align="center">
-  <img alt="Super Smash Bros. Ultimate Logo" src="https://github.com/user-attachments/assets/a2fc558a-1afe-49a1-802e-2651bd92b0e5" />
+    <img alt="Super Smash Bros. Ultimate Logo" src="https://github.com/user-attachments/assets/a2fc558a-1afe-49a1-802e-2651bd92b0e5" />
 </p>
 
 <p align="center">
-    Unofficial Super Smash Bros. Ultimate RESTful API built with FastAPI<br>
+    <!-- snippet:summary -->
+    Unofficial Super Smash Bros. Ultimate RESTful API built with FastAPI
+    <!-- /snippet -->
+    <br>
     ⚠️ <b>Still in development!</b> ⚠️
 </p>
 
 ## About
 
+<!-- snippet:description -->
 This project is an unofficial RESTful API for Super Smash Bros. Ultimate, developed with FastAPI. It is intended to provide easy access to various in-game data, including characters, stages, and items. Keep reading to learn more about the data provided by this API.
+<!-- /snippet -->
 
 ### Roster Slots
 
@@ -42,14 +47,14 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
 `order`: Integer representing the roster slot's position in the character selection screen.
 
 `alts`: Alternative colors or costumes of the roster slot.
-  - `slot`: Alt number.
-  - `variant`: Name of the variant that the alt corresponds to.
-  - `image`: Alt image.
+- `slot`: Alt number.
+- `variant`: Name of the variant that the alt corresponds to.
+- `image`: Alt image.
 
 `variants`: Variations of character or costume among the alts (e.g. Male/Female, Olimar/Alph, Phantom Thief/Student Joker, etc.).
-  - `name`: Variant name.
-  - `boxing_ring_title`: The title that appears in the Boxing Ring stage when the variant is selected.
-  - `type`: `Default`, `Different character`, or `Same character`.
+- `name`: Variant name.
+- `boxing_ring_title`: The title that appears in the Boxing Ring stage when the variant is selected.
+- `type`: `Default`, `Different character`, or `Same character`.
 
     > **Meaning of each type**
     >
@@ -60,10 +65,10 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
     > `Same character`: Variants that represent the same character as the default alt but with different appearances (e.g. Female/Male Inkling, Phantom Thief/Student Joker). If the roster slot has a variant of this type, the default alt is *not* of type `Default`, but of type `Same character` as well.
 
 `tips`: In-game tips for the roster slot (found in the "Tips" section of the "Extras" menu).
-  - `title`: Tip title.
-  - `content`: Tip content.
-  - `level`: `Beginner`, `Intermediate`, or `Advanced`.
-  
+- `title`: Tip title.
+- `content`: Tip content.
+- `level`: `Beginner`, `Intermediate`, or `Advanced`.
+
     > **Meaning of each level**
     > 
     > `Beginner`: Tip can always appear.
@@ -73,10 +78,10 @@ Therefore, think of *roster slots* as the selectable squares that you see on the
     > `Advanced`: Tip can only appear after seeing 650 tips.
 
 `fighters`: Fighters contained in the roster slot.
-  - `id`: Fighter ID (follows the [fighter number](https://www.ssbwiki.com/Fighter_number) method of identification).
-  - `name`: Fighter name.
-  - `slug`: Slugified version of the name.
-  - `also_appears_in`: Other Smash games where the fighter appears in.
+- `id`: Fighter ID (follows the [fighter number](https://www.ssbwiki.com/Fighter_number) method of identification).
+- `name`: Fighter name.
+- `slug`: Slugified version of the name.
+- `also_appears_in`: Other Smash games where the fighter appears in.
 <!-- /snippet -->
 
 ### Fighters
@@ -145,16 +150,16 @@ Objects that appear during a match which can be picked up and used by players.
 
 You can check out the API documentation at:
 <table>
-  <tr>
-    <td>Redoc</td>
-    <td>https://smash-ultimate-api.vercel.app/redoc</td>
-  </tr>
-  <tr>
-    <td>Swagger</td>
-    <td>https://smash-ultimate-api.vercel.app/docs</td>
-  </tr>
+    <tr>
+        <td>Redoc (recommended)</td>
+        <td>https://smash-ultimate-api.vercel.app/redoc</td>
+    </tr>
+    <tr>
+        <td>Swagger</td>
+        <td>https://smash-ultimate-api.vercel.app/docs</td>
+    </tr>
 </table>
-I personally think that the Redoc version is more organized visually, but both contain the same information.
+I personally think the Redoc version is more organized visually, but both contain the same information.
 
 ## State of the Project
 
