@@ -31,8 +31,8 @@ class Item(BaseModel):
 
 
 class ItemQueryParams(BaseModel):
-    ids: list[int] | None = None
-    names: list[str] | None = None
+    id: list[int] | None = None
+    name: list[str] | None = None
     series: list[Series] | None = None
     also_appears_in: list[SmashGames] | None = None
     types: list[ItemType] | None = None

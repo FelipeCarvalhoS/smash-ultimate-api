@@ -21,20 +21,20 @@ class Service(ABC, Generic[TBaseModel]):
     def get_all(self) -> list[TBaseModel]:
         return self._data
 
-    def filter_and_paginate(self, **filters) -> Page[TBaseModel]:
-        return paginate(self._filter(**filters))
+    def filter_and_paginate(self, query_params: BaseModel) -> Page[TBaseModel]:
+        return paginate(self._filter(query_params))
 
-    def _filter(self, **filters) -> list[TBaseModel]:
+    def _filter(self, query_params: BaseModel) -> list[TBaseModel]:
         filtered = []
 
         for item in self._data:
-            if self._item_matches_filters(item, **filters):
+            if self._item_matches_filters(item, query_params):
                 filtered.append(item)
 
         return filtered
     
-    def _item_matches_filters(self, item: TBaseModel, **filters) -> bool:
-        for key, value in filters.items():
+    def _item_matches_filters(self, item: TBaseModel, query_params: BaseModel) -> bool:
+        for key, value in query_params.model_dump().items():
             if value is None:
                 continue
 

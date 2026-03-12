@@ -66,14 +66,16 @@ async def filter_roster_slots(
     - For parameters that are lists, the roster slot needs to match at least one of the values in the list.
     - The roster slot needs to match all the parameters provided in the query.
 
-    **Example**: If the query is `?series=Mario&names=Luigi&names=Link`, the roster slot series must be Mario
+    **Example**: If the query is `?series=Mario&name=Luigi&name=Link`, the roster slot series must be Mario
     <u>and</u> the name must be Luigi <u>or</u> Link. In this example, only the Luigi roster slot
     would be returned because the Link one does not match the series filter.
     '''
     return roster_slot_service.filter_and_paginate(
-        ids=query.ids,
-        name=query.names,
-        series=query.series,
-        availability=query.availability,
-        also_appears_in=query.also_appears_in,
+        RosterSlotQueryParams(
+            ids=query.ids,
+            name=query.name,
+            series=query.series,
+            availability=query.availability,
+            also_appears_in=query.also_appears_in,
+        )
     )

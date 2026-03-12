@@ -42,15 +42,17 @@ async def filter_items(
     - For parameters that are lists, the item needs to match at least one of the values in the list.
     - The item needs to match all the parameters provided in the query.
 
-    **Example**: If the query is `?types=Explosive&names=Bomber&names=Food`, the item must be of type Explosive
+    **Example**: If the query is `?types=Explosive&name=Bomber&name=Food`, the item must be of type Explosive
     <u>and</u> the name must be Bomber <u>or</u> Food. In this example, only the Bomber item
     would be returned because the Food one does not match the types filter.
     '''
     return item_service.filter_and_paginate(
-        id=query.ids,
-        name=query.names,
-        series=query.series,
-        also_appears_in=query.also_appears_in,
-        types=query.types,
-        heavy=query.heavy,
+        ItemQueryParams(
+            id=query.id,
+            name=query.name,
+            series=query.series,
+            also_appears_in=query.also_appears_in,
+            types=query.types,
+            heavy=query.heavy,
+        )
     )

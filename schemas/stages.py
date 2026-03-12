@@ -23,8 +23,8 @@ class Stage(BaseModel):
 
 
 class StageQueryParams(BaseModel):
-    ids: list[int] | None = None
-    names: list[str] | None = None
+    id: list[int] | None = None
+    name: list[str] | None = None
     series: list[Series] | None = None
     availability: list[Availability] | None = None
     also_appears_in: list[SmashGames] | None = None
