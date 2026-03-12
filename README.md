@@ -146,7 +146,7 @@ Objects that appear during a match which can be picked up and used by players.
 You can check out the API documentation at:
 <table>
   <tr>
-    <td>Redocly (recommended)</td>
+    <td>Redoc</td>
     <td>https://smash-ultimate-api.vercel.app/redoc</td>
   </tr>
   <tr>
@@ -154,6 +154,7 @@ You can check out the API documentation at:
     <td>https://smash-ultimate-api.vercel.app/docs</td>
   </tr>
 </table>
+I personally think that the Redoc version is more organized visually, but both contain the same information.
 
 ## State of the Project
 
