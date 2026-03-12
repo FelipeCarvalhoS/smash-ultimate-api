@@ -169,7 +169,7 @@ You can check out the API documentation at:
         <td>https://smash-ultimate-api.vercel.app/docs</td>
     </tr>
 </table>
-I personally think the Redoc version is more organized visually, but both contain the same information.
+I personally think the Redoc layout is more organized visually, but both contain the same information.
 
 ## State of the Project
 
