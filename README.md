@@ -12,6 +12,16 @@
     ⚠️ <b>Still in development!</b> ⚠️
 </p>
 
+## Table of Contents
+
+- [About](#about)
+    - [Roster Slots](#roster-slots)
+    - [Fighters](#fighters)
+    - [Stages](#stages)
+    - [Items](#items)
+- [Documentation](#documentation)
+- [State of the Project](#state-of-the-project)
+
 ## About
 
 <!-- snippet:description -->
