@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
 import config
 from routers import roster_slots, stages, items, fighters
@@ -24,5 +24,5 @@ app.include_router(fighters.router)
 
 
 @app.get('/', include_in_schema=False, response_class=RedirectResponse)
-async def root():
-    return RedirectResponse('/redoc')
+async def root(request: Request):
+    return RedirectResponse(url=request.scope.get('root_path', '') + '/redoc')
