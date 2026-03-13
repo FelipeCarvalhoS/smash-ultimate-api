@@ -9,7 +9,7 @@
     Unofficial Super Smash Bros. Ultimate RESTful API built with FastAPI
     <!-- /snippet -->
     <br>
-    ⚠️ <b>Still in development!</b> ⚠️
+    ⚠️ <b>Currently in <a href="#state-of-the-project">Beta</a></b> ⚠️
 </p>
 <br>
 
@@ -166,15 +166,17 @@ You can check out the API documentation at:
 <table>
     <tr>
         <td>Redoc (recommended)</td>
-        <td>https://smash-ultimate-api.vercel.app/redoc</td>
+        <td>https://smash-ultimate-api.vercel.app/beta/redoc</td>
     </tr>
     <tr>
         <td>Swagger</td>
-        <td>https://smash-ultimate-api.vercel.app/docs</td>
+        <td>https://smash-ultimate-api.vercel.app/beta/docs</td>
     </tr>
 </table>
 I personally think the Redoc layout is more organized visually, but both contain the same information.
 
 ## State of the Project
 
-This project is in **development** and not yet released. Though it is already usable and can be played with, you would not want to rely on it for serious projects for now.
+This API is currently in **beta** mainly due to the fact that it does not have its own custom domain yet.
+
+Though it is already usable and can be played with, you would not want to rely on it in a production environment for now.
