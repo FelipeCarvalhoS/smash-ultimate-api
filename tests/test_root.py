@@ -8,6 +8,6 @@ client = TestClient(app)
 
 class TestRoot:
     def test_get_root(self):
-        response = client.get('/', follow_redirects=False)
+        response = client.get(app.root_path, follow_redirects=False)
         assert response.status_code == status.HTTP_307_TEMPORARY_REDIRECT
         assert response.headers['location'] == app.root_path + '/redoc'

@@ -6,7 +6,8 @@
         {
             "src": "^/$",
             "status": 307,
-            "headers": { "Location": "/beta" }
+            "headers": { "Location": "/beta" },
+            "continue": true
         },
         {
             "src": "^/beta(.*)",
