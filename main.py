@@ -19,6 +19,8 @@ app = FastAPI(
     docs_url=None,
     redoc_url=None,
 )
+app.openapi_url = app.root_path + '/openapi.json'
+
 add_pagination(app)
 app.include_router(roster_slots.router)
 app.include_router(stages.router)
