@@ -11,6 +11,10 @@
     <br>
     ⚠️ <b>Still in development!</b> ⚠️
 </p>
+<br>
+
+[![Run pytest](https://github.com/FelipeCarvalhoS/smash-ultimate-api/actions/workflows/pytest.yml/badge.svg)](https://github.com/FelipeCarvalhoS/smash-ultimate-api/actions/workflows/pytest.yml)
+[![codecov](https://codecov.io/gh/FelipeCarvalhoS/smash-ultimate-api/graph/badge.svg?token=W9S86T2NJN)](https://codecov.io/gh/FelipeCarvalhoS/smash-ultimate-api)
 
 ## Table of Contents
 

@@ -16,9 +16,10 @@ jobs:
       R2_URL: ${{ vars.R2_URL }}
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
     
-    - name: Install uv
+    - name: Set up uv
       uses: astral-sh/setup-uv@v5
       with:
         enable-cache: true
@@ -30,4 +31,9 @@ jobs:
         UV_LINK_MODE: copy
 
     - name: Run pytest
-      run: uv run pytest
+      run: uv run pytest --cov --cov-report=json
+
+    - name: Upload results to Codecov
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
