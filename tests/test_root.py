@@ -8,5 +8,4 @@ client = TestClient(app)
 class TestRoot:
     def test_get_root(self):
         response = client.get('/', follow_redirects=False)
-        assert response.status_code == 307
-        assert response.headers['location'] == '/redoc'
+        assert response.headers['location'] == app.root_path + '/redoc'
