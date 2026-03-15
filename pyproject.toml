@@ -9,6 +9,7 @@ dependencies = [
     "fastapi[standard]>=0.129.0",
     "python-dotenv>=1.2.1",
     "python-slugify>=8.0.4",
+    "sentry-sdk>=2.53.0",
 ]
 
 [tool.pytest.ini_options]

@@ -965,6 +965,7 @@ dependencies = [
     { name = "fastapi-pagination" },
     { name = "python-dotenv" },
     { name = "python-slugify" },
+    { name = "sentry-sdk" },
 ]
 
 [package.dev-dependencies]
@@ -981,6 +982,7 @@ requires-dist = [
     { name = "fastapi-pagination", specifier = ">=0.15.10" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "python-slugify", specifier = ">=8.0.4" },
+    { name = "sentry-sdk", specifier = ">=2.53.0" },
 ]
 
 [package.metadata.requires-dev]
